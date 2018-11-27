@@ -1,2 +1,2 @@
-# db-course-tau
+# database-systems-course-tau
 TAU "Database systems" course project, Fall 2018
