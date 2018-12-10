@@ -8,25 +8,32 @@ password = 'localhost'
 dbName = 'testdb'
 
 con = mdb.connect(serverName, user, password, dbName);
+cur = con.cursor(mdb.cursors.DictCursor)
 
-with con:
 
-	cur = con.cursor(mdb.cursors.DictCursor)
-	
-	try:
-		cur.execute("SELECT * FROM %s LIMIT %s", "Writers", "4")
-		cur.commit()
+def execute_query(query, *kargs):
+    """
+    executes DB query
+    :param query:
+    :param kargs:
+    :return:
+    """
+    with con:
 
-	except:
-		cur.rollback()
+        try:
+            cur.execute(query, kargs)  # query should be something like "SELECT %S FROM %S ..." and kargs are the params
+            cur.commit()
 
-	rows = cur.fetchall()
+        except:
+            cur.rollback()
 
-	for row in rows:
-		print row["Id"], row["Name"]
+        rows = cur.fetchall()
 
-	for i in range(cur.rowcount):
-		row = cur.fetchone()
-		print row[0] row[1]
+        for row in rows:
+            print row["Id"], row["Name"]
 
-	cur.close()
+        for i in range(cur.rowcount):
+            row = cur.fetchone()
+            print row[0], row[1]
+
+        cur.close()
