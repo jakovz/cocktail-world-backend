@@ -1,0 +1,44 @@
+1.	Drinks:
+a.	id (int (5) primary_key)
+b.	name (string)
+c.	instructions (string)
+d.	category (string)
+e.	iba (string)
+f.	is_alcoholic (string)
+g.	glass_type (string)
+h.	drink_img_url (string)
+2.	Ingredients:
+a.	id (int (3))
+b.	name (string)
+c.	description (string)
+d.	type (string)
+e.	ingredient_img_url (string)
+f.	calories (int)
+
+3.	Cocktails_ingredients:
+a.	cocktail_id
+b.	ingredient_id
+c.	measure (string)
+4.	Meals:
+a.	Id
+b.	Name
+c.	category
+d.	description
+e.	area
+f.	instructions
+g.	meal_img_url
+h.	tags
+i.	youtube_link
+
+
+
+5.	Meal_ingredients:
+a.	meal_id
+b.	ingredient_id
+c.	measure
+6.	Food_categories
+a.	id
+b.	category
+c.	name
+d.	category_img_link
+e.	description
