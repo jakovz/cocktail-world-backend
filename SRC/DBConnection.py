@@ -21,7 +21,8 @@ def execute_query(query, *kargs):
     with con:
 
         try:
-            cur.execute(query, kargs)  # query should be something like "SELECT %S FROM %S ..." and kargs are the params
+            # query should be something like "SELECT %S FROM %S ..." and kargs are the params
+            cur.execute(query, kargs)
             cur.commit()
 
         except:
@@ -37,3 +38,14 @@ def execute_query(query, *kargs):
             print (row[0], row[1])
 
         cur.close()
+
+
+def execute_query_2(query, **kwargs):
+    # Accepts arguments in order of:
+    # SELECT=[select_args], FROM=[from_args], WHERE=[where_args]
+    arguments = []
+    for key, value in kwargs.items():
+        arguments.append(value)
+    # arguments should contain a list of 3 lists:
+    # [ [select_args], [from_args], [where_args] ]
+    # Mabye more lists if we have "order by.." , and stuff like that
