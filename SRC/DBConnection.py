@@ -30,10 +30,10 @@ def execute_query(query, *kargs):
         rows = cur.fetchall()
 
         for row in rows:
-            print row["Id"], row["Name"]
+            print (row["Id"], row["Name"])
 
         for i in range(cur.rowcount):
             row = cur.fetchone()
-            print row[0], row[1]
+            print (row[0], row[1])
 
         cur.close()
