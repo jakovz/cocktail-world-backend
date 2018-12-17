@@ -24,6 +24,15 @@ def get_available_filters():
     :return: A json representing all the filters we support
     """
     # here should come a db query
+
+
+    #                            Converting MySQL query to JSON:
+    # row_headers = [x[0] for x in cur.description]  # this will extract row headers
+    # rv = cur.fetchall()
+    # json_data = []
+    # for result in rv:
+    #     json_data.append(dict(zip(row_headers, result)))
+    #
     return json.dumps("THE_FILTERS")
 
 
@@ -45,3 +54,4 @@ def get_cocktails():
 
 if __name__ == '__main__':
     app.run(debug=True, port="8000")
+    app.run(threaded=True) # GOOD YUVAL
