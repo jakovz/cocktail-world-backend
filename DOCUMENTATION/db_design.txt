@@ -1,4 +1,4 @@
-1.	Drinks:
+Drinks:
 a.	id (int (5) primary_key)
 b.	name (string)
 c.	instructions (string)
@@ -7,7 +7,8 @@ e.	iba (string)
 f.	is_alcoholic (string)
 g.	glass_type (string)
 h.	drink_img_url (string)
-2.	Ingredients:
+
+Ingredients:
 a.	id (int (3))
 b.	name (string)
 c.	description (string)
@@ -15,11 +16,12 @@ d.	type (string)
 e.	ingredient_img_url (string)
 f.	calories (int)
 
-3.	Cocktails_ingredients:
+Cocktails_ingredients:
 a.	cocktail_id
 b.	ingredient_id
 c.	measure (string)
-4.	Meals:
+
+Meals:
 a.	Id
 b.	Name
 c.	category
@@ -32,7 +34,7 @@ i.	youtube_link
 
 
 
-5.	Meal_ingredients:
+Meal_ingredients:
 a.	meal_id
 b.	ingredient_id
 c.	measure
