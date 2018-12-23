@@ -2,7 +2,7 @@
 
 import json
 import requests
-# from DBConnection.py 
+import DBConnection
 
 ingredientListUrl = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 ingredientListRequest = requests.get(ingredientListUrl)
@@ -20,7 +20,7 @@ for ingredients in ingredientListJson['drinks']:
             ids[idDrink] = 1            
             
 drinkIdUrl = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
-InsertDrinksQuery = "INSERT INTO %s VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+InsertDrinksQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"
 InsertIngredientsQuery = "INSERT INTO %s VALUES (%s, %s, %s, )"
 
 for drinkId in ids:
@@ -36,7 +36,7 @@ for drinkId in ids:
         strInstructions = drinkDetails['strInstructions']
         strDrinkThumb = drinkDetails['strDrinkThumb']
         print(idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
-        execute_query(query, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb):
+        DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
 #         for i in range(1, 13):
 #             ingredientIsNotNull = false
 #             drinkIngredient = drinkDetails['strIngredient'+str(i)]
