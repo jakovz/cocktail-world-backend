@@ -2,6 +2,7 @@
 
 import MySQLdb as mdb
 from sshtunnel import SSHTunnelForwarder
+import json
 
 MOODLE_USERNAME = ''
 MOODLE_PASSWORD = ''
@@ -37,18 +38,21 @@ def execute_query(query, *kargs):
                 print("Error: failed executing/committing query")
                 con.rollback()
                 return
+            json_data=[]
+            if 'INSERT' not in query:
+                try:
+                    row_headers= [x[0] for x in cur.description]
+                    rows = cur.fetchall()
+                except Exception as e:
+                    print(e)
+                    print("Error: failed fetching data")
 
-            try:
-                row_headers=[x[0] for x in cur.description]
-                rows = cur.fetchall()
-            except Exception as e:
-                print(e)
-                print("Error: failed fetching data")
-
+                
+                for result in rows:
+                    json_data.append(dict(zip(row_headers,result)))
+            
             cur.close()
 
-            json_data=[]
-            for result in rows:
-                json_data.append(dict(zip(row_headers,result)))
     return json.dumps(json_data)
+
     # return rows
