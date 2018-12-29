@@ -1,5 +1,7 @@
 from flask import Flask, request
 import json
+import queries
+import DBconnection
 
 app = Flask(__name__)
 
@@ -15,6 +17,8 @@ def get_ingredients():
     :return: A json representing all the ingredients exist in the DB.
     """
     # here should come a db query
+    x = DBconnection.execute_query(query)
+
     return json.dumps("THE_QUERY_RESULT")
 
 
