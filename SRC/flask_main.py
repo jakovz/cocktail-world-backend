@@ -13,13 +13,16 @@ def main_page():
 
 @app.route('/ingredients')
 def get_ingredients():
+    query = queries.temp1
+
+    x = DBConnection.execute_query(query, 7)
+    # t = DBConnection.rowsToJson(x)
     """
     :return: A json representing all the ingredients exist in the DB.
     """
     # here should come a db query
-    x = DBconnection.execute_query(query)
-
-    return json.dumps("THE_QUERY_RESULT")
+    # return json.dumps("THE_QUERY_RESULT1")
+    return x
 
 
 @app.route('/filters')
