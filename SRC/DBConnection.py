@@ -39,10 +39,16 @@ def execute_query(query, *kargs):
                 return
 
             try:
+                row_headers=[x[0] for x in cur.description]
                 rows = cur.fetchall()
             except Exception as e:
                 print(e)
                 print("Error: failed fetching data")
 
             cur.close()
-    return rows
+
+            json_data=[]
+            for result in rows:
+                json_data.append(dict(zip(row_headers,result)))
+    return json.dumps(json_data)
+    # return rows
