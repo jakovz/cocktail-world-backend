@@ -1,4 +1,4 @@
-all_ingredients = "SELECT * FROM ingredients"
+all_ingredient_names = "SELECT ingredients.name FROM ingredients"
 all_cocktails = "SELECT * FROM drinks"
 
 

@@ -18,7 +18,9 @@ def main_page():
 # return: A json representing all the ingredients exist in the DB.
 @app.route('/ingredients')
 def get_ingredients():
-    ingredients_dict = {"ingredients": DBConnection.execute_query(queries.all_ingredients)}
+    all_ingredients = DBConnection.execute_query(queries.all_ingredient_names)
+    ingredients_names_list = [ingredient['name'] for ingredient in json.loads(all_ingredients)]
+    ingredients_dict = {"ingredients": ingredients_names_list}
     return json.dumps(ingredients_dict)
 
 
