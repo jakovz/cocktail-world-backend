@@ -1,9 +1,11 @@
 from flask import Flask, request
+from flask_cors import CORS
 import json
 import DBConnection
 import queries
 
 app = Flask(__name__)
+CORS(app)
 
 AVAILABLE_FILTERS = ["Calories"]
 
@@ -16,7 +18,8 @@ def main_page():
 # return: A json representing all the ingredients exist in the DB.
 @app.route('/ingredients')
 def get_ingredients():
-    return DBConnection.execute_query(queries.all_ingredients)
+    ingredients_dict = {"ingredients": DBConnection.execute_query(queries.all_ingredients)}
+    return json.dumps(ingredients_dict)
 
 
 @app.route('/filters')
@@ -25,7 +28,8 @@ def get_available_filters():
     :return: A json representing all the filters we support
     """
     # here should come a db query
-    return json.dumps(AVAILABLE_FILTERS)
+    filters_dict = {"filters": AVAILABLE_FILTERS}
+    return json.dumps(filters_dict)
 
 
 def get_cocktails_by_ingredients(ingredients):
@@ -33,7 +37,7 @@ def get_cocktails_by_ingredients(ingredients):
 
 
 def get_cocktails_by_filters(filters):
-    pass
+    return DBConnection.execute_query(queries.get_cocktails_by_filters(filters))
 
 
 def get_cocktails_by_filters_and_ingredients(filters, ingredients):
@@ -55,7 +59,7 @@ def get_cocktails():
         ingredients = json.loads(request.args.get('ingredient'))['ingredients']
         print(ingredients)
     if "filter" in request.args:
-        filters = request.args.get('filters')['filters']
+        filters = json.loads(request.args.get('filter'))['filters']
         print(filters)
     if ingredients and not filters:
         cocktails = get_cocktails_by_ingredients(ingredients)
