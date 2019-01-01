@@ -1,0 +1,871 @@
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\יובל\Desktop\מערכות בסיסי נתונים\Project\trunk\SRC\WEBAPI.py 
+Allspice 4 None None https://www.themealdb.com/images/ingredients/Allspice-Small.png
+Almond Extract 5 None None https://www.themealdb.com/images/ingredients/Almond Extract-Small.png
+Almond Milk 6 None None https://www.themealdb.com/images/ingredients/Almond Milk-Small.png
+Ancho Chillies 7 None None https://www.themealdb.com/images/ingredients/Ancho Chillies-Small.png
+Anchovy Fillet 8 None None https://www.themealdb.com/images/ingredients/Anchovy Fillet-Small.png
+Apple Cider Vinegar 9 None None https://www.themealdb.com/images/ingredients/Apple Cider Vinegar-Small.png
+Asparagus 10 None None https://www.themealdb.com/images/ingredients/Asparagus-Small.png
+Aubergine 11 None None https://www.themealdb.com/images/ingredients/Aubergine-Small.png
+Avocado 12 None None https://www.themealdb.com/images/ingredients/Avocado-Small.png
+Baby Plum Tomatoes 13 None None https://www.themealdb.com/images/ingredients/Baby Plum Tomatoes-Small.png
+Bacon 14 None None https://www.themealdb.com/images/ingredients/Bacon-Small.png
+Baking Powder 15 None None https://www.themealdb.com/images/ingredients/Baking Powder-Small.png
+Balsamic Vinegar 16 None None https://www.themealdb.com/images/ingredients/Balsamic Vinegar-Small.png
+Basil 17 None None https://www.themealdb.com/images/ingredients/Basil-Small.png
+Basil Leaves 18 None None https://www.themealdb.com/images/ingredients/Basil Leaves-Small.png
+Basmati Rice 19 None None https://www.themealdb.com/images/ingredients/Basmati Rice-Small.png
+(1062, "Duplicate entry '19' for key 'PRIMARY'")
+Error: failed executing/committing query
+Bay Leaf 20 None None https://www.themealdb.com/images/ingredients/Bay Leaf-Small.png
+Bay Leaves 21 None None https://www.themealdb.com/images/ingredients/Bay Leaves-Small.png
+Beef 22 None None https://www.themealdb.com/images/ingredients/Beef-Small.png
+Beef Brisket 23 None None https://www.themealdb.com/images/ingredients/Beef Brisket-Small.png
+Beef Fillet 24 None None https://www.themealdb.com/images/ingredients/Beef Fillet-Small.png
+Beef Gravy 25 None None https://www.themealdb.com/images/ingredients/Beef Gravy-Small.png
+Beef Stock 26 None None https://www.themealdb.com/images/ingredients/Beef Stock-Small.png
+(1062, "Duplicate entry '26' for key 'PRIMARY'")
+Error: failed executing/committing query
+Bicarbonate Of Soda 27 None None https://www.themealdb.com/images/ingredients/Bicarbonate Of Soda-Small.png
+(1062, "Duplicate entry '27' for key 'PRIMARY'")
+Error: failed executing/committing query
+Biryani Masala 28 None None https://www.themealdb.com/images/ingredients/Biryani Masala-Small.png
+(1062, "Duplicate entry '28' for key 'PRIMARY'")
+Error: failed executing/committing query
+Black Pepper 29 None None https://www.themealdb.com/images/ingredients/Black Pepper-Small.png
+Black Treacle 30 None None https://www.themealdb.com/images/ingredients/Black Treacle-Small.png
+Borlotti Beans 31 None None https://www.themealdb.com/images/ingredients/Borlotti Beans-Small.png
+Bowtie Pasta 32 None None https://www.themealdb.com/images/ingredients/Bowtie Pasta-Small.png
+(1062, "Duplicate entry '32' for key 'PRIMARY'")
+Error: failed executing/committing query
+Bramley Apples 33 None None https://www.themealdb.com/images/ingredients/Bramley Apples-Small.png
+Brandy 34 None None https://www.themealdb.com/images/ingredients/Brandy-Small.png
+Bread 35 None None https://www.themealdb.com/images/ingredients/Bread-Small.png
+Breadcrumbs 36 None None https://www.themealdb.com/images/ingredients/Breadcrumbs-Small.png
+Broccoli 37 None None https://www.themealdb.com/images/ingredients/Broccoli-Small.png
+Brown Lentils 38 None None https://www.themealdb.com/images/ingredients/Brown Lentils-Small.png
+Brown Rice 39 None None https://www.themealdb.com/images/ingredients/Brown Rice-Small.png
+(1062, "Duplicate entry '39' for key 'PRIMARY'")
+Error: failed executing/committing query
+Brown Sugar 40 None None https://www.themealdb.com/images/ingredients/Brown Sugar-Small.png
+Butter 41 None None https://www.themealdb.com/images/ingredients/Butter-Small.png
+Cacao 43 None None https://www.themealdb.com/images/ingredients/Cacao-Small.png
+(1062, "Duplicate entry '43' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cajun 44 None None https://www.themealdb.com/images/ingredients/Cajun-Small.png
+(1062, "Duplicate entry '44' for key 'PRIMARY'")
+Error: failed executing/committing query
+Canned Tomatoes 45 None None https://www.themealdb.com/images/ingredients/Canned Tomatoes-Small.png
+Cannellini Beans 46 None None https://www.themealdb.com/images/ingredients/Cannellini Beans-Small.png
+Cardamom 47 None None https://www.themealdb.com/images/ingredients/Cardamom-Small.png
+Carrots 49 None None https://www.themealdb.com/images/ingredients/Carrots-Small.png
+Cashew Nuts 50 None None https://www.themealdb.com/images/ingredients/Cashew Nuts-Small.png
+Cashews 51 None None https://www.themealdb.com/images/ingredients/Cashews-Small.png
+Caster Sugar 52 None None https://www.themealdb.com/images/ingredients/Caster Sugar-Small.png
+Cayenne Pepper 53 None None https://www.themealdb.com/images/ingredients/Cayenne Pepper-Small.png
+Celeriac 54 None None https://www.themealdb.com/images/ingredients/Celeriac-Small.png
+(1062, "Duplicate entry '54' for key 'PRIMARY'")
+Error: failed executing/committing query
+Celery 55 None None https://www.themealdb.com/images/ingredients/Celery-Small.png
+Celery Salt 56 None None https://www.themealdb.com/images/ingredients/Celery Salt-Small.png
+(1062, "Duplicate entry '56' for key 'PRIMARY'")
+Error: failed executing/committing query
+Challots 57 None None https://www.themealdb.com/images/ingredients/Challots-Small.png
+Charlotte Potatoes 58 None None https://www.themealdb.com/images/ingredients/Charlotte Potatoes-Small.png
+Cheddar Cheese 59 None None https://www.themealdb.com/images/ingredients/Cheddar Cheese-Small.png
+(1062, "Duplicate entry '59' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cheese 60 None None https://www.themealdb.com/images/ingredients/Cheese-Small.png
+Cheese Curds 61 None None https://www.themealdb.com/images/ingredients/Cheese Curds-Small.png
+(1062, "Duplicate entry '61' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cherry Tomatoes 62 None None https://www.themealdb.com/images/ingredients/Cherry Tomatoes-Small.png
+Chestnut Mushroom 63 None None https://www.themealdb.com/images/ingredients/Chestnut Mushroom-Small.png
+Chicken 64 None None https://www.themealdb.com/images/ingredients/Chicken-Small.png
+Chicken Breast 65 None None https://www.themealdb.com/images/ingredients/Chicken Breast-Small.png
+Chicken Breasts 66 None None https://www.themealdb.com/images/ingredients/Chicken Breasts-Small.png
+(1062, "Duplicate entry '66' for key 'PRIMARY'")
+Error: failed executing/committing query
+Chicken Legs 67 None None https://www.themealdb.com/images/ingredients/Chicken Legs-Small.png
+Chicken Stock 68 None None https://www.themealdb.com/images/ingredients/Chicken Stock-Small.png
+Chicken Thighs 70 None None https://www.themealdb.com/images/ingredients/Chicken Thighs-Small.png
+Chickpeas 71 None None https://www.themealdb.com/images/ingredients/Chickpeas-Small.png
+Chili Powder 72 None None https://www.themealdb.com/images/ingredients/Chili Powder-Small.png
+Chilled Butter 73 None None https://www.themealdb.com/images/ingredients/Chilled Butter-Small.png
+Chilli 74 None None https://www.themealdb.com/images/ingredients/Chilli-Small.png
+Chilli Powder 75 None None https://www.themealdb.com/images/ingredients/Chilli Powder-Small.png
+Chinese Broccoli 76 None None https://www.themealdb.com/images/ingredients/Chinese Broccoli-Small.png
+Chocolate Chips 77 None None https://www.themealdb.com/images/ingredients/Chocolate Chips-Small.png
+Chopped Onion 78 None None https://www.themealdb.com/images/ingredients/Chopped Onion-Small.png
+Chopped Parsley 79 None None https://www.themealdb.com/images/ingredients/Chopped Parsley-Small.png
+Chopped Tomatoes 80 None None https://www.themealdb.com/images/ingredients/Chopped Tomatoes-Small.png
+Chorizo 81 None None https://www.themealdb.com/images/ingredients/Chorizo-Small.png
+Christmas Pudding 82 None None https://www.themealdb.com/images/ingredients/Christmas Pudding-Small.png
+Cilantro 83 None None https://www.themealdb.com/images/ingredients/Cilantro-Small.png
+(1062, "Duplicate entry '83' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cinnamon 84 None None https://www.themealdb.com/images/ingredients/Cinnamon-Small.png
+Cinnamon Stick 85 None None https://www.themealdb.com/images/ingredients/Cinnamon Stick-Small.png
+Cloves 87 None None https://www.themealdb.com/images/ingredients/Cloves-Small.png
+Coco Sugar 88 None None https://www.themealdb.com/images/ingredients/Coco Sugar-Small.png
+Cocoa 89 None None https://www.themealdb.com/images/ingredients/Cocoa-Small.png
+(1062, "Duplicate entry '89' for key 'PRIMARY'")
+Error: failed executing/committing query
+Coconut Cream 90 None None https://www.themealdb.com/images/ingredients/Coconut Cream-Small.png
+Coconut Milk 91 None None https://www.themealdb.com/images/ingredients/Coconut Milk-Small.png
+Colby Jack Cheese 92 None None https://www.themealdb.com/images/ingredients/Colby Jack Cheese-Small.png
+Cold Water 93 None None https://www.themealdb.com/images/ingredients/Cold Water-Small.png
+Condensed Milk 94 None None https://www.themealdb.com/images/ingredients/Condensed Milk-Small.png
+Coriander 95 None None https://www.themealdb.com/images/ingredients/Coriander-Small.png
+Coriander Leaves 96 None None https://www.themealdb.com/images/ingredients/Coriander Leaves-Small.png
+Coriander Seeds 97 None None https://www.themealdb.com/images/ingredients/Coriander Seeds-Small.png
+Corn Tortillas 98 None None https://www.themealdb.com/images/ingredients/Corn Tortillas-Small.png
+Cornstarch 99 None None https://www.themealdb.com/images/ingredients/Cornstarch-Small.png
+Cream 100 None None https://www.themealdb.com/images/ingredients/Cream-Small.png
+(1062, "Duplicate entry '100' for key 'PRIMARY'")
+Error: failed executing/committing query
+Creme Fraiche 101 None None https://www.themealdb.com/images/ingredients/Creme Fraiche-Small.png
+Cubed Feta Cheese 102 None None https://www.themealdb.com/images/ingredients/Cubed Feta Cheese-Small.png
+Cucumber 103 None None https://www.themealdb.com/images/ingredients/Cucumber-Small.png
+(1062, "Duplicate entry '103' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cumin 104 None None https://www.themealdb.com/images/ingredients/Cumin-Small.png
+Cumin Seeds 105 None None https://www.themealdb.com/images/ingredients/Cumin Seeds-Small.png
+Curry Powder 106 None None https://www.themealdb.com/images/ingredients/Curry Powder-Small.png
+Dark Brown Sugar 107 None None https://www.themealdb.com/images/ingredients/Dark Brown Sugar-Small.png
+Dark Soft Brown Sugar 108 None None https://www.themealdb.com/images/ingredients/Dark Soft Brown Sugar-Small.png
+Dark Soy Sauce 109 None None https://www.themealdb.com/images/ingredients/Dark Soy Sauce-Small.png
+Demerara Sugar 110 None None https://www.themealdb.com/images/ingredients/Demerara Sugar-Small.png
+Diced Tomatoes 111 None None https://www.themealdb.com/images/ingredients/Diced Tomatoes-Small.png
+Digestive Biscuits 112 None None https://www.themealdb.com/images/ingredients/Digestive Biscuits-Small.png
+(1062, "Duplicate entry '112' for key 'PRIMARY'")
+Error: failed executing/committing query
+Dill 113 None None https://www.themealdb.com/images/ingredients/Dill-Small.png
+(1062, "Duplicate entry '113' for key 'PRIMARY'")
+Error: failed executing/committing query
+Doner Meat 114 None None https://www.themealdb.com/images/ingredients/Doner Meat-Small.png
+Double Cream 115 None None https://www.themealdb.com/images/ingredients/Double Cream-Small.png
+(1062, "Duplicate entry '115' for key 'PRIMARY'")
+Error: failed executing/committing query
+Dried Oregano 116 None None https://www.themealdb.com/images/ingredients/Dried Oregano-Small.png
+(1062, "Duplicate entry '116' for key 'PRIMARY'")
+Error: failed executing/committing query
+Dry White Wine 117 None None https://www.themealdb.com/images/ingredients/Dry White Wine-Small.png
+Egg Plants 119 None None https://www.themealdb.com/images/ingredients/Egg Plants-Small.png
+Egg Rolls 120 None None https://www.themealdb.com/images/ingredients/Egg Rolls-Small.png
+Egg White 121 None None https://www.themealdb.com/images/ingredients/Egg White-Small.png
+Egg Yolks 122 None None https://www.themealdb.com/images/ingredients/Egg Yolks-Small.png
+Eggs 123 None None https://www.themealdb.com/images/ingredients/Eggs-Small.png
+Enchilada Sauce 124 None None https://www.themealdb.com/images/ingredients/Enchilada Sauce-Small.png
+English Mustard 125 None None https://www.themealdb.com/images/ingredients/English Mustard-Small.png
+Extra Virgin Olive Oil 126 None None https://www.themealdb.com/images/ingredients/Extra Virgin Olive Oil-Small.png
+Fajita Seasoning 127 None None https://www.themealdb.com/images/ingredients/Fajita Seasoning-Small.png
+Farfalle 128 None None https://www.themealdb.com/images/ingredients/Farfalle-Small.png
+Fennel 129 None None https://www.themealdb.com/images/ingredients/Fennel-Small.png
+Fennel Bulb 130 None None https://www.themealdb.com/images/ingredients/Fennel Bulb-Small.png
+Fennel Seeds 131 None None https://www.themealdb.com/images/ingredients/Fennel Seeds-Small.png
+(1062, "Duplicate entry '131' for key 'PRIMARY'")
+Error: failed executing/committing query
+Fenugreek 132 None None https://www.themealdb.com/images/ingredients/Fenugreek-Small.png
+Feta 133 None None https://www.themealdb.com/images/ingredients/Feta-Small.png
+Fish Sauce 134 None None https://www.themealdb.com/images/ingredients/Fish Sauce-Small.png
+Flaked Almonds 135 None None https://www.themealdb.com/images/ingredients/Flaked Almonds-Small.png
+(1062, "Duplicate entry '135' for key 'PRIMARY'")
+Error: failed executing/committing query
+Flax Eggs 136 None None https://www.themealdb.com/images/ingredients/Flax Eggs-Small.png
+Flour 137 None None https://www.themealdb.com/images/ingredients/Flour-Small.png
+(1062, "Duplicate entry '137' for key 'PRIMARY'")
+Error: failed executing/committing query
+Flour Tortilla 138 None None https://www.themealdb.com/images/ingredients/Flour Tortilla-Small.png
+(1062, "Duplicate entry '138' for key 'PRIMARY'")
+Error: failed executing/committing query
+Floury Potatoes 139 None None https://www.themealdb.com/images/ingredients/Floury Potatoes-Small.png
+(1062, "Duplicate entry '139' for key 'PRIMARY'")
+Error: failed executing/committing query
+Free-range Egg, Beaten 140 None None https://www.themealdb.com/images/ingredients/Free-range Egg, Beaten-Small.png
+Free-range Eggs, Beaten 141 None None https://www.themealdb.com/images/ingredients/Free-range Eggs, Beaten-Small.png
+French Lentils 142 None None https://www.themealdb.com/images/ingredients/French Lentils-Small.png
+(1062, "Duplicate entry '142' for key 'PRIMARY'")
+Error: failed executing/committing query
+Fresh Basil 143 None None https://www.themealdb.com/images/ingredients/Fresh Basil-Small.png
+Fresh Thyme 144 None None https://www.themealdb.com/images/ingredients/Fresh Thyme-Small.png
+Freshly Chopped Parsley 145 None None https://www.themealdb.com/images/ingredients/Freshly Chopped Parsley-Small.png
+Fries 146 None None https://www.themealdb.com/images/ingredients/Fries-Small.png
+Full Fat Yogurt 147 None None https://www.themealdb.com/images/ingredients/Full Fat Yogurt-Small.png
+Garam Masala 148 None None https://www.themealdb.com/images/ingredients/Garam Masala-Small.png
+Garlic 149 None None https://www.themealdb.com/images/ingredients/Garlic-Small.png
+Garlic Clove 150 None None https://www.themealdb.com/images/ingredients/Garlic Clove-Small.png
+Garlic Powder 151 None None https://www.themealdb.com/images/ingredients/Garlic Powder-Small.png
+Garlic Sauce 152 None None https://www.themealdb.com/images/ingredients/Garlic Sauce-Small.png
+(1062, "Duplicate entry '152' for key 'PRIMARY'")
+Error: failed executing/committing query
+Ghee 153 None None https://www.themealdb.com/images/ingredients/Ghee-Small.png
+Ginger 154 None None https://www.themealdb.com/images/ingredients/Ginger-Small.png
+(1062, "Duplicate entry '154' for key 'PRIMARY'")
+Error: failed executing/committing query
+Ginger Cordial 155 None None https://www.themealdb.com/images/ingredients/Ginger Cordial-Small.png
+(1062, "Duplicate entry '155' for key 'PRIMARY'")
+Error: failed executing/committing query
+Ginger Garlic Paste 156 None None https://www.themealdb.com/images/ingredients/Ginger Garlic Paste-Small.png
+Ginger Paste 157 None None https://www.themealdb.com/images/ingredients/Ginger Paste-Small.png
+(1062, "Duplicate entry '157' for key 'PRIMARY'")
+Error: failed executing/committing query
+Golden Syrup 158 None None https://www.themealdb.com/images/ingredients/Golden Syrup-Small.png
+Gouda Cheese 159 None None https://www.themealdb.com/images/ingredients/Gouda Cheese-Small.png
+Granulated Sugar 160 None None https://www.themealdb.com/images/ingredients/Granulated Sugar-Small.png
+Grape Tomatoes 161 None None https://www.themealdb.com/images/ingredients/Grape Tomatoes-Small.png
+Greek Yogurt 162 None None https://www.themealdb.com/images/ingredients/Greek Yogurt-Small.png
+Green Beans 163 None None https://www.themealdb.com/images/ingredients/Green Beans-Small.png
+Green Chilli 165 None None https://www.themealdb.com/images/ingredients/Green Chilli-Small.png
+(1062, "Duplicate entry '165' for key 'PRIMARY'")
+Error: failed executing/committing query
+Green Olives 166 None None https://www.themealdb.com/images/ingredients/Green Olives-Small.png
+Green Red Lentils 167 None None https://www.themealdb.com/images/ingredients/Green Red Lentils-Small.png
+Green Salsa 168 None None https://www.themealdb.com/images/ingredients/Green Salsa-Small.png
+(1062, "Duplicate entry '168' for key 'PRIMARY'")
+Error: failed executing/committing query
+Ground Almonds 169 None None https://www.themealdb.com/images/ingredients/Ground Almonds-Small.png
+Ground Cumin 170 None None https://www.themealdb.com/images/ingredients/Ground Cumin-Small.png
+Ground Ginger 171 None None https://www.themealdb.com/images/ingredients/Ground Ginger-Small.png
+Gruyère 172 None None https://www.themealdb.com/images/ingredients/Gruyère-Small.png
+Hard Taco Shells 173 None None https://www.themealdb.com/images/ingredients/Hard Taco Shells-Small.png
+Harissa Spice 175 None None https://www.themealdb.com/images/ingredients/Harissa Spice-Small.png
+Heavy Cream 176 None None https://www.themealdb.com/images/ingredients/Heavy Cream-Small.png
+Honey 177 None None https://www.themealdb.com/images/ingredients/Honey-Small.png
+Horseradish 178 None None https://www.themealdb.com/images/ingredients/Horseradish-Small.png
+Hot Beef Stock 179 None None https://www.themealdb.com/images/ingredients/Hot Beef Stock-Small.png
+(1062, "Duplicate entry '179' for key 'PRIMARY'")
+Error: failed executing/committing query
+Hotsauce 180 None None https://www.themealdb.com/images/ingredients/Hotsauce-Small.png
+Ice Cream 181 None None https://www.themealdb.com/images/ingredients/Ice Cream-Small.png
+(1062, "Duplicate entry '181' for key 'PRIMARY'")
+Error: failed executing/committing query
+Italian Fennel Sausages 182 None None https://www.themealdb.com/images/ingredients/Italian Fennel Sausages-Small.png
+Italian Seasoning 183 None None https://www.themealdb.com/images/ingredients/Italian Seasoning-Small.png
+Jalapeno 184 None None https://www.themealdb.com/images/ingredients/Jalapeno-Small.png
+Jasmine Rice 185 None None https://www.themealdb.com/images/ingredients/Jasmine Rice-Small.png
+Jerusalem Artichokes 186 None None https://www.themealdb.com/images/ingredients/Jerusalem Artichokes-Small.png
+Kale 187 None None https://www.themealdb.com/images/ingredients/Kale-Small.png
+Khus Khus 188 None None https://www.themealdb.com/images/ingredients/Khus Khus-Small.png
+King Prawns 189 None None https://www.themealdb.com/images/ingredients/King Prawns-Small.png
+Kosher Salt 190 None None https://www.themealdb.com/images/ingredients/Kosher Salt-Small.png
+Lamb 191 None None https://www.themealdb.com/images/ingredients/Lamb-Small.png
+(1062, "Duplicate entry '191' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lamb Loin Chops 192 None None https://www.themealdb.com/images/ingredients/Lamb Loin Chops-Small.png
+Lamb Mince 193 None None https://www.themealdb.com/images/ingredients/Lamb Mince-Small.png
+(1062, "Duplicate entry '193' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lasagne Sheets 194 None None https://www.themealdb.com/images/ingredients/Lasagne Sheets-Small.png
+(1062, "Duplicate entry '194' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lean Minced Beef 195 None None https://www.themealdb.com/images/ingredients/Lean Minced Beef-Small.png
+Leek 196 None None https://www.themealdb.com/images/ingredients/Leek-Small.png
+Lemon 197 None None https://www.themealdb.com/images/ingredients/Lemon-Small.png
+Lemon Juice 198 None None https://www.themealdb.com/images/ingredients/Lemon Juice-Small.png
+Lemon Zest 199 None None https://www.themealdb.com/images/ingredients/Lemon Zest-Small.png
+Lemons 200 None None https://www.themealdb.com/images/ingredients/Lemons-Small.png
+(1062, "Duplicate entry '200' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lettuce 201 None None https://www.themealdb.com/images/ingredients/Lettuce-Small.png
+(1062, "Duplicate entry '201' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lime 202 None None https://www.themealdb.com/images/ingredients/Lime-Small.png
+Little Gem Lettuce 203 None None https://www.themealdb.com/images/ingredients/Little Gem Lettuce-Small.png
+Macaroni 204 None None https://www.themealdb.com/images/ingredients/Macaroni-Small.png
+Mackerel 205 None None https://www.themealdb.com/images/ingredients/Mackerel-Small.png
+Madras Paste 206 None None https://www.themealdb.com/images/ingredients/Madras Paste-Small.png
+Marjoram 207 None None https://www.themealdb.com/images/ingredients/Marjoram-Small.png
+(1062, "Duplicate entry '207' for key 'PRIMARY'")
+Error: failed executing/committing query
+Massaman Curry Paste 208 None None https://www.themealdb.com/images/ingredients/Massaman Curry Paste-Small.png
+Medjool Dates 209 None None https://www.themealdb.com/images/ingredients/Medjool Dates-Small.png
+Meringue Nests 210 None None https://www.themealdb.com/images/ingredients/Meringue Nests-Small.png
+Milk 211 None None https://www.themealdb.com/images/ingredients/Milk-Small.png
+Minced Garlic 212 None None https://www.themealdb.com/images/ingredients/Minced Garlic-Small.png
+(1062, "Duplicate entry '212' for key 'PRIMARY'")
+Error: failed executing/committing query
+Miniature Marshmallows 213 None None https://www.themealdb.com/images/ingredients/Miniature Marshmallows-Small.png
+Mint 214 None None https://www.themealdb.com/images/ingredients/Mint-Small.png
+Monterey Jack Cheese 215 None None https://www.themealdb.com/images/ingredients/Monterey Jack Cheese-Small.png
+Mozzarella Balls 216 None None https://www.themealdb.com/images/ingredients/Mozzarella Balls-Small.png
+Muscovado Sugar 217 None None https://www.themealdb.com/images/ingredients/Muscovado Sugar-Small.png
+Mushrooms 218 None None https://www.themealdb.com/images/ingredients/Mushrooms-Small.png
+Mustard 219 None None https://www.themealdb.com/images/ingredients/Mustard-Small.png
+Mustard Powder 220 None None https://www.themealdb.com/images/ingredients/Mustard Powder-Small.png
+Mustard Seeds 221 None None https://www.themealdb.com/images/ingredients/Mustard Seeds-Small.png
+(1062, "Duplicate entry '221' for key 'PRIMARY'")
+Error: failed executing/committing query
+Nutmeg 222 None None https://www.themealdb.com/images/ingredients/Nutmeg-Small.png
+Oil 223 None None https://www.themealdb.com/images/ingredients/Oil-Small.png
+(1062, "Duplicate entry '223' for key 'PRIMARY'")
+Error: failed executing/committing query
+Olive Oil 224 None None https://www.themealdb.com/images/ingredients/Olive Oil-Small.png
+Onion Salt 226 None None https://www.themealdb.com/images/ingredients/Onion Salt-Small.png
+Onions 227 None None https://www.themealdb.com/images/ingredients/Onions-Small.png
+(1062, "Duplicate entry '227' for key 'PRIMARY'")
+Error: failed executing/committing query
+Orange 228 None None https://www.themealdb.com/images/ingredients/Orange-Small.png
+Orange Zest 229 None None https://www.themealdb.com/images/ingredients/Orange Zest-Small.png
+(1062, "Duplicate entry '229' for key 'PRIMARY'")
+Error: failed executing/committing query
+Oregano 230 None None https://www.themealdb.com/images/ingredients/Oregano-Small.png
+(1062, "Duplicate entry '230' for key 'PRIMARY'")
+Error: failed executing/committing query
+Oyster Sauce 231 None None https://www.themealdb.com/images/ingredients/Oyster Sauce-Small.png
+Paprika 232 None None https://www.themealdb.com/images/ingredients/Paprika-Small.png
+(1062, "Duplicate entry '232' for key 'PRIMARY'")
+Error: failed executing/committing query
+Parma Ham 233 None None https://www.themealdb.com/images/ingredients/Parma Ham-Small.png
+Parmesan 234 None None https://www.themealdb.com/images/ingredients/Parmesan-Small.png
+Parmesan Cheese 235 None None https://www.themealdb.com/images/ingredients/Parmesan Cheese-Small.png
+Parmigiano-reggiano 236 None None https://www.themealdb.com/images/ingredients/Parmigiano-reggiano-Small.png
+Parsley 237 None None https://www.themealdb.com/images/ingredients/Parsley-Small.png
+Peanut Butter 238 None None https://www.themealdb.com/images/ingredients/Peanut Butter-Small.png
+Peanut Oil 239 None None https://www.themealdb.com/images/ingredients/Peanut Oil-Small.png
+Peanuts 240 None None https://www.themealdb.com/images/ingredients/Peanuts-Small.png
+(1062, "Duplicate entry '240' for key 'PRIMARY'")
+Error: failed executing/committing query
+Peas 241 None None https://www.themealdb.com/images/ingredients/Peas-Small.png
+(1062, "Duplicate entry '241' for key 'PRIMARY'")
+Error: failed executing/committing query
+Pecorino 242 None None https://www.themealdb.com/images/ingredients/Pecorino-Small.png
+(1062, "Duplicate entry '242' for key 'PRIMARY'")
+Error: failed executing/committing query
+Penne Rigate 243 None None https://www.themealdb.com/images/ingredients/Penne Rigate-Small.png
+(1062, "Duplicate entry '243' for key 'PRIMARY'")
+Error: failed executing/committing query
+Pepper 244 None None https://www.themealdb.com/images/ingredients/Pepper-Small.png
+Pine Nuts 245 None None https://www.themealdb.com/images/ingredients/Pine Nuts-Small.png
+(1062, "Duplicate entry '245' for key 'PRIMARY'")
+Error: failed executing/committing query
+Pitted Black Olives 246 None None https://www.themealdb.com/images/ingredients/Pitted Black Olives-Small.png
+(1062, "Duplicate entry '246' for key 'PRIMARY'")
+Error: failed executing/committing query
+Plain Chocolate 247 None None https://www.themealdb.com/images/ingredients/Plain Chocolate-Small.png
+Plain Flour 248 None None https://www.themealdb.com/images/ingredients/Plain Flour-Small.png
+Plum Tomatoes 249 None None https://www.themealdb.com/images/ingredients/Plum Tomatoes-Small.png
+Pork 250 None None https://www.themealdb.com/images/ingredients/Pork-Small.png
+Potato Starch 252 None None https://www.themealdb.com/images/ingredients/Potato Starch-Small.png
+Potatoes 253 None None https://www.themealdb.com/images/ingredients/Potatoes-Small.png
+Prawns 254 None None https://www.themealdb.com/images/ingredients/Prawns-Small.png
+Puff Pastry 255 None None https://www.themealdb.com/images/ingredients/Puff Pastry-Small.png
+Raspberry Jam 256 None None https://www.themealdb.com/images/ingredients/Raspberry Jam-Small.png
+Raw King Prawns 257 None None https://www.themealdb.com/images/ingredients/Raw King Prawns-Small.png
+Red Chile Flakes 258 None None https://www.themealdb.com/images/ingredients/Red Chile Flakes-Small.png
+Red Chilli 259 None None https://www.themealdb.com/images/ingredients/Red Chilli-Small.png
+Red Chilli Powder 261 None None https://www.themealdb.com/images/ingredients/Red Chilli Powder-Small.png
+Red Onions 263 None None https://www.themealdb.com/images/ingredients/Red Onions-Small.png
+Red Pepper 264 None None https://www.themealdb.com/images/ingredients/Red Pepper-Small.png
+(1062, "Duplicate entry '264' for key 'PRIMARY'")
+Error: failed executing/committing query
+Red Pepper Flakes 265 None None https://www.themealdb.com/images/ingredients/Red Pepper Flakes-Small.png
+(1062, "Duplicate entry '265' for key 'PRIMARY'")
+Error: failed executing/committing query
+Red Wine 266 None None https://www.themealdb.com/images/ingredients/Red Wine-Small.png
+Refried Beans 267 None None https://www.themealdb.com/images/ingredients/Refried Beans-Small.png
+Rice 268 None None https://www.themealdb.com/images/ingredients/Rice-Small.png
+Rice Noodles 269 None None https://www.themealdb.com/images/ingredients/Rice Noodles-Small.png
+Rice Stick Noodles 270 None None https://www.themealdb.com/images/ingredients/Rice Stick Noodles-Small.png
+(1062, "Duplicate entry '270' for key 'PRIMARY'")
+Error: failed executing/committing query
+Rice Vermicelli 271 None None https://www.themealdb.com/images/ingredients/Rice Vermicelli-Small.png
+Rigatoni 272 None None https://www.themealdb.com/images/ingredients/Rigatoni-Small.png
+(1062, "Duplicate entry '272' for key 'PRIMARY'")
+Error: failed executing/committing query
+Rocket 273 None None https://www.themealdb.com/images/ingredients/Rocket-Small.png
+(1062, "Duplicate entry '273' for key 'PRIMARY'")
+Error: failed executing/committing query
+Rolled Oats 274 None None https://www.themealdb.com/images/ingredients/Rolled Oats-Small.png
+Rosemary 275 None None https://www.themealdb.com/images/ingredients/Rosemary-Small.png
+Saffron 276 None None https://www.themealdb.com/images/ingredients/Saffron-Small.png
+Sage 277 None None https://www.themealdb.com/images/ingredients/Sage-Small.png
+Sake 278 None None https://www.themealdb.com/images/ingredients/Sake-Small.png
+(1062, "Duplicate entry '278' for key 'PRIMARY'")
+Error: failed executing/committing query
+Salmon 279 None None https://www.themealdb.com/images/ingredients/Salmon-Small.png
+(1062, "Duplicate entry '279' for key 'PRIMARY'")
+Error: failed executing/committing query
+Salsa 280 None None https://www.themealdb.com/images/ingredients/Salsa-Small.png
+(1062, "Duplicate entry '280' for key 'PRIMARY'")
+Error: failed executing/committing query
+Salt 281 None None https://www.themealdb.com/images/ingredients/Salt-Small.png
+Salted Butter 282 None None https://www.themealdb.com/images/ingredients/Salted Butter-Small.png
+Sausages 283 None None https://www.themealdb.com/images/ingredients/Sausages-Small.png
+Sea Salt 284 None None https://www.themealdb.com/images/ingredients/Sea Salt-Small.png
+Self-raising Flour 286 None None https://www.themealdb.com/images/ingredients/Self-raising Flour-Small.png
+(1062, "Duplicate entry '286' for key 'PRIMARY'")
+Error: failed executing/committing query
+Semi-skimmed Milk 287 None None https://www.themealdb.com/images/ingredients/Semi-skimmed Milk-Small.png
+(1062, "Duplicate entry '287' for key 'PRIMARY'")
+Error: failed executing/committing query
+Sesame Seed 288 None None https://www.themealdb.com/images/ingredients/Sesame Seed-Small.png
+Shallots 289 None None https://www.themealdb.com/images/ingredients/Shallots-Small.png
+Shredded Mexican Cheese 290 None None https://www.themealdb.com/images/ingredients/Shredded Mexican Cheese-Small.png
+Shredded Monterey Jack Cheese 291 None None https://www.themealdb.com/images/ingredients/Shredded Monterey Jack Cheese-Small.png
+Small Potatoes 292 None None https://www.themealdb.com/images/ingredients/Small Potatoes-Small.png
+Smoked Paprika 293 None None https://www.themealdb.com/images/ingredients/Smoked Paprika-Small.png
+(1062, "Duplicate entry '293' for key 'PRIMARY'")
+Error: failed executing/committing query
+Smoky Paprika 294 None None https://www.themealdb.com/images/ingredients/Smoky Paprika-Small.png
+(1062, "Duplicate entry '294' for key 'PRIMARY'")
+Error: failed executing/committing query
+Sour Cream 295 None None https://www.themealdb.com/images/ingredients/Sour Cream-Small.png
+Soy Sauce 296 None None https://www.themealdb.com/images/ingredients/Soy Sauce-Small.png
+(1062, "Duplicate entry '296' for key 'PRIMARY'")
+Error: failed executing/committing query
+Soya Milk 297 None None https://www.themealdb.com/images/ingredients/Soya Milk-Small.png
+Spaghetti 298 None None https://www.themealdb.com/images/ingredients/Spaghetti-Small.png
+Spinach 299 None None https://www.themealdb.com/images/ingredients/Spinach-Small.png
+(1062, "Duplicate entry '299' for key 'PRIMARY'")
+Error: failed executing/committing query
+Spring Onions 301 None None https://www.themealdb.com/images/ingredients/Spring Onions-Small.png
+Squash 302 None None https://www.themealdb.com/images/ingredients/Squash-Small.png
+Stir-fry Vegetables 303 None None https://www.themealdb.com/images/ingredients/Stir-fry Vegetables-Small.png
+Strawberries 304 None None https://www.themealdb.com/images/ingredients/Strawberries-Small.png
+Sugar 305 None None https://www.themealdb.com/images/ingredients/Sugar-Small.png
+(1062, "Duplicate entry '305' for key 'PRIMARY'")
+Error: failed executing/committing query
+Sultanas 306 None None https://www.themealdb.com/images/ingredients/Sultanas-Small.png
+Sunflower Oil 307 None None https://www.themealdb.com/images/ingredients/Sunflower Oil-Small.png
+Tamarind Ball 308 None None https://www.themealdb.com/images/ingredients/Tamarind Ball-Small.png
+(1062, "Duplicate entry '308' for key 'PRIMARY'")
+Error: failed executing/committing query
+Tamarind Paste 309 None None https://www.themealdb.com/images/ingredients/Tamarind Paste-Small.png
+Thai Fish Sauce 310 None None https://www.themealdb.com/images/ingredients/Thai Fish Sauce-Small.png
+Thai Green Curry Paste 311 None None https://www.themealdb.com/images/ingredients/Thai Green Curry Paste-Small.png
+Thai Red Curry Paste 312 None None https://www.themealdb.com/images/ingredients/Thai Red Curry Paste-Small.png
+Thyme 313 None None https://www.themealdb.com/images/ingredients/Thyme-Small.png
+Tomato Ketchup 315 None None https://www.themealdb.com/images/ingredients/Tomato Ketchup-Small.png
+(1062, "Duplicate entry '315' for key 'PRIMARY'")
+Error: failed executing/committing query
+Tomato Puree 316 None None https://www.themealdb.com/images/ingredients/Tomato Puree-Small.png
+Tomatoes 317 None None https://www.themealdb.com/images/ingredients/Tomatoes-Small.png
+Toor Dal 318 None None https://www.themealdb.com/images/ingredients/Toor Dal-Small.png
+Tuna 319 None None https://www.themealdb.com/images/ingredients/Tuna-Small.png
+(1062, "Duplicate entry '319' for key 'PRIMARY'")
+Error: failed executing/committing query
+Turmeric 320 None None https://www.themealdb.com/images/ingredients/Turmeric-Small.png
+Turmeric Powder 321 None None https://www.themealdb.com/images/ingredients/Turmeric Powder-Small.png
+Turnips 322 None None https://www.themealdb.com/images/ingredients/Turnips-Small.png
+Vanilla 323 None None https://www.themealdb.com/images/ingredients/Vanilla-Small.png
+Vanilla Extract 324 None None https://www.themealdb.com/images/ingredients/Vanilla Extract-Small.png
+Veal 325 None None https://www.themealdb.com/images/ingredients/Veal-Small.png
+Vegan Butter 326 None None https://www.themealdb.com/images/ingredients/Vegan Butter-Small.png
+Vegetable Oil 327 None None https://www.themealdb.com/images/ingredients/Vegetable Oil-Small.png
+(1062, "Duplicate entry '327' for key 'PRIMARY'")
+Error: failed executing/committing query
+Vegetable Stock 328 None None https://www.themealdb.com/images/ingredients/Vegetable Stock-Small.png
+Vegetable Stock Cube 329 None None https://www.themealdb.com/images/ingredients/Vegetable Stock Cube-Small.png
+Vinaigrette Dressing 330 None None https://www.themealdb.com/images/ingredients/Vinaigrette Dressing-Small.png
+(1062, "Duplicate entry '330' for key 'PRIMARY'")
+Error: failed executing/committing query
+Vine Leaves 331 None None https://www.themealdb.com/images/ingredients/Vine Leaves-Small.png
+Vinegar 332 None None https://www.themealdb.com/images/ingredients/Vinegar-Small.png
+Water 333 None None https://www.themealdb.com/images/ingredients/Water-Small.png
+(1062, "Duplicate entry '333' for key 'PRIMARY'")
+Error: failed executing/committing query
+White Chocolate Chips 334 None None https://www.themealdb.com/images/ingredients/White Chocolate Chips-Small.png
+White Fish 335 None None https://www.themealdb.com/images/ingredients/White Fish-Small.png
+White Fish Fillets 336 None None https://www.themealdb.com/images/ingredients/White Fish Fillets-Small.png
+White Vinegar 337 None None https://www.themealdb.com/images/ingredients/White Vinegar-Small.png
+White Wine 338 None None https://www.themealdb.com/images/ingredients/White Wine-Small.png
+Whole Milk 339 None None https://www.themealdb.com/images/ingredients/Whole Milk-Small.png
+Whole Wheat 340 None None https://www.themealdb.com/images/ingredients/Whole Wheat-Small.png
+Wholegrain Bread 341 None None https://www.themealdb.com/images/ingredients/Wholegrain Bread-Small.png
+Worcestershire Sauce 342 None None https://www.themealdb.com/images/ingredients/Worcestershire Sauce-Small.png
+Yogurt 343 None None https://www.themealdb.com/images/ingredients/Yogurt-Small.png
+Zucchini 344 None None https://www.themealdb.com/images/ingredients/Zucchini-Small.png
+Pretzels 345 None None https://www.themealdb.com/images/ingredients/Pretzels-Small.png
+Cream Cheese 346 None None https://www.themealdb.com/images/ingredients/Cream Cheese-Small.png
+Icing Sugar 347 None None https://www.themealdb.com/images/ingredients/Icing Sugar-Small.png
+Toffee Popcorn 348 None None https://www.themealdb.com/images/ingredients/Toffee Popcorn-Small.png
+Caramel 349 None None https://www.themealdb.com/images/ingredients/Caramel-Small.png
+Caramel Sauce 350 None None https://www.themealdb.com/images/ingredients/Caramel Sauce-Small.png
+(1062, "Duplicate entry '350' for key 'PRIMARY'")
+Error: failed executing/committing query
+Tagliatelle 351 None None https://www.themealdb.com/images/ingredients/Tagliatelle-Small.png
+Fettuccine 352  None https://www.themealdb.com/images/ingredients/Fettuccine-Small.png
+(1062, "Duplicate entry '352' for key 'PRIMARY'")
+Error: failed executing/committing query
+Clotted Cream 353 None None https://www.themealdb.com/images/ingredients/Clotted Cream-Small.png
+Corn Flour 354  None https://www.themealdb.com/images/ingredients/Corn Flour-Small.png
+Mussels 355 None None https://www.themealdb.com/images/ingredients/Mussels-Small.png
+Fideo 356 None None https://www.themealdb.com/images/ingredients/Fideo-Small.png
+Monkfish 357 None None https://www.themealdb.com/images/ingredients/Monkfish-Small.png
+Vermicelli Pasta 358 None None https://www.themealdb.com/images/ingredients/Vermicelli Pasta-Small.png
+Baby Squid 359  None https://www.themealdb.com/images/ingredients/Baby Squid-Small.png
+(1062, "Duplicate entry '359' for key 'PRIMARY'")
+Error: failed executing/committing query
+Squid 360  None https://www.themealdb.com/images/ingredients/Squid-Small.png
+Fish Stock 361  None https://www.themealdb.com/images/ingredients/Fish Stock-Small.png
+Pilchards 362 None None https://www.themealdb.com/images/ingredients/Pilchards-Small.png
+Black Olives 363 None None https://www.themealdb.com/images/ingredients/Black Olives-Small.png
+Onion 364 None None https://www.themealdb.com/images/ingredients/Onion-Small.png
+Tomato 365 None None https://www.themealdb.com/images/ingredients/Tomato-Small.png
+Duck 366 None None https://www.themealdb.com/images/ingredients/Duck-Small.png
+Duck Legs 367 None None https://www.themealdb.com/images/ingredients/Duck Legs-Small.png
+Chicken Stock Cube 368 None None https://www.themealdb.com/images/ingredients/Chicken Stock Cube-Small.png
+Pappardelle Pasta 369 None None https://www.themealdb.com/images/ingredients/Pappardelle Pasta-Small.png
+Paccheri Pasta 370 None None https://www.themealdb.com/images/ingredients/Paccheri Pasta-Small.png
+Linguine Pasta 371 None None https://www.themealdb.com/images/ingredients/Linguine Pasta-Small.png
+Sugar Snap Peas 373 None None https://www.themealdb.com/images/ingredients/Sugar Snap Peas-Small.png
+Crusty Bread 374 None None https://www.themealdb.com/images/ingredients/Crusty Bread-Small.png
+Fromage Frais 375 None None https://www.themealdb.com/images/ingredients/Fromage Frais-Small.png
+Clams 376 None None https://www.themealdb.com/images/ingredients/Clams-Small.png
+Passata 377 None None https://www.themealdb.com/images/ingredients/Passata-Small.png
+Rapeseed Oil 378 None None https://www.themealdb.com/images/ingredients/Rapeseed Oil-Small.png
+(1062, "Duplicate entry '378' for key 'PRIMARY'")
+Error: failed executing/committing query
+Stilton Cheese 379 None None https://www.themealdb.com/images/ingredients/Stilton Cheese-Small.png
+Lamb Leg 380 None None https://www.themealdb.com/images/ingredients/Lamb Leg-Small.png
+(1062, "Duplicate entry '380' for key 'PRIMARY'")
+Error: failed executing/committing query
+Lamb Shoulder 381 None None https://www.themealdb.com/images/ingredients/Lamb Shoulder-Small.png
+Apricot 382 None None https://www.themealdb.com/images/ingredients/Apricot-Small.png
+Butternut Squash 383 None None https://www.themealdb.com/images/ingredients/Butternut Squash-Small.png
+Couscous 384 None None https://www.themealdb.com/images/ingredients/Couscous-Small.png
+Minced Beef 387 None None https://www.themealdb.com/images/ingredients/Minced Beef-Small.png
+Turkey Mince 388 None None https://www.themealdb.com/images/ingredients/Turkey Mince-Small.png
+Barbeque Sauce 389 None None https://www.themealdb.com/images/ingredients/Barbeque Sauce-Small.png
+Sweetcorn 390 None None https://www.themealdb.com/images/ingredients/Sweetcorn-Small.png
+Goose Fat 391 None None https://www.themealdb.com/images/ingredients/Goose Fat-Small.png
+Duck Fat 392 None None https://www.themealdb.com/images/ingredients/Duck Fat-Small.png
+Fennel 393 None None https://www.themealdb.com/images/ingredients/Fennel-Small.png
+(1062, "Duplicate entry '393' for key 'PRIMARY'")
+Error: failed executing/committing query
+Red Wine Vinegar 394 None None https://www.themealdb.com/images/ingredients/Red Wine Vinegar-Small.png
+Haricot Beans 395 None None https://www.themealdb.com/images/ingredients/Haricot Beans-Small.png
+Rosemary 396 None None https://www.themealdb.com/images/ingredients/Rosemary-Small.png
+Butter Beans 397 None None https://www.themealdb.com/images/ingredients/Butter Beans-Small.png
+Pinto Beans 398 None None https://www.themealdb.com/images/ingredients/Pinto Beans-Small.png
+Tomato Sauce 399 None None https://www.themealdb.com/images/ingredients/Tomato Sauce-Small.png
+Tomato Sauce 400 None None https://www.themealdb.com/images/ingredients/Tomato Sauce-Small.png
+(1062, "Duplicate entry '400' for key 'PRIMARY'")
+Error: failed executing/committing query
+Mascarpone 401 None None https://www.themealdb.com/images/ingredients/Mascarpone-Small.png
+Mozzarella 402 None None https://www.themealdb.com/images/ingredients/Mozzarella-Small.png
+Ricotta 403 None None https://www.themealdb.com/images/ingredients/Ricotta-Small.png
+Dried Apricots 405 None None https://www.themealdb.com/images/ingredients/Dried Apricots-Small.png
+Capers 406 None None https://www.themealdb.com/images/ingredients/Capers-Small.png
+Banana 407 None None https://www.themealdb.com/images/ingredients/Banana-Small.png
+Raspberries 408 None None https://www.themealdb.com/images/ingredients/Raspberries-Small.png
+Blueberries 409 None None https://www.themealdb.com/images/ingredients/Blueberries-Small.png
+Walnuts 410 None None https://www.themealdb.com/images/ingredients/Walnuts-Small.png
+Pecan Nuts 411 None None https://www.themealdb.com/images/ingredients/Pecan Nuts-Small.png
+Maple Syrup 412 None None https://www.themealdb.com/images/ingredients/Maple Syrup-Small.png
+Light Brown Soft Sugar 413 None None https://www.themealdb.com/images/ingredients/Light Brown Soft Sugar-Small.png
+Dark Brown Soft Sugar 414 None None https://www.themealdb.com/images/ingredients/Dark Brown Soft Sugar-Small.png
+Dark Chocolate Chips 415 None None https://www.themealdb.com/images/ingredients/Dark Chocolate Chips-Small.png
+Milk Chocolate 416 None None https://www.themealdb.com/images/ingredients/Milk Chocolate-Small.png
+Dark Chocolate 417 None None https://www.themealdb.com/images/ingredients/Dark Chocolate-Small.png
+Pumpkin 418 None None https://www.themealdb.com/images/ingredients/Pumpkin-Small.png
+Shortcrust Pastry 419 None None https://www.themealdb.com/images/ingredients/Shortcrust Pastry-Small.png
+(1062, "Duplicate entry '419' for key 'PRIMARY'")
+Error: failed executing/committing query
+Peanut Cookies 420 None None https://www.themealdb.com/images/ingredients/Peanut Cookies-Small.png
+Gelatine Leafs 421 None None https://www.themealdb.com/images/ingredients/Gelatine Leafs-Small.png
+Peanut Brittle 422 None None https://www.themealdb.com/images/ingredients/Peanut Brittle-Small.png
+Peaches 423 None None https://www.themealdb.com/images/ingredients/Peaches-Small.png
+Yellow Pepper 424 None None https://www.themealdb.com/images/ingredients/Yellow Pepper-Small.png
+Green Pepper 425 None None https://www.themealdb.com/images/ingredients/Green Pepper-Small.png
+Courgettes 426 None None https://www.themealdb.com/images/ingredients/Courgettes-Small.png
+Tinned Tomatos 427 None None https://www.themealdb.com/images/ingredients/Tinned Tomatos-Small.png
+(1062, "Duplicate entry '427' for key 'PRIMARY'")
+Error: failed executing/committing query
+Chestnuts 428 None None https://www.themealdb.com/images/ingredients/Chestnuts-Small.png
+Wild Mushrooms 429 None None https://www.themealdb.com/images/ingredients/Wild Mushrooms-Small.png
+Truffle Oil 430 None None https://www.themealdb.com/images/ingredients/Truffle Oil-Small.png
+Paneer 431 None None https://www.themealdb.com/images/ingredients/Paneer-Small.png
+Naan Bread 432 None None https://www.themealdb.com/images/ingredients/Naan Bread-Small.png
+Lentils 433 None None https://www.themealdb.com/images/ingredients/Lentils-Small.png
+Roasted Vegetables 434 None None https://www.themealdb.com/images/ingredients/Roasted Vegetables-Small.png
+Kidney Beans 435 None None https://www.themealdb.com/images/ingredients/Kidney Beans-Small.png
+Mixed Grain 436 None None https://www.themealdb.com/images/ingredients/Mixed Grain-Small.png
+(1062, "Duplicate entry '436' for key 'PRIMARY'")
+Error: failed executing/committing query
+Tahini 437 None None https://www.themealdb.com/images/ingredients/Tahini-Small.png
+Tortillas 438 None None https://www.themealdb.com/images/ingredients/Tortillas-Small.png
+Udon Noodles 439 None None https://www.themealdb.com/images/ingredients/Udon Noodles-Small.png
+Cabbage 440 None None https://www.themealdb.com/images/ingredients/Cabbage-Small.png
+Shiitake Mushrooms 441 None None https://www.themealdb.com/images/ingredients/Shiitake Mushrooms-Small.png
+Mirin 442 None None https://www.themealdb.com/images/ingredients/Mirin-Small.png
+Sesame Seed Oil 443 None None https://www.themealdb.com/images/ingredients/Sesame Seed Oil-Small.png
+Baguette 444 None None https://www.themealdb.com/images/ingredients/Baguette-Small.png
+Vine Tomatoes 445 None None https://www.themealdb.com/images/ingredients/Vine Tomatoes-Small.png
+Suet 446 None None https://www.themealdb.com/images/ingredients/Suet-Small.png
+Swede 447 None None https://www.themealdb.com/images/ingredients/Swede-Small.png
+Ham 448 None None https://www.themealdb.com/images/ingredients/Ham-Small.png
+Oysters 449 None None https://www.themealdb.com/images/ingredients/Oysters-Small.png
+Stout 450 None None https://www.themealdb.com/images/ingredients/Stout-Small.png
+Lard 451 None None https://www.themealdb.com/images/ingredients/Lard-Small.png
+Lamb Kidney 452 None None https://www.themealdb.com/images/ingredients/Lamb Kidney-Small.png
+Beef Kidney 453 None None https://www.themealdb.com/images/ingredients/Beef Kidney-Small.png
+(1062, "Duplicate entry '453' for key 'PRIMARY'")
+Error: failed executing/committing query
+Haddock 454 None None https://www.themealdb.com/images/ingredients/Haddock-Small.png
+Smoked Haddock 455 None None https://www.themealdb.com/images/ingredients/Smoked Haddock-Small.png
+Brussels Sprouts 456 None None https://www.themealdb.com/images/ingredients/Brussels Sprouts-Small.png
+Raisins 457 None None https://www.themealdb.com/images/ingredients/Raisins-Small.png
+(1062, "Duplicate entry '457' for key 'PRIMARY'")
+Error: failed executing/committing query
+Currants 458 None None https://www.themealdb.com/images/ingredients/Currants-Small.png
+(1062, "Duplicate entry '458' for key 'PRIMARY'")
+Error: failed executing/committing query
+Custard 459 None None https://www.themealdb.com/images/ingredients/Custard-Small.png
+Mixed Peel 460 None None https://www.themealdb.com/images/ingredients/Mixed Peel-Small.png
+Redcurrants 461 None None https://www.themealdb.com/images/ingredients/Redcurrants-Small.png
+Blackberries 462 None None https://www.themealdb.com/images/ingredients/Blackberries-Small.png
+Hazlenuts 463 None None https://www.themealdb.com/images/ingredients/Hazlenuts-Small.png
+Braeburn Apples 464 None None https://www.themealdb.com/images/ingredients/Braeburn Apples-Small.png
+(1062, "Duplicate entry '464' for key 'PRIMARY'")
+Error: failed executing/committing query
+Red Food Colouring 465 None None https://www.themealdb.com/images/ingredients/Red Food Colouring-Small.png
+Pink Food Colouring 466 None None https://www.themealdb.com/images/ingredients/Pink Food Colouring-Small.png
+(1062, "Duplicate entry '466' for key 'PRIMARY'")
+Error: failed executing/committing query
+Blue Food Colouring 467 None None https://www.themealdb.com/images/ingredients/Blue Food Colouring-Small.png
+Yellow Food Colouring 468 None None https://www.themealdb.com/images/ingredients/Yellow Food Colouring-Small.png
+Apricot Jam 469 None None https://www.themealdb.com/images/ingredients/Apricot Jam-Small.png
+Marzipan 470 None None https://www.themealdb.com/images/ingredients/Marzipan-Small.png
+Almonds 471 None None https://www.themealdb.com/images/ingredients/Almonds-Small.png
+Black Pudding 472 None None https://www.themealdb.com/images/ingredients/Black Pudding-Small.png
+Baked Beans 473 None None https://www.themealdb.com/images/ingredients/Baked Beans-Small.png
+White Flour 474 None None https://www.themealdb.com/images/ingredients/White Flour-Small.png
+Yeast 475 None None https://www.themealdb.com/images/ingredients/Yeast-Small.png
+(1062, "Duplicate entry '475' for key 'PRIMARY'")
+Error: failed executing/committing query
+Fruit Mix 476 None None https://www.themealdb.com/images/ingredients/Fruit Mix-Small.png
+(1062, "Duplicate entry '476' for key 'PRIMARY'")
+Error: failed executing/committing query
+Dried Fruit 477 None None https://www.themealdb.com/images/ingredients/Dried Fruit-Small.png
+Cherry 478 None None https://www.themealdb.com/images/ingredients/Cherry-Small.png
+Glace Cherry 479 None None https://www.themealdb.com/images/ingredients/Glace Cherry-Small.png
+Treacle 480 None None https://www.themealdb.com/images/ingredients/Treacle-Small.png
+Oatmeal 481 None None https://www.themealdb.com/images/ingredients/Oatmeal-Small.png
+Oats 482 None None https://www.themealdb.com/images/ingredients/Oats-Small.png
+Egg 483 None None https://www.themealdb.com/images/ingredients/Egg-Small.png
+Beef Shin 484 None None https://www.themealdb.com/images/ingredients/Beef Shin-Small.png
+Bouquet Garni 485 None None https://www.themealdb.com/images/ingredients/Bouquet Garni-Small.png
+Single Cream 486 None None https://www.themealdb.com/images/ingredients/Single Cream-Small.png
+(1062, "Duplicate entry '486' for key 'PRIMARY'")
+Error: failed executing/committing query
+Red Wine Jelly 487 None None https://www.themealdb.com/images/ingredients/Red Wine Jelly-Small.png
+Apples 488 None None https://www.themealdb.com/images/ingredients/Apples-Small.png
+Goats Cheese 489 None None https://www.themealdb.com/images/ingredients/Goats Cheese-Small.png
+Prosciutto 490 None None https://www.themealdb.com/images/ingredients/Prosciutto-Small.png
+Unsalted Butter 491 None None https://www.themealdb.com/images/ingredients/Unsalted Butter-Small.png
+Brie 492 None None https://www.themealdb.com/images/ingredients/Brie-Small.png
+(1062, "Duplicate entry '492' for key 'PRIMARY'")
+Error: failed executing/committing query
+Tarragon Leaves 493 None None https://www.themealdb.com/images/ingredients/Tarragon Leaves-Small.png
+Chives 494 None None https://www.themealdb.com/images/ingredients/Chives-Small.png
+Pears 495 None None https://www.themealdb.com/images/ingredients/Pears-Small.png
+White Chocolate 496 None None https://www.themealdb.com/images/ingredients/White Chocolate-Small.png
+Star Anise 497 None None https://www.themealdb.com/images/ingredients/Star Anise-Small.png
+Tiger Prawns 498 None None https://www.themealdb.com/images/ingredients/Tiger Prawns-Small.png
+Custard Powder 499 None None https://www.themealdb.com/images/ingredients/Custard Powder-Small.png
+Desiccated Coconut 500 None None https://www.themealdb.com/images/ingredients/Desiccated Coconut-Small.png
+Frozen Peas 501 None None https://www.themealdb.com/images/ingredients/Frozen Peas-Small.png
+Minced Pork 502 None None https://www.themealdb.com/images/ingredients/Minced Pork-Small.png
+Creamed Corn 503 None None https://www.themealdb.com/images/ingredients/Creamed Corn-Small.png
+(1062, "Duplicate entry '503' for key 'PRIMARY'")
+Error: failed executing/committing query
+Sun-Dried Tomatoes 504 None None https://www.themealdb.com/images/ingredients/Sun-Dried Tomatoes-Small.png
+Dijon Mustard 505 None None https://www.themealdb.com/images/ingredients/Dijon Mustard-Small.png
+Tabasco Sauce 506 None None https://www.themealdb.com/images/ingredients/Tabasco Sauce-Small.png
+Canola Oil 507 None None https://www.themealdb.com/images/ingredients/Canola Oil-Small.png
+(1062, "Duplicate entry '507' for key 'PRIMARY'")
+Error: failed executing/committing query
+Cod 508 None None https://www.themealdb.com/images/ingredients/Cod-Small.png
+Salt Cod 509 None None https://www.themealdb.com/images/ingredients/Salt Cod-Small.png
+Ackee 510 None None https://www.themealdb.com/images/ingredients/Ackee-Small.png
+Jerk 511 None None https://www.themealdb.com/images/ingredients/Jerk-Small.png
+Ground Beef 512 None None https://www.themealdb.com/images/ingredients/Ground Beef-Small.png
+Baby Aubergine 513 Eggplant (Solanum melongena) or aubergine is a species of nightshade grown for its edible fruit. Eggplant is the common name in North America, Australia and New Zealand; in British English, it is aubergine, and in South Asia and South Africa, brinjal.
+
+
+
+The fruit is widely used in cooking. As a member of the genus Solanum, it is related to the tomato and the potato. It was originally domesticated from the wild nightshade species, the thorn or bitter apple, S. incanum, probably with two independent domestications, one in South Asia and one in East Asia. Vegetable https://www.themealdb.com/images/ingredients/Baby Aubergine-Small.png
+(1062, "Duplicate entry '513' for key 'PRIMARY'")
+Error: failed executing/committing query
+Paella Rice 514 Paella[a] is a Valencian rice dish that has ancient roots but its modern form originated in the mid-19th century in the area around Albufera lagoon on the east coast of Spain, adjacent to the city of Valencia. Many non-Spaniards view paella as Spain's national dish, but most Spaniards consider it to be a regional Valencian dish. Valencians, in turn, regard paella as one of their identifying symbols.
+
+
+
+Types of paella include Valencian paella, vegetable paella (Spanish: paella de verduras), seafood paella (Spanish: paella de mariscos), and mixed paella (Spanish: paella mixta), among many others. Valencian paella is believed to be the original recipe and consists of white rice, green beans (bajoqueta and tavella), meat (chicken, duck and rabbit), white beans (garrofón), snails, and seasoning such as saffron and rosemary. Another very common but seasonal ingredient is artichokes. Seafood paella replaces meat with seafood and omits beans and green vegetables. Mixed paella is a free-style combination of meat from land animals, seafood, vegetables, and sometimes beans. Most paella chefs use bomba rice due to it being less likely to overcook, but Valencians tend to use a slightly stickier (and thus more susceptible to overcooking) variety known as Senia. All types of paellas use olive oil. None https://www.themealdb.com/images/ingredients/Paella Rice-Small.png
+Scotch Bonnet 515 Scotch bonnet, also known as bonney peppers, or Caribbean red peppers, is a variety of chili pepper named for its resemblance to a tam o' shanter hat. Also called ata rodo by Yoruba speakers of Nigeria, it is found mainly in the Caribbean islands; it is also found in Guyana (where it is called the ball-of-fire pepper), the Maldives Islands (where it is called githeyo mirus), Panama (where it is called aji chombo) and West Africa. Most Scotch bonnets have a heat rating of 100,000–350,000 Scoville units. For comparison, most jalapeño peppers have a heat rating of 2,500 to 8,000 on the Scoville scale. However, completely sweet varieties of Scotch bonnet are grown on some of the Caribbean islands, called cachucha peppers.
+
+
+
+These peppers are used to flavour many different dishes and cuisines worldwide and are often used in hot sauces and condiments. The Scotch bonnet has a sweeter flavour and stouter shape, distinct from its habanero relative with which it is often confused, and gives jerk dishes (pork/chicken) and other Caribbean dishes their unique flavour. Scotch bonnets are mostly used in West African, Antiguan, Kittitian/Nevisian, Anguilan, Dominican, St. Lucian, St Vincentian, Grenadian, Trinidadian, Jamaican, Barbadian, Guyanese, Surinamese, Haitian and Cayman cuisines and pepper sauces, though they often show up in other Caribbean recipes. It is also used in Costa Rica and Panama for Caribbean-styled recipes such as rice and beans, Rondón, saus, beef patties, and Ceviche.
+
+
+
+Fresh, ripe Scotch bonnets can change from green to yellow to scarlet red, however many other breeds of this pepper can ripen to orange, yellow, peach, or even a chocolate brown. Vegetable https://www.themealdb.com/images/ingredients/Scotch Bonnet-Small.png
+'latin-1' codec can't encode character '\u2013' in position 538: ordinal not in range(256)
+Error: failed executing/committing query
+Oxtail 516 Oxtail (occasionally spelled ox tail or ox-tail) is the culinary name for the tail of cattle. Formerly, it referred only to the tail of an ox or steer, a bullock (a castrated male).[citation needed] An oxtail typically weighs 2 to 4 lbs. (1–1.8 kg) and is skinned and cut into short lengths for sale.
+
+
+
+Oxtail is a bony, gelatin-rich meat, which is usually slow-cooked as a stew[1] or braised. It is a traditional stock base for a soup. Traditional preparations involve slow cooking, so some modern recipes take a shortcut using a pressure cooker. Oxtail is the main ingredient of the Italian dish coda alla vaccinara (a classic of Roman cuisine). It is a popular flavour for powder, instant and premade canned soups in the United Kingdom and Ireland. Oxtails are also one of the popular bases for Russian aspic appetizer dishes (холодец or студень), along with pig trotters or ears or cow "knees", but are the preferred ingredients among Russian Jews because they can be Kosher.
+
+
+
+Versions of oxtail soup are popular traditional dishes in South America, West Africa, China, Spain [2] and Indonesia. In Chinese cuisine, it's usually made into a soup called 牛尾汤 (niúwěi tāng, "oxtail soup"). In Korean cuisine, a soup made with oxtail is called kkori gomtang (see gomguk). It is a thick soup seasoned with salt and eaten with a bowl of rice. It can be used as a stock for making tteokguk (rice cake soup). Stewed oxtail with butter bean or as main dish (with rice) is popular in Jamaica, Trinidad, and other West Indian cultures. Oxtail is also very popular in South Africa where it is often cooked in a traditional skillet called a potjie, which is a three-legged cast iron pot placed over an open fire. Oxtail is also eaten in other southern parts of Africa like Zimbabwe and served with sadza and greens. In the United States, oxtail is a mainstay in African American and West Indian households. In Cuban cuisine, a stew can be made from oxtail called rabo encendido. In the Philippines, it is prepared in a peanut based stew called Kare-kare. In Iran, Oxtail is slow-cooked and served as a substitute for shank in a main dish called Baghla-Poli-Mahicheh which is prepared with rice, shank (or oxtail) and a mixture of herbs including dill, coriander, parsley and garlic.
+
+
+
+In the United States, oxtail has the meat-cutting classification NAMP 1791. Meat https://www.themealdb.com/images/ingredients/Oxtail-Small.png
+'latin-1' codec can't encode character '\u2013' in position 288: ordinal not in range(256)
+Error: failed executing/committing query
+Broad Beans 517 Vicia faba, also known as the broad bean, fava bean, faba bean, field bean, bell bean, or tic bean, is a species of flowering plant in the pea and bean family Fabaceae. It is native to North Africa[dubious – discuss] southwest and south Asia, and extensively cultivated elsewhere.[citation needed] A variety Vicia faba var. equina Pers. – horse bean has been previously recognized. Vegetable https://www.themealdb.com/images/ingredients/Broad Beans-Small.png
+'latin-1' codec can't encode character '\u2013' in position 259: ordinal not in range(256)
+Error: failed executing/committing query
+Red Snapper 518 The northern red snapper (Lutjanus campechanus) is a species of snapper native to the western Atlantic Ocean including the Gulf of Mexico, where it inhabits environments associated with reefs. This species is commercially important and is also sought-after as a game fish.
+
+
+
+The northern red snapper's body is very similar in shape to other snappers, such as the mangrove snapper, mutton snapper, lane snapper, and dog snapper. All feature a sloped profile, medium-to-large scales, a spiny dorsal fin, and a laterally compressed body. Northern red snapper have short, sharp, needle-like teeth, but they lack the prominent upper canine teeth found on the mutton, dog, and mangrove snappers. This snapper reaches maturity at a length of about 39 cm (15 in). The common adult length is 60 cm (24 in), but may reach 100 cm (39 in). The maximum published weight is 38 kg (84 lb), and the oldest reported age is 100+ years. Coloration of the northern red snapper is light red, with more intense pigment on the back. It has 10 dorsal spines, 14 soft dorsal rays, three anal spines and eight to 9 anal soft rays. Juvenile fish (shorter than 30–35 cm) can also have a dark spot on their sides, below the anterior soft dorsal rays, which fades with age. Fish https://www.themealdb.com/images/ingredients/Red Snapper-Small.png
+'latin-1' codec can't encode character '\u2013' in position 1189: ordinal not in range(256)
+Error: failed executing/committing query
+Malt Vinegar 519 Vinegar is a liquid consisting of about 5–20% acetic acid (CH3COOH), water, and other trace chemicals, which may include flavorings. The acetic acid is produced by the fermentation of ethanol by acetic acid bacteria. Vinegar is now mainly used as a cooking ingredient, or in pickling. As the most easily manufactured mild acid, it has historically had a great variety of industrial, medical, and domestic uses, some of which (such as its use as a general household cleaner) are still commonly practiced today.
+
+
+
+Commercial vinegar is produced either by a fast or a slow fermentation process. In general, slow methods are used in traditional vinegars where fermentation proceeds slowly over the course of a few months or up to a year. The longer fermentation period allows for the accumulation of a non-toxic slime composed of acetic acid bacteria. Fast methods add mother of vinegar (bacterial culture) to the source liquid before adding air to oxygenate and promote the fastest fermentation. In fast production processes, vinegar may be produced between 20 hours to three days. Seasoning https://www.themealdb.com/images/ingredients/Malt Vinegar-Small.png
+'latin-1' codec can't encode character '\u2013' in position 95: ordinal not in range(256)
+Error: failed executing/committing query
+Rice Vinegar 520 Rice vinegar is a vinegar made from fermented rice in China, Japan, Korea, and Vietnam.
+
+
+
+Chinese rice vinegars are stronger than Japanese ones, and range in colour from clear to various shades of red, brown and black and are therefore known as rice wine vinegar. Chinese and especially Japanese vinegars are less acidic than the distilled Western vinegars which, for that reason, are not appropriate substitutes for rice vinegars. The majority of the Asian rice vinegar types are also more mild and sweet than vinegars typically used in the Western world, with black vinegars as a notable exception. Chinese rice vinegars are made from huangjiu, a type of rice wine. Vinegar https://www.themealdb.com/images/ingredients/Rice Vinegar-Small.png
+(1062, "Duplicate entry '520' for key 'PRIMARY'")
+Error: failed executing/committing query
+Water Chestnut 521 Eleocharis dulcis, the Chinese water chestnut or water chestnut, is a grass-like sedge native to Asia (China, Japan, India, Philippines, etc.), Australia, tropical Africa, and various islands of the Pacific and Indian Oceans. It is grown in many countries for its edible corms.
+
+
+
+The water chestnut is not a nut at all, but an aquatic vegetable that grows in marshes, under water, in the mud. It has stem-like, tubular green leaves that grow to about 1.5 m. The water caltrop, which also is referred to by the same name, is unrelated and often confused with the water chestnut.
+
+
+
+The small, rounded corms have a crisp, white flesh and may be eaten raw, slightly boiled, or grilled, and often are pickled or tinned. They are a popular ingredient in Chinese dishes. In China, they are most often eaten raw, sometimes sweetened. They also may be ground into a flour form used for making water chestnut cake, which is common as part of dim sum cuisine. They are unusual among vegetables for remaining crisp even after being cooked or canned, because their cell walls are cross-linked and strengthened by certain phenolic compounds, such as oligomers of ferulic acid. This property is shared by other vegetables that remain crisp in this manner, including the tiger nut and lotus root. The corms contain the antibiotic agent puchiin, which is stable to high temperature. Apart from the edible corms, the leaves can be used for cattlefeed, mulch or compost.
+
+
+
+The corms are rich in carbohydrates (about 90% by dry weight), especially starch (about 60% by dry weight), and are also a good source of dietary fiber, riboflavin, vitamin B6, potassium, copper, and manganese.
+
+
+
+If eaten uncooked, the surface of the plants may transmit fasciolopsiasis. Sedge https://www.themealdb.com/images/ingredients/Water Chestnut-Small.png
+Tofu 522 Tofu, also known as bean curd, is a food cultivated by coagulating soy milk and then pressing the resulting curds into soft white blocks. It is a component in East Asian and Southeast Asian cuisines. Tofu can be soft, firm, or extra firm. Tofu has a subtle flavor and can be used in savory and sweet dishes. It is often seasoned or marinated to suit the dish.
+
+
+
+Tofu has a low calorie count and relatively large amounts of protein. It is high in iron, and it can have a high calcium or magnesium content, depending on the coagulants used in manufacturing (e.g. calcium chloride, calcium sulfate, magnesium sulfate). Curd https://www.themealdb.com/images/ingredients/Tofu-Small.png
+Doubanjiang 523 Doubanjiang (IPA: [tôupântɕjâŋ]), or simply Douban, or Toban-djan, Chili bean sauce, is a spicy, salty paste made from fermented broad beans, soybeans, salt, rice, and various spices. Doubanjiang exists in plain and spicy versions, with the latter containing red chili peppers and called la doubanjiang (辣豆瓣酱; pinyin: là dòubànjiàng; là meaning "hot" or "spicy").
+
+
+
+It is used particularly in Sichuan cuisine, and in fact, the people of the province commonly refer to it as "the soul of Sichuan cuisine". A particularly well-known variety is called Pixian Douban (simplified Chinese: 郫县豆瓣; traditional Chinese: 郫縣豆瓣; pinyin: Píxiàn dòubàn), named after the district of Pixian, Sichuan.[1]
+
+
+
+This sauce is sometimes stir-fried with oil and eaten with rice or noodles as a quick meal, and is also commonly used as a primary flavoring for fried tofu dishes and cold tofu salads. It is also frequently mixed with instant noodles.
+
+
+
+In many Chinese communities and food factories, doubanjiang is produced with only soybeans and salt, and does not contain the broad beans or chili peppers typical of Sichuan-style doubanjiang.
+
+
+
+In Korean cuisine, a similar form of bean paste is called doenjang. Sauce https://www.themealdb.com/images/ingredients/Doubanjiang-Small.png
+'latin-1' codec can't encode character '\u0302' in position 74: ordinal not in range(256)
+Error: failed executing/committing query
+Fermented Black Beans 524 Douchi (Chinese: 豆豉; pinyin: dòuchǐ), or tochi is a type of fermented and salted black soybean. In English, it is known as fermented black soybeans, Chinese fermented black beans (Chinese: 黑豆豆豉; pinyin: hēidòu dòuchǐ), salted black beans, salty black beans, or just black beans. They are a flavoring most popular in the cuisine of China, where they are most widely used for making black bean sauce dishes.[1][page needed]
+
+
+
+Douchi is made by fermenting and salting black soybeans. The black type soybean is most commonly used and the process turns the beans soft, and mostly semi-dry (if the beans are allowed to dry). Regular soybeans (white soybeans) are also used, but this does not produce "salted black beans"; instead, these beans become brown. The smell is sharp, pungent, and spicy; the taste is salty, somewhat bitter and sweet.[citation needed] The product made with white soybeans is called mianchi.
+
+
+
+The process and product are similar to ogiri and iru, both being African fermented bean products[citation needed].
+
+
+
+Douchi, "Chinese salted black beans", and "black soybeans" should not be confused with the black turtle bean, a variety of common bean that is commonly used in the cuisines of Central America, South America, and the Caribbean. Bean https://www.themealdb.com/images/ingredients/Fermented Black Beans-Small.png
+'latin-1' codec can't encode characters in position 80-81: ordinal not in range(256)
+Error: failed executing/committing query
+Scallions 525 Scallions (green onion, spring onion and salad onion) are vegetables of various Allium onion species. Scallions have a milder taste than most onions. Their close relatives include the garlic, shallot, leek, chive, and Chinese onion.
+
+
+
+Although the bulbs of many Allium species are used as food, the defining characteristic of scallion species is that they lack a fully developed bulb. In common with all Allium species, scallions have hollow, tubular green leaves, growing directly from the bulb. These leaves are used as a vegetable; they are eaten either raw or cooked. The leaves are often chopped into other dishes, in the manner of onions or garlic. Also known as scallions or green onions, spring onions are in fact very young onions, harvested before the bulb has had a chance to swell. Vegetable https://www.themealdb.com/images/ingredients/Scallions-Small.png
+Sichuan Pepper 526 Sichuan pepper, Sichuan peppercorn, or Szechuan pepper, is a commonly used spice in Chinese cuisine. It is derived from at least two species of the global genus Zanthoxylum, including Z. simulans and Z. bungeanum. The genus Zanthoxylum belongs in the rue or citrus family, and, despite its name, is not closely related to either black pepper nor the chili pepper.
+
+
+
+The husk or hull (pericarp) around the seeds may be used whole, especially in Sichuan cuisine, and the finely ground powder is one of the ingredients for five-spice powder. It is also used in traditional Chinese medicine. The pericarp is most often used, but the leaves of various species are also used in some regions of China.
+
+
+
+Another species of Zanthoxylum native to China, Z. schinifolium, called xiāng jiāo zi (香椒子, "aromatic peppercorn") or qīng huā jiāo (青花椒, "green flower pepper"), is used as a spice in Hebei.
+
+
+
+While the exact flavour and composition of different species from the genus Zanthoxylum vary, most share the same essential characteristics. So while the terms "Sichuan pepper" and sanshō may refer specifically to Z. simulans and Z. piperitum, respectively, the two are commonly used interchangeably.
+
+
+
+Related species are used in the cuisines of Tibet, Bhutan, Nepal, Thailand, and India (the Konkani and Uttarakhandi people) and Toba Batak peoples. In Bhutan, this pepper is known as thingye and is used liberally in preparation of soups, gruels, and phaag sha paa (pork slices).[citation needed] In Nepal, timur is used in the popular foods momo, thukpa, chow mein, chicken chilli, and other meat dishes. It is also widely used in homemade pickles. People take timur as a medicine for stomach or digestion problems, in a preparation with cloves of garlic and mountain salt with warm water. Spice https://www.themealdb.com/images/ingredients/Sichuan Pepper-Small.png
+'latin-1' codec can't encode character '\u0101' in position 829: ordinal not in range(256)
+Error: failed executing/committing query
+Wonton Skin 527 Won ton skin. Paper-thin squares of dough made from flour, water, eggs and salt used to make won tons, egg rolls and gyoza. Pastry https://www.themealdb.com/images/ingredients/Wonton Skin-Small.png
+Starch 528 Starch or amylum is a polymeric carbohydrate consisting of a large number of glucose units joined by glycosidic bonds. This polysaccharide is produced by most green plants as energy storage. It is the most common carbohydrate in human diets and is contained in large amounts in staple foods like potatoes, wheat, maize (corn), rice, and cassava.
+
+
+
+Pure starch is a white, tasteless and odorless powder that is insoluble in cold water or alcohol. It consists of two types of molecules: the linear and helical amylose and the branched amylopectin. Depending on the plant, starch generally contains 20 to 25% amylose and 75 to 80% amylopectin by weight.[4] Glycogen, the glucose store of animals, is a more highly branched version of amylopectin.
+
+
+
+In industry, starch is converted into sugars, for example by malting, and fermented to produce ethanol in the manufacture of beer, whisky and biofuel. It is processed to produce many of the sugars used in processed foods. Mixing most starches in warm water produces a paste, such as wheatpaste, which can be used as a thickening, stiffening or gluing agent. The biggest industrial non-food use of starch is as an adhesive in the papermaking process. Starch can be applied to parts of some garments before ironing, to stiffen them. side https://www.themealdb.com/images/ingredients/Starch-Small.png
+Rice wine 529 Rice wine is an alcoholic beverage fermented and distilled from rice, traditionally consumed in East Asia, Southeast Asia and South Asia. Rice wine is made from the fermentation of rice starch that has been converted to sugars. Microbes are the source of the enzymes that convert the starches to sugar.[1]
+
+
+
+Rice wine typically has an alcohol content of 18–25% ABV. Rice wines are used in Asian gastronomy at formal dinners and banquets and in cooking. They are also used in a religious and ceremonial context. Wine https://www.themealdb.com/images/ingredients/Rice wine-Small.png
+'latin-1' codec can't encode character '\u2013' in position 408: ordinal not in range(256)
+Error: failed executing/committing query
+Cooking wine 530 Splash into casseroles, sauces and marinades for a rounded vibrant flavour. Wine https://www.themealdb.com/images/ingredients/Cooking wine-Small.png
+Duck Sauce 531 Duck sauce (or orange sauce) is a condiment with a sweet and sour flavor and a translucent orange appearance similar to a thin jelly. Offered at Chinese-American restaurants, it is used as a dip for deep-fried dishes such as wonton strips, spring rolls, egg rolls, duck, chicken, fish, or with rice or noodles. It is often provided in single-serving packets along with soy sauce, mustard, hot sauce or red chili powder. It may be used as a glaze on foods, such as poultry. Despite its name the sauce is not prepared using duck meat. Sauce https://www.themealdb.com/images/ingredients/Duck Sauce-Small.png
+Gochujang 532 Gochujang or red chili paste is a savory, sweet, and spicy fermented condiment made from chili powder, glutinous rice, meju powder, yeotgireum, and salt. Sauce https://www.themealdb.com/images/ingredients/Gochujang-Small.png
+Bean Sprouts 533 Bean sprouts are a common ingredient across the world. They are particularly common in Eastern Asian cuisine.
+
+
+
+There are two types of common bean sprouts:
+
+
+
+Mung bean sprout is made from the greenish-capped mung beans
+
+Soybean sprout is made from yellow, larger-grained soybean
+
+It typically takes one week for them to become fully grown. The sprouted beans are more nutritious than the original beans and they require much less cooking time. Vegetable https://www.themealdb.com/images/ingredients/Bean Sprouts-Small.png
+Noodles 534 Noodles are a staple food in many cultures. They are made from unleavened dough which is stretched, extruded, or rolled flat and cut into one of a variety of shapes. While long, thin strips may be the most common, many varieties of noodles are cut into waves, helices, tubes, strings, or shells, or folded over, or cut into other shapes. Noodles are usually cooked in boiling water, sometimes with cooking oil or salt added. They are often pan-fried or deep-fried. Noodles are often served with an accompanying sauce or in a soup. Noodles can be refrigerated for short-term storage or dried and stored for future use. The material composition or geocultural origin must be specified when discussing noodles. The word derives from the German word Nudel.[1] Side https://www.themealdb.com/images/ingredients/Noodles-Small.png
+Wood Ear Mushrooms 535 Auricularia auricula-judae, known as the Jew's ear, wood ear, jelly ear or by a number of other common names, is a species of edible Auriculariales fungus found worldwide. The fruiting body is distinguished by its noticeably ear-like shape and brown colouration; it grows upon wood, especially elder. Its specific epithet is derived from the belief that Judas Iscariot hanged himself from an elder tree; the common name "Judas's ear" was largely eclipsed by the corruption "Jew's ear", while today "jelly ear" and other names are sometimes used. The fungus can be found throughout the year in temperate regions worldwide, where it grows upon both dead and living wood.
+
+
+
+In the West, A. auricula-judae was used in folk medicine as recently as the 19th century for complaints including sore throats, sore eyes and jaundice, and as an astringent. Although it is not widely consumed in the West, it has long been popular in China, to the extent that Australia exported large volumes to China in the early twentieth century. Today, the fungus is a popular ingredient in many Chinese dishes, such as hot and sour soup, and also used in Chinese medicine. It is also used in Ghana, as a blood tonic. Modern research into possible medical applications has variously concluded that A. auricula-judae has antitumour, hypoglycemic, anticoagulant and cholesterol-lowering properties. Vegetable https://www.themealdb.com/images/ingredients/Wood Ear Mushrooms-Small.png
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Judas\'s ear" was largely eclipsed by the corruption "Jew\'s ear", while today "je\' at line 1')
+Error: failed executing/committing query
+>>> 
