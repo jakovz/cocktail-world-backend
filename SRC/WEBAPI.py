@@ -8,10 +8,19 @@ DRINK_BY_ID_URL = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
 SPECIFIC_INGREDIENT_URL = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i='
 INGREDIENT_IMG_URL = 'https://www.thecocktaildb.com/images/ingredients/%s-Small.png'
 INGREDIENT_URL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?i='
+LIST_MEALS_CATEGORIES_URL = 'https://www.themealdb.com/api/json/v1/1/list.php?c=list'
+MEALS_BY_CATEGORY_URL = 'https://www.themealdb.com/api/json/v1/1/filter.php?c='
+MEALS_BY_ID_URL = 'https://www.themealdb.com/api/json/v1/1/lookup.php?i='
+LIST_MEALS_INGREDIENTS_URL = 'https://www.themealdb.com/api/json/v1/1/list.php?i=list'
+MEALS_INGREDIENT_IMG_URL = 'https://www.themealdb.com/images/ingredients/%s-Small.png'
+LIST_FOOD_CATEGORY = 'https://www.themealdb.com/api/json/v1/1/categories.php'
 
 InsertDrinksQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"
 InsertCocktailsIngredientsQuery = "INSERT INTO %s VALUES (%s, %s, \"%s\")"
 InsertIngredientsQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", %s)"
+
+InsertMealsQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"
+InsertFoodCategoryQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\")"
 
 
 def fill_drinks():
@@ -83,7 +92,73 @@ def fill_ingredients():
         # TODO: execute the query that inserts the ingredient
         # TODO: add calories for each ingredient from Food Data API
 
-fill_ingredients()
+def fill_meals():
+    # create dictionary of all coctails id (ids[id, 1])
+    mealsCategoryListJson = requests.get(LIST_MEALS_CATEGORIES_URL).json()
+    ids = {}
+    for category in mealsCategoryListJson['meals']:
+        mealsCategory = category['strCategory']
+        print(mealsCategory)
+        mealsJson = requests.get(MEALS_BY_CATEGORY_URL + mealsCategory).json()
+        for meal in mealsJson['meals']:
+            idMeal = meal['idMeal']
+            if idMeal not in ids:
+                ids[idMeal] = 1 
+    # fill drinks table 
+    for idMeals in ids:
+        mealsJson = requests.get(MEALS_BY_ID_URL + idMeals).json()
+        for mealsDetails in mealsJson['meals']:
+            idMeal = mealsDetails['idMeal']
+            strMeal = mealsDetails['strMeal']
+            strCategory = mealsDetails['strCategory']
+            strArea = mealsDetails['strArea']
+            strInstructions = mealsDetails['strInstructions']
+            strMealThumb = mealsDetails['strMealThumb']
+            strTags = mealsDetails['strTags']
+            strYoutube = mealsDetails['strYoutube']
+            print(idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
+            DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
+
+            # fill cocktails_ingredients table 
+            for i in range(1, 20):
+                ingredientIsNotNull = False
+                mealsIngredient = mealsDetails['strIngredient' + str(i)]
+                if mealsIngredient != '' and mealsIngredient != ' ' and mealsIngredient != '\n' and mealsIngredient != '\r\n' and mealsIngredient != None:
+                    ingredientIsNotNull = True
+                    print(i, mealsIngredient)
+                    #TODO 
+                    # idIngredient = from db / from API ?????
+                    idIngredient = 5
+                measure = mealsDetails['strMeasure' + str(i)]
+                if measure != '' and measure != ' ' and measure != '\n' and measure != '\n' and measure != '\r\n' and measure != None:
+                    print(i, measure)
+                if ingredientIsNotNull:
+                    print(i, idMeal, mealsIngredient, idIngredient, measure)
+                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'meals_ingredients', idMeal, idIngredient, measure)
+
+
+def fill_meals_ingredients():
+    ingredients_list = requests.get(LIST_MEALS_INGREDIENTS_URL).json()['meals']
+    for ingredient in ingredients_list:
+        ingredient_name = ingredient['strIngredient']
+        ingredient_id = ingredient['idIngredient']
+        ingredient_description = ingredient['strDescription']
+        ingredient_type = ingredient['strType']
+        ingredient_img_url = MEALS_INGREDIENT_IMG_URL % ingredient_name
+        print(ingredient_name, ingredient_id, ingredient_description, ingredient_type, ingredient_img_url)
+        DBConnection.execute_query(InsertIngredientsQuery, 'ingredients', ingredient_id, ingredient_name, ingredient_description, ingredient_type, ingredient_img_url, 0)
+
+def fill_food_categories():
+    food_categories_list = requests.get(LIST_FOOD_CATEGORY).json()['categories']
+    for category in food_categories_list:
+        category_name = category['strCategory']
+        category_id = category['idCategory']
+        category_description = category['strCategoryDescription']
+        category_img_url = category['strCategoryThumb']
+        print(category_name, category_id, category_description, category_img_url)
+        DBConnection.execute_query(InsertFoodCategoryQuery, 'food_categories', category_id, category_name, category_img_url, category_description)
+
+
 
 if __name__ == '__main__':
     pass
