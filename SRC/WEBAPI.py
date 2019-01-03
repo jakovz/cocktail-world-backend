@@ -16,8 +16,8 @@ MEALS_INGREDIENT_IMG_URL = 'https://www.themealdb.com/images/ingredients/%s-Smal
 LIST_FOOD_CATEGORY = 'https://www.themealdb.com/api/json/v1/1/categories.php'
 
 InsertDrinksQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"
-InsertCocktailsIngredientsQuery = "INSERT INTO %s VALUES (%s, %s, \"%s\")"
-InsertIngredientsQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", %s)"
+InsertCocktailsIngredientsQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\")"
+InsertIngredientsQuery = "INSERT INTO %s VALUES (\"%s\", \"%s\", \"%s\", \"%s\", %s)"
 
 InsertMealsQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"
 InsertFoodCategoryQuery = "INSERT INTO %s VALUES (%s, \"%s\", \"%s\", \"%s\")"
@@ -51,7 +51,7 @@ def fill_drinks():
             strInstructions = drinkDetails['strInstructions']
             strDrinkThumb = drinkDetails['strDrinkThumb']
             print(idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
-            DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
+            # DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
 
             # fill cocktails_ingredients table 
             for i in range(1, 13):
@@ -61,19 +61,19 @@ def fill_drinks():
                     ingredientIsNotNull = True
                     print(i, drinkIngredient)
                     drinkIngredientRequest = requests.get(INGREDIENT_URL + drinkIngredient)
-                    try:
-                        drinkIngredientJson = drinkIngredientRequest.json()['ingredients'][0]
-                        idIngredient = drinkIngredientJson['idIngredient']
-                    except TypeError as e:
-                        ingredientIsNotNull = False
-                        print(e)
-                        print("Error: failed convert data to json (json null)")
+                    # try:
+                    #     drinkIngredientJson = drinkIngredientRequest.json()['ingredients'][0]
+                    #     idIngredient = drinkIngredientJson['idIngredient']
+                    # except TypeError as e:
+                    #     ingredientIsNotNull = False
+                    #     print(e)
+                    #     print("Error: failed convert data to json (json null)")
                 measure = drinkDetails['strMeasure' + str(i)]
                 if measure != '' and measure != ' ' and measure != '\n' and measure != '\n' and measure != '\r\n' and measure != None:
                     print(i, measure)
                 if ingredientIsNotNull:
-                    print(i, idDrink, drinkIngredient, idIngredient, measure)
-                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'cocktails_ingredients', idDrink, idIngredient, measure)
+                    print(i, idDrink, drinkIngredient, measure)
+                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'cocktails_ingredients', idDrink, drinkIngredient, measure)
 
 
 def fill_ingredients():
@@ -87,7 +87,7 @@ def fill_ingredients():
         ingredient_type = ingredient_details['strType']
         ingredient_img_url = INGREDIENT_IMG_URL % ingredient_name
         print(ingredient_name, ingredient_id, ingredient_description, ingredient_type, ingredient_img_url)
-        DBConnection.execute_query(InsertIngredientsQuery, 'ingredients', ingredient_id, ingredient_name, ingredient_description, ingredient_type, ingredient_img_url, 0)
+        DBConnection.execute_query(InsertIngredientsQuery, 'ingredients', ingredient_name, ingredient_description, ingredient_type, ingredient_img_url, 0)
         # TODO: should check that everything is returned correctly
         # TODO: execute the query that inserts the ingredient
         # TODO: add calories for each ingredient from Food Data API
@@ -117,7 +117,7 @@ def fill_meals():
             strTags = mealsDetails['strTags']
             strYoutube = mealsDetails['strYoutube']
             print(idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
-            DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
+            # DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
 
             # fill cocktails_ingredients table 
             for i in range(1, 20):
@@ -126,15 +126,13 @@ def fill_meals():
                 if mealsIngredient != '' and mealsIngredient != ' ' and mealsIngredient != '\n' and mealsIngredient != '\r\n' and mealsIngredient != None:
                     ingredientIsNotNull = True
                     print(i, mealsIngredient)
-                    #TODO 
-                    # idIngredient = from db / from API ?????
                     idIngredient = 5
                 measure = mealsDetails['strMeasure' + str(i)]
                 if measure != '' and measure != ' ' and measure != '\n' and measure != '\n' and measure != '\r\n' and measure != None:
                     print(i, measure)
                 if ingredientIsNotNull:
-                    print(i, idMeal, mealsIngredient, idIngredient, measure)
-                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'meals_ingredients', idMeal, idIngredient, measure)
+                    print(i, idMeal, mealsIngredient, measure)
+                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'meals_ingredients', idMeal, mealsIngredient, measure)
 
 
 def fill_meals_ingredients():
@@ -146,7 +144,7 @@ def fill_meals_ingredients():
         ingredient_type = ingredient['strType']
         ingredient_img_url = MEALS_INGREDIENT_IMG_URL % ingredient_name
         print(ingredient_name, ingredient_id, ingredient_description, ingredient_type, ingredient_img_url)
-        DBConnection.execute_query(InsertIngredientsQuery, 'ingredients', ingredient_id, ingredient_name, ingredient_description, ingredient_type, ingredient_img_url, 0)
+        DBConnection.execute_query(InsertIngredientsQuery, 'ingredients', ingredient_name, ingredient_description, ingredient_type, ingredient_img_url, 0)
 
 def fill_food_categories():
     food_categories_list = requests.get(LIST_FOOD_CATEGORY).json()['categories']
@@ -157,7 +155,6 @@ def fill_food_categories():
         category_img_url = category['strCategoryThumb']
         print(category_name, category_id, category_description, category_img_url)
         DBConnection.execute_query(InsertFoodCategoryQuery, 'food_categories', category_id, category_name, category_img_url, category_description)
-
 
 
 if __name__ == '__main__':
