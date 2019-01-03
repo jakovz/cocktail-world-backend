@@ -33,12 +33,12 @@ The modern versions of the beverage were first produced in the mid to late 18th 
 
 
 Historically, there have been two main types of vermouth: sweet and dry. Responding to demand and competition, vermouth manufacturers have created additional styles, including extra-dry white, sweet white (bianco), red, amber (ambre or rosso), and rosé. Vermouth is produced by starting with a base of a neutral grape wine or unfermented wine must. Each manufacturer adds additional alcohol and a proprietary mixture of dry ingredients, consisting of aromatic herbs, roots, and barks, to the base wine, base wine plus spirit or spirit only – which may be redistilled before adding to the wine or unfermented wine must. After the wine is aromatized and fortified, the vermouth is sweetened with either cane sugar or caramelized sugar, depending on the style. Italian and French companies produce most of the vermouth consumed throughout the world, although the United States and the United Kingdom are also producers. Fortified Wine https://www.thecocktaildb.com/images/ingredients/Sweet Vermouth-Small.png
-'latin-1' codec can't encode character '\u0259' in position 68: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0259' in position 63: ordinal not in range(256)
 Error: failed executing/committing query
 Strawberry schnapps 473 Schnapps (/ʃnɑːps/ or /ʃnæps/) or schnaps is a type of alcoholic beverage that may take several forms, including distilled fruit brandies, herbal liqueurs, infusions, and "flavored liqueurs" made by adding fruit syrups, spices, or artificial flavorings to neutral grain spirits.
 
 The English loanword "schnapps" is derived from the colloquial German word Schnaps [ʃnaps] (About this sound listen) (plural: Schnäpse) which is used in reference to spirit drinks. The word Schnaps stems from Low German language and is related to the German term "schnappen", which refers to the fact that the spirit or liquor drink is usually consumed in a quick slug from a small glass (i.e., a shot glass). In British English, a corresponding term is "dram" [of liquor]. Liquor https://www.thecocktaildb.com/images/ingredients/Strawberry schnapps-Small.png
-'latin-1' codec can't encode character '\u0283' in position 72: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0283' in position 67: ordinal not in range(256)
 Error: failed executing/committing query
 Scotch 446 Scotch whisky, often simply called Scotch, is malt whisky or grain whisky made in Scotland. Scotch whisky must be made in a manner specified by law.
 
@@ -126,7 +126,7 @@ To shorten these several distillations, which were long and troublesome, a chemi
 
 
 As most brandies have been distilled from grapes, the regions of the world producing excellent brandies have roughly paralleled those areas producing grapes for viniculture. At the end of the 19th century, the western European markets, including by extension their overseas empires, were dominated by French and Spanish brandies and eastern Europe was dominated by brandies from the Black Sea region, including Bulgaria, the Crimea, and Georgia. In 1884, David Sarajishvili founded his brandy factory in Tbilisi, Georgia, a crossroads for Turkish, Central Asian, and Persian trade routes and a part of the Russian Empire at the time. Armenian and Georgian brandies, called cognacs in the era, were considered some of the best in the world and often beat their French competitors at the International Expositions in Paris and Brussels in the early 1900s.[citation needed] The storehouses of the Romanov Court in St. Petersburg were regarded as the largest collections of cognacs and wines in the world with much of it from the Transcaucasus region of Georgia. During the October Revolution of 1917, upon the storming of the Winter Palace, the Bolshevik Revolution actually paused for a week or so as the participants gorged on the substantial stores of cognac and wines. The Russian market was always a huge brandy-consuming region in which home-grown varieties were common but much of it was imported. The patterns of bottles followed that of the western European norm. Throughout the Soviet era, the production of brandy was a source of pride for the communist regime as they continued to produce some excellent varieties, especially the most famous Jubilee Brandies of 1967, 1977, and 1987.[citation needed] Remaining bottles of these productions are highly sought after, not simply for their quality, but for their historical significance. Spirit https://www.thecocktaildb.com/images/ingredients/Brandy-Small.png
-'latin-1' codec can't encode character '\u2013' in position 123: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 119: ordinal not in range(256)
 Error: failed executing/committing query
 Lemon vodka 296 None None https://www.thecocktaildb.com/images/ingredients/Lemon vodka-Small.png
 Blended whiskey 66 None None https://www.thecocktaildb.com/images/ingredients/Blended whiskey-Small.png
@@ -139,7 +139,7 @@ The modern versions of the beverage were first produced in the mid to late 18th 
 
 
 Historically, there have been two main types of vermouth: sweet and dry. Responding to demand and competition, vermouth manufacturers have created additional styles, including extra-dry white, sweet white (bianco), red, amber (ambre or rosso), and rosé. Vermouth is produced by starting with a base of a neutral grape wine or unfermented wine must. Each manufacturer adds additional alcohol and a proprietary mixture of dry ingredients, consisting of aromatic herbs, roots, and barks, to the base wine, base wine plus spirit or spirit only – which may be redistilled before adding to the wine or unfermented wine must. After the wine is aromatized and fortified, the vermouth is sweetened with either cane sugar or caramelized sugar, depending on the style. Italian and French companies produce most of the vermouth consumed throughout the world, although the United States and the United Kingdom are also producers. Fortified Wine https://www.thecocktaildb.com/images/ingredients/Dry Vermouth-Small.png
-'latin-1' codec can't encode character '\u0259' in position 66: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0259' in position 61: ordinal not in range(256)
 Error: failed executing/committing query
 Amaretto 18 Amaretto (Italian for "a little bitter") is a sweet, almond-flavoured, Italian liqueur associated with Saronno, Italy. Various commercial brands are made from a base of apricot pits, almonds, or both.
 
@@ -158,7 +158,7 @@ Conflation of amaro ("bitter") and amore ("love") has led to associations with r
 
 
 One should not confuse amaretto with amaro, a different family of Italian liqueurs that, while also sweetened, have a stronger bitter flavour derived from herbs. Liqueur https://www.thecocktaildb.com/images/ingredients/Amaretto-Small.png
-'latin-1' codec can't encode character '\u2014' in position 725: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2014' in position 721: ordinal not in range(256)
 Error: failed executing/committing query
 Tea 486 None None https://www.thecocktaildb.com/images/ingredients/Tea-Small.png
 Champagne 97 Champagne (French: [ʃɑ̃.paɲ]) is a sparkling wine and type of alcoholic drink produced from grapes grown in the Champagne region of France following rules that demand, among other things, secondary fermentation of the wine in the bottle to create carbonation, specific vineyard practices, sourcing of grapes exclusively from specific parcels in the Champagne appellation and specific pressing regimes unique to the region.[1] It contains the drug alcohol (also known formally as ethanol), and is used recreationally. Some use the term Champagne as a generic term for sparkling wine, but in many countries, it is illegal to label any product Champagne unless it both comes from the Champagne region and is produced under the rules of the appellation.
@@ -170,7 +170,7 @@ The primary grapes used in the production of Champagne are black Pinot noir and 
 
 
 Champagne became associated with royalty in the 17th, 18th, and 19th centuries. The leading manufacturers made efforts to associate their Champagnes with nobility and royalty through advertising and packaging, which led to popularity among the emerging middle class. Wine https://www.thecocktaildb.com/images/ingredients/Champagne-Small.png
-'latin-1' codec can't encode characters in position 70-72: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 66-68: ordinal not in range(256)
 Error: failed executing/committing query
 Coffee liqueur 138 None None https://www.thecocktaildb.com/images/ingredients/Coffee liqueur-Small.png
 Bourbon 71 Bourbon whiskey /bɜːrbən/ is a type of American whiskey: a barrel-aged distilled spirit made primarily from corn. The name is derived from the French Bourbon dynasty, although it is unclear precisely what inspired the whiskey's name (contenders include Bourbon County in Kentucky and Bourbon Street in New Orleans). Bourbon has been distilled since the 18th century. The use of the term "bourbon" for the whiskey has been traced to the 1820s, and the term began to be used consistently in Kentucky in the 1870s. While bourbon may be made anywhere in the United States, it is strongly associated with the American South, and with Kentucky in particular. As of 2014, the distillers' wholesale market revenue for bourbon sold within the U.S. is about $2.7 billion, and bourbon makes up about two-thirds of the $1.6 billion of U.S. exports of distilled spirits.
@@ -210,7 +210,7 @@ In recent years, bourbon and Tennessee whiskey (which is sometimes regarded as a
 
 
 According to the Distilled Spirits Council, during 2009–14, the volume of 9-liter cases of whiskey increased by 28.5% overall. Higher-end bourbon and whiskeys experienced the greatest growth: during 2009–14 the volume of the value segment increased by 12.1%, premium by 25.8%, high-end premium by 27.8% and super-premium by 123.8%. Gross supplier revenues (including federal excise tax) for U.S. bourbon and Tennessee whiskey increased by 46.7% over the 2009–14 period, with the greatest growth coming from high-end products (18.7% growth for value, 33.6% for premium, 44.5% for high-end premium, and 137.2% for super-premium).[4] In 2014, more than 19 million nine-liter cases of bourbon and Tennessee whiskey were sold in the U.S., generating almost $2.7 billion in wholesale distillery revenue. U.S. exports of bourbon whiskey surpassed $1 billion for the first time in 2013; distillers hailed the rise of a "golden age of Kentucky bourbon" and predicted further growth. In 2014, it was estimated that U.S. bourbon whiskey exports surpassed $1 billion (making up the majority of the U.S. total of $1.6 billion in spirits exports). Major export markets for U.S. spirits are, in descending order: Canada, the United Kingdom, Germany, Australia and France. The largest percentage increases in U.S. exports were, in descending order: Brazil, the Dominican Republic, Bahamas, Israel and United Arab Emirates. Key elements of growth in the markets showing the largest increases have been changes of law, trade agreements, and reductions of tariffs, as well as increased consumer demand for premium-category spirits. Whiskey https://www.thecocktaildb.com/images/ingredients/Bourbon-Small.png
-'latin-1' codec can't encode characters in position 66-67: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 62-63: ordinal not in range(256)
 Error: failed executing/committing query
 Tequila 489 Tequila (Spanish pronunciation: [teˈkila] (About this sound listen)) is a regionally specific distilled beverage and type of alcoholic drink made from the blue agave plant, primarily in the area surrounding the city of Tequila, 65 km (40 mi) northwest of Guadalajara, and in the highlands (Los Altos) of the central western Mexican state of Jalisco. Aside from differences in region of origin, tequila is a type of mezcal (and the regions of production of the two drinks are overlapping). The distinction in the method of production is that tequila must use only blue agave plants rather than any type of agave. Tequila is commonly served neat in Mexico and as a shot with salt and lime across the rest of the world.
 
@@ -225,7 +225,7 @@ Mexican laws state that tequila can only be produced in the state of Jalisco and
 
 
 Tequila contains alcohol (also known formally as ethanol) and is most often made at a 38% alcohol content (76 U.S. proof) for domestic consumption, but can be produced between 31 and 55% alcohol content (62 and 110 U.S. proof). Per U.S law, tequila must contain at least 40% alcohol (80 U.S. proof) to be sold in the United States. Spirit https://www.thecocktaildb.com/images/ingredients/Tequila-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 84: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 79: ordinal not in range(256)
 Error: failed executing/committing query
 Vodka 512 Vodka is a distilled beverage composed primarily of water and ethanol, sometimes with traces of impurities and flavorings. Traditionally, vodka is made by the distillation of fermented cereal grains or potatoes, though some modern brands use other substances, such as fruits or sugar.
 
@@ -256,7 +256,7 @@ Repeated distillation of vodka will make its ethanol level much higher than is a
 
 
 Polish distilleries make a very pure (96%, 192 proof, formerly also 98%) rectified spirit (Polish language: spirytus rektyfikowany). Technically a form of vodka, it is sold in liquor stores rather than pharmacies. Similarly, the German market often carries German, Hungarian, Polish, and Ukrainian-made varieties of vodka of 90 to 95% ABV. A Bulgarian vodka, Balkan 176°, has an 88% alcohol content. Everclear, an American brand, is also sold at 95% ABV. Vodka https://www.thecocktaildb.com/images/ingredients/Vodka-Small.png
-'latin-1' codec can't encode character '\u2013' in position 3569: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 3564: ordinal not in range(256)
 Error: failed executing/committing query
 Añejo rum 37 Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.
 
@@ -318,7 +318,7 @@ To reduce production costs, manufacturers have widely replaced fruit bases with 
 (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'Rose\'s" is by far the most common brand of grenadine sold in the United States,[\' at line 9')
 Error: failed executing/committing query
 Port 406 Port wine (also known as vinho do Porto, Portuguese pronunciation: [ˌviɲuduˈpoɾtu], Porto, and usually simply port) is a Portuguese fortified wine produced exclusively in the Douro Valley in the northern provinces of Portugal. It is typically a sweet, red wine, often served as a dessert wine, though it also comes in dry, semi-dry, and white varieties. Fortified wines in the style of port are also produced outside Portugal, most notably in Australia, France, South Africa, Canada, India, Argentina, and the United States. Under European Union Protected Designation of Origin guidelines, only the product from Portugal may be labelled as port or Porto. In the United States, wines labelled "port" may come from anywhere in the world, while the names "Oporto", "Porto", and "Vinho do Porto" have been recognised as foreign, non-generic names for Port wines originating in Portugal. Fortified wine https://www.thecocktaildb.com/images/ingredients/Port-Small.png
-'latin-1' codec can't encode character '\u02cc' in position 114: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02cc' in position 109: ordinal not in range(256)
 Error: failed executing/committing query
 Coffee brandy 137 None None https://www.thecocktaildb.com/images/ingredients/Coffee brandy-Small.png
 Red wine 425 Wine (from Latin vinum) is an alcoholic beverage made from grapes, generally Vitis vinifera, fermented without the addition of sugars, acids, enzymes, water, or other nutrients.
@@ -334,7 +334,7 @@ Wine has been produced for thousands of years. The earliest known traces of wine
 
 
 Wine has long played an important role in religion. Red wine was associated with blood by the ancient Egyptians and was used by both the Greek cult of Dionysus and the Romans in their Bacchanalia; Judaism also incorporates it in the Kiddush and Christianity in the Eucharist. Wine https://www.thecocktaildb.com/images/ingredients/Red wine-Small.png
-'latin-1' codec can't encode character '\u2009' in position 1019: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2009' in position 1014: ordinal not in range(256)
 Error: failed executing/committing query
 Rum 434 Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.
 
@@ -386,7 +386,7 @@ After fermentation is complete, the base wines are fortified with grape spirit i
 
 
 Wines from different years are aged and blended using a solera system before bottling, so that bottles of sherry will not usually carry a specific vintage year and can contain a small proportion of very old wine. Sherry is regarded by many wine writers as "underappreciated" and a "neglected wine treasure". Fortified Wine https://www.thecocktaildb.com/images/ingredients/Sherry-Small.png
-'latin-1' codec can't encode characters in position 66-68: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 61-63: ordinal not in range(256)
 Error: failed executing/committing query
 Cognac 141 Cognac (/ˈkɒnjæk/ KON-yak or /ˈkoʊnjæk/ KOHN-yak; French pronunciation: ​[kɔ.ɲak]) is a variety of brandy named after the town of Cognac, France. It is produced in the surrounding wine-growing region in the departments of Charente and Charente-Maritime.
 
@@ -397,7 +397,7 @@ Cognac production falls under French Appellation d'origine contrôlée designati
 
 
 Cognac is a type of brandy and, after the distillation and during the aging process, is also called eau de vie. It is produced by doubly distilling white wines produced in any of the designated growing regions. Brandy https://www.thecocktaildb.com/images/ingredients/Cognac-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 57: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 52: ordinal not in range(256)
 Error: failed executing/committing query
 Sloe gin 453 Sloe gin is a red liqueur made with gin and sloe (blackthorn) drupes, which are a small fruit relative of the plum. Sloe gin has an alcohol content between 15 and 30 percent by volume. However, the European Union has established a minimum of 25% ABV for sloe gin to be named as such. The traditional way of making sloe gin is to soak the sloes in gin. Sugar is required to ensure the sloe juice is extracted from the fruit.
 
@@ -438,7 +438,7 @@ Yogurt is produced using a culture of Lactobacillus delbrueckii subsp. bulgaricu
 
 
 To produce yogurt, milk is first heated, usually to about 85 °C (185 °F), to denature the milk proteins so that they do not form curds. After heating, the milk is allowed to cool to about 45 °C (113 °F). The bacterial culture is mixed in, and a temperature of 45 °C (113 °F) is maintained for four to twelve hours to allow fermentation. Cream https://www.thecocktaildb.com/images/ingredients/Yoghurt-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 80: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 75: ordinal not in range(256)
 Error: failed executing/committing query
 Mango 319 None None https://www.thecocktaildb.com/images/ingredients/Mango-Small.png
 Ginger 230 None None https://www.thecocktaildb.com/images/ingredients/Ginger-Small.png
@@ -449,7 +449,7 @@ Lime 312 A lime (from French lime, from Arabic līma, from Persian līmū, "lemo
 There are several species of citrus trees whose fruits are called limes, including the Key lime (Citrus aurantifolia), Persian lime, kaffir lime, and desert lime. Limes are an excellent source of vitamin C, and are often used to accent the flavours of foods and beverages. They are grown year-round. Plants with fruit called "limes" have diverse genetic origins; limes do not form a monophyletic group.
 
  Fruit https://www.thecocktaildb.com/images/ingredients/Lime-Small.png
-'latin-1' codec can't encode character '\u012b' in position 85: ordinal not in range(256)
+'latin-1' codec can't encode character '\u012b' in position 80: ordinal not in range(256)
 Error: failed executing/committing query
 Cantaloupe 86 None None https://www.thecocktaildb.com/images/ingredients/Cantaloupe-Small.png
 Berries 54 None None https://www.thecocktaildb.com/images/ingredients/Berries-Small.png
@@ -516,7 +516,7 @@ On October 25, 2006, Greece won the right to label ouzo as an exclusively Greek 
 
 
 There is an ouzo museum in Plomari, Lesvos. Aperitif https://www.thecocktaildb.com/images/ingredients/Ouzo-Small.png
-'latin-1' codec can't encode characters in position 59-62: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 54-57: ordinal not in range(256)
 Error: failed executing/committing query
 Coffee 139 Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa (specifically having its origin in Ethiopia and Sudan) and Madagascar, the Comoros, Mauritius, and Réunion in the Indian Ocean. The plant was exported from Africa to countries around the world and coffee plants are now cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India, and Africa. The two most commonly grown are the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds (referred to as beans) are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and brewed with near-boiling water to produce coffee as a beverage.
 
@@ -625,7 +625,7 @@ Until the 19th century, the German word Lagerbier (de) referred to all types of 
 
 
 In the United Kingdom, the term lager commonly refers specifically to pale lagers, many of which are derived from the Pilsner style. Worldwide, pale lager is the most widely consumed and commercially available style of beer. It is often known primarily by its brand name, and labeled simply as "beer". Well-known brands include: Pilsner Urquell, Miller, Stella Artois, Beck's, Brahma, Budweiser Budvar, Corona, Snow, Tsingtao, Kirin Company, Heineken, Carling, Foster's, and Carlsberg. Beer https://www.thecocktaildb.com/images/ingredients/Lager-Small.png
-'latin-1' codec can't encode character '\u017e' in position 96: ordinal not in range(256)
+'latin-1' codec can't encode character '\u017e' in position 91: ordinal not in range(256)
 Error: failed executing/committing query
 Whiskey 517 Whisky or whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn (maize), rye, and wheat. Whisky is typically aged in wooden casks, generally made of charred white oak.
 
@@ -652,7 +652,7 @@ A still for making whisky is usually made of copper, since it removes sulfur-bas
 
 
 Column stills are frequently used in the production of grain whisky and are the most commonly used type of still in the production of bourbon and other American whiskeys. Column stills behave like a series of single pot stills, formed in a long vertical tube. Whereas a single pot still charged with wine might yield a vapour enriched to 40–50% alcohol, a column still can achieve a vapour alcohol content of 95.6%; an azeotropic mixture of alcohol and water. Whisky https://www.thecocktaildb.com/images/ingredients/Whiskey-Small.png
-'latin-1' codec can't encode character '\u2013' in position 1942: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 1937: ordinal not in range(256)
 Error: failed executing/committing query
 Absolut Citron 5 Absolut Vodka is a brand of vodka, produced near Åhus, in southern Sweden. Absolut is owned by French group Pernod Ricard; they bought Absolut for €5.63 billion in 2008 from the Swedish state. Absolut is the third largest brand of alcoholic spirits in the world after Bacardi and Smirnoff, and is sold in 126 countries.
 
@@ -669,7 +669,7 @@ In 1917, the alcohol industry in Sweden was monopolized by the Swedish governmen
 
 
 Absolut Vodka was introduced to the global market in 1979. Since its launch, Absolut has grown from 90,000 liters to 96.6 million liters in 2008. It has become the largest international spirit and is available in 126 countries. The vodka is made from winter wheat. Approximately 80,000 metric tons (2,900,000 bushels) of wheat are used annually to produce Absolut Vodka. Over one kilogram of grain is used in every one-liter bottle. Vodka https://www.thecocktaildb.com/images/ingredients/Absolut Citron-Small.png
-'latin-1' codec can't encode character '\u20ac' in position 201: ordinal not in range(256)
+'latin-1' codec can't encode character '\u20ac' in position 198: ordinal not in range(256)
 Error: failed executing/committing query
 Pisco 400 Pisco is a colorless or yellowish-to-amber colored brandy produced in winemaking regions of Peru and Chile. Made by distilling fermented grape juice into a high-proof spirit, it was developed by 16th century Spanish settlers as an alternative to orujo, a pomace brandy that was being imported from Spain. It had the advantages of being produced from abundant domestically grown fruit and reducing the volume of alcoholic beverages transported to remote locations.
 
@@ -706,7 +706,7 @@ As it is extremely sweet, Midori is not usually taken "straight"; it is generall
 
 
 Midori was launched by Suntory at Studio 54 in New York City in 1978 during a party held by the cast, crew, and producers of the movie, Saturday Night Fever. By 1983, Midori was distributed in 20 countries. In 2013, following consumer research, Suntory reduced the sugar content and began producing Midori with a redesigned label and frosted glass bottle. Liqueur https://www.thecocktaildb.com/images/ingredients/Midori melon liqueur-Small.png
-'latin-1' codec can't encode character '\u2013' in position 283: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 278: ordinal not in range(256)
 Error: failed executing/committing query
 Sambuca 440 Sambuca (Italian pronunciation: [samˈbuːka]) is an Italian anise-flavoured, usually colourless, liqueur. Its most common variety is often referred to as white sambuca to differentiate it from other varieties that are deep blue in colour (black sambuca) or bright red (red sambuca). Like other anise-flavoured liqueurs, the ouzo effect is sometimes observed when combined with water.
 
@@ -729,7 +729,7 @@ The first commercial version of such a drink started at the end of 1800 in Civit
 
 
 Having both originated as anise based spirits containing elderberry, Sambuca shared some commonality with the Basque drink Patxaran. Liqueur https://www.thecocktaildb.com/images/ingredients/Sambuca-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 85: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 80: ordinal not in range(256)
 Error: failed executing/committing query
 Cider 120 Cider (/ˈsaɪdər/ SY-dər) is an alcoholic beverage made from the fermented juice of apples.
 
@@ -756,7 +756,7 @@ The flavour of cider varies. Ciders can be classified from dry to sweet. Their a
 
 
 Modern, mass-produced ciders closely resemble sparkling wine in appearance. More traditional brands tend to be darker and cloudier. They are often stronger than the mass-produced varieties and taste more strongly of apples. Almost colourless, white cider has the same apple juice content as conventional cider but is harder to create because the cider maker has to blend various apples to create a clearer liquid. White ciders tend to be sweeter and more refreshing. They are typically 7-8 % ABV in strength. Black cider, by contrast, is dry amber premium cider which has an alcohol content of 7-8 % ABV. The descriptor black usually comes after the brand name such as Union Black and Barnstormer Black. Cider https://www.thecocktaildb.com/images/ingredients/Cider-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 55: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 50: ordinal not in range(256)
 Error: failed executing/committing query
 Sprite 466 None None https://www.thecocktaildb.com/images/ingredients/Sprite-Small.png
 7-Up 3 7 Up (stylized as 7up outside of the U.S.) is a brand of lemon-lime flavored, non-caffeinated soft drink. The rights to the brand are held by Dr Pepper Snapple Group in the United States, and PepsiCo (or its licensees) in the rest of the world. The U.S. version of the 7 Up logo includes a red cherry between the "7" and "Up"; this red cherry has been animated and used as a mascot for the brand as Cool Spot.
@@ -776,13 +776,13 @@ Westinghouse bought 7 Up in 1969 and sold it in 1978 to Philip Morris, who then 
 
 
 There exists a myth that the 7 Up name comes from the drink having a pH over 7. That would make it neutral or basic on the scale; however, this is not the case, as the 7 Up pH is close to 3.79, similar to other drinks of the type.[7] The real origin of the name is unclear,[8] though Britvic claims that the name comes from the seven main ingredients in the drink,[9] while others have claimed that the number was a coded reference to the lithium contained in the original recipe, which has an atomic mass of approximately 7. Soft Drink https://www.thecocktaildb.com/images/ingredients/7-Up-Small.png
-'latin-1' codec can't encode character '\u2013' in position 525: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 522: ordinal not in range(256)
 Error: failed executing/committing query
 Blackberry brandy 61 None None https://www.thecocktaildb.com/images/ingredients/Blackberry brandy-Small.png
 Peppermint schnapps 388 Schnapps (/ʃnɑːps/ or /ʃnæps/) or schnaps is a type of alcoholic beverage that may take several forms, including distilled fruit brandies, herbal liqueurs, infusions, and "flavored liqueurs" made by adding fruit syrups, spices, or artificial flavorings to neutral grain spirits.
 
 The English loanword "schnapps" is derived from the colloquial German word Schnaps [ʃnaps] (About this sound listen) (plural: Schnäpse) which is used in reference to spirit drinks. The word Schnaps stems from Low German language and is related to the German term "schnappen", which refers to the fact that the spirit or liquor drink is usually consumed in a quick slug from a small glass (i.e., a shot glass). In British English, a corresponding term is "dram" [of liquor]. Liquor https://www.thecocktaildb.com/images/ingredients/Peppermint schnapps-Small.png
-'latin-1' codec can't encode character '\u0283' in position 72: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0283' in position 67: ordinal not in range(256)
 Error: failed executing/committing query
 Creme de Cassis 165 None None https://www.thecocktaildb.com/images/ingredients/Creme de Cassis-Small.png
 Jack Daniels 275 Jack Daniel's is a brand of Tennessee whiskey and the top selling American whiskey in the world. It is produced in Lynchburg, Tennessee, by the Jack Daniel Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel's home county of Moore is a dry county, so the product is not available for purchase at stores or restaurants within the county.
@@ -834,7 +834,7 @@ In Germany, Bacardi 151 is frequently used to prepare Feuerzangenbowle, a tradit
 
 
 During the Goldfield Ashes, Charters Towers, Bacardi 151 has been known to be the 'fine' of choice for visiting teams...causing significant performance issues the next day, and even the odd vow of sobriety! Rum https://www.thecocktaildb.com/images/ingredients/151 proof rum-Small.png
-'latin-1' codec can't encode character '\u2013' in position 271: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 268: ordinal not in range(256)
 Error: failed executing/committing query
 Absolut Vodka 8 Absolut Vodka is a brand of vodka, produced near Åhus, in southern Sweden. Absolut is owned by French group Pernod Ricard; they bought Absolut for €5.63 billion in 2008 from the Swedish state. Absolut is the third largest brand of alcoholic spirits in the world after Bacardi and Smirnoff, and is sold in 126 countries.
 
@@ -844,14 +844,14 @@ In 1917, the alcohol industry in Sweden was monopolized by the Swedish governmen
 
 
 Absolut Vodka was introduced to the global market in 1979. Since its launch, Absolut has grown from 90,000 liters to 96.6 million liters in 2008. It has become the largest international spirit and is available in 126 countries. The vodka is made from winter wheat. Approximately 80,000 metric tons (2,900,000 bushels) of wheat are used annually to produce Absolut Vodka. Over one kilogram of grain is used in every one-liter bottle. Vodka https://www.thecocktaildb.com/images/ingredients/Absolut Vodka-Small.png
-'latin-1' codec can't encode character '\u20ac' in position 200: ordinal not in range(256)
+'latin-1' codec can't encode character '\u20ac' in position 197: ordinal not in range(256)
 Error: failed executing/committing query
 Goldschlager 235 Goldschläger is a Swiss cinnamon schnapps (43.5% alcohol by volume or 87 proof; originally it was 53.5% alcohol or 107 proof),[1] a liqueur with very thin, yet visible flakes of gold floating in it. The actual amount of gold has been measured at approximately 13 mg in a 1-Litre bottle of Goldschläger.[2] As of July 2016 this amounts to €0.55 EUR or lower on the international gold market.[3]
 
 
 
 Goldschläger was produced in Switzerland until the 1990s, when the brand was acquired by Diageo, which continued production of Goldschläger schnapps in Italy.[1] Since 2008 it is a brand of Global Brands[4] and produced in Switzerland again.[5] The German word Goldschläger ("gold beater"[6]) designates the profession of gold leaf makers, who beat bars of gold into micrometre-thin sheets. Schnapps https://www.thecocktaildb.com/images/ingredients/Goldschlager-Small.png
-'latin-1' codec can't encode character '\u20ac' in position 392: ordinal not in range(256)
+'latin-1' codec can't encode character '\u20ac' in position 387: ordinal not in range(256)
 Error: failed executing/committing query
 Crown Royal 168 None None https://www.thecocktaildb.com/images/ingredients/Crown Royal-Small.png
 Cointreau 142 None None https://www.thecocktaildb.com/images/ingredients/Cointreau-Small.png
@@ -864,7 +864,7 @@ The modern versions of the beverage were first produced in the mid to late 18th 
 
 
 Historically, there have been two main types of vermouth: sweet and dry. Responding to demand and competition, vermouth manufacturers have created additional styles, including extra-dry white, sweet white (bianco), red, amber (ambre or rosso), and rosé. Vermouth is produced by starting with a base of a neutral grape wine or unfermented wine must. Each manufacturer adds additional alcohol and a proprietary mixture of dry ingredients, consisting of aromatic herbs, roots, and barks, to the base wine, base wine plus spirit or spirit only – which may be redistilled before adding to the wine or unfermented wine must. After the wine is aromatized and fortified, the vermouth is sweetened with either cane sugar or caramelized sugar, depending on the style. Italian and French companies produce most of the vermouth consumed throughout the world, although the United States and the United Kingdom are also producers. Fortified Wine https://www.thecocktaildb.com/images/ingredients/Vermouth-Small.png
-'latin-1' codec can't encode character '\u0259' in position 62: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0259' in position 57: ordinal not in range(256)
 Error: failed executing/committing query
 Advocaat 9 Advocaat or advocatenborrel is a traditional Dutch alcoholic beverage made from eggs, sugar and brandy.[1] The rich and creamy drink has a smooth, custard-like flavor. The typical alcohol content is generally somewhere between 14% and 20% ABV. Its contents may be a blend of egg yolks, aromatic spirits, sugar or honey, brandy, vanilla and sometimes cream (or evaporated milk). Notable makers of advocaat include Bols, DeKuyper and Verpoorten.
 
@@ -889,7 +889,7 @@ In 1917, the alcohol industry in Sweden was monopolized by the Swedish governmen
 
 
 Absolut Vodka was introduced to the global market in 1979. Since its launch, Absolut has grown from 90,000 liters to 96.6 million liters in 2008. It has become the largest international spirit and is available in 126 countries. The vodka is made from winter wheat. Approximately 80,000 metric tons (2,900,000 bushels) of wheat are used annually to produce Absolut Vodka. Over one kilogram of grain is used in every one-liter bottle. Vodka https://www.thecocktaildb.com/images/ingredients/Absolut Kurant-Small.png
-'latin-1' codec can't encode character '\u20ac' in position 201: ordinal not in range(256)
+'latin-1' codec can't encode character '\u20ac' in position 198: ordinal not in range(256)
 Error: failed executing/committing query
 Beer 52 Beer is the oldest and most widely consumed alcoholic drink in the world, and the third most popular drink overall after water and tea.[5] Beer is brewed from cereal grains — most commonly from malted barley, though wheat, maize (corn), and rice are also used. During the brewing process, fermentation of the starch sugars in the wort produces ethanol and carbonation in the resulting beer. Most modern beer is brewed with hops, which add bitterness and other flavours and act as a natural preservative and stabilizing agent. Other flavouring agents such as gruit, herbs, or fruits may be included or used instead of hops. In commercial brewing, the natural carbonation effect is often removed during processing and replaced with forced carbonation.
 
@@ -904,7 +904,7 @@ Beer is distributed in bottles and cans and is also commonly available on draugh
 
 
 Various legal definitions of beer exist in different countries. Historically, the most famous of these was the Reinheitsgebot, which applied to parts of the Holy Roman Empire and Germany and required beer to be made from only water, hops, and barley. Today in Canada, the Canadian Government’s Food and Drug Regulations state that beer must have alcohol content that ranges from 1.1% to 8.6%, though it also includes a stipulation that it could be greater than 8.6% and labeled accordingly. Beer in South Korea must have less than 25% ABV, which means that it has to be 25 mL of alcohol or less per 100 mL of solution and can be considered ‘lite’ only if it has less than 30 kcal per 100ml. Additionally, beer in South Korea must use only water, hops, and starches (wheat, rice, barley, corn, or potato) as ingredients in the brewing process.[13] In Singapore, beer must have at minimum 1.0% alcohol by volume concentration at 20 °C. It is often brewed from a mixture of grains like malt, sugars or its equivalent, and hops or other vegetables. Beer https://www.thecocktaildb.com/images/ingredients/Beer-Small.png
-'latin-1' codec can't encode character '\u2014' in position 218: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2014' in position 214: ordinal not in range(256)
 Error: failed executing/committing query
 Kool-Aid 287 None None https://www.thecocktaildb.com/images/ingredients/Kool-Aid-Small.png
 Cherry Heering 103 None None https://www.thecocktaildb.com/images/ingredients/Cherry Heering-Small.png
@@ -922,7 +922,7 @@ Vanilla vodka 507 None None https://www.thecocktaildb.com/images/ingredients/Van
 Jägermeister 278 None None https://www.thecocktaildb.com/images/ingredients/Jägermeister-Small.png
 Kiwi liqueur 285 None None https://www.thecocktaildb.com/images/ingredients/Kiwi liqueur-Small.png
 Grand Marnier 238 Grand Marnier (French pronunciation: ​[ɡʁɑ̃ maʁnje]) Cordon Rouge is an orange-flavored liqueur created in 1880 by Alexandre Marnier-Lapostolle. It is made from a blend of Cognac brandy, distilled essence of bitter orange, and sugar. Grand Marnier Cordon Rouge is 40% alcohol (70 Proof in UK, 80 Proof in US). Aside from Cordon Rouge, the Grand Marnier line includes other liqueurs, most of which can be consumed "neat" as a cordial or a digestif, and can be used in mixed drinks and desserts. In France this kind of use is the most popular, especially with Crêpes Suzette and "crêpes au Grand Marnier". César Ritz (1850–1918) reportedly came up with the name "Grand Marnier" for Marnier-Lapostolle, who in return helped him purchase and establish the Hotel Ritz Paris. On March 15, 2016, the Campari Group announced the launch of a friendly takeover offer for Société des Produits Marnier Lapostolle S.A., owner of Grand Marnier. Liqueur https://www.thecocktaildb.com/images/ingredients/Grand Marnier-Small.png
-'latin-1' codec can't encode character '\u200b' in position 92: ordinal not in range(256)
+'latin-1' codec can't encode character '\u200b' in position 87: ordinal not in range(256)
 Error: failed executing/committing query
 Cachaca 81 Cachaça (Portuguese pronunciation: [kaˈʃasɐ]) is a distilled spirit made from fermented sugarcane juice. Also known as aguardente, pinga, caninha and other names, it is the most popular distilled alcoholic beverage in Brazil. Outside Brazil, cachaça is used almost exclusively as an ingredient in tropical drinks, with the caipirinha being the most famous cocktail.
 
@@ -945,12 +945,12 @@ Cachaça, like rum, has two varieties: unaged (Portuguese: branca, "white" or pr
 
 
 There are very important regions in Brazil where fine pot still cachaça is produced such as Chã Grande in Pernambuco state, Salinas in Minas Gerais state, Paraty in Rio de Janeiro state, Monte Alegre do Sul in São Paulo state and Abaíra in Bahia state. Nowadays, producers of cachaça can be found in most Brazilian regions and in 2011 there were over 40,000 of them. Spirit https://www.thecocktaildb.com/images/ingredients/Cachaca-Small.png
-'latin-1' codec can't encode characters in position 86-87: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 82-83: ordinal not in range(256)
 Error: failed executing/committing query
 Peachtree schnapps 382 Schnapps (/ʃnɑːps/ or /ʃnæps/) or schnaps is a type of alcoholic beverage that may take several forms, including distilled fruit brandies, herbal liqueurs, infusions, and "flavored liqueurs" made by adding fruit syrups, spices, or artificial flavorings to neutral grain spirits.
 
 The English loanword "schnapps" is derived from the colloquial German word Schnaps [ʃnaps] (About this sound listen) (plural: Schnäpse) which is used in reference to spirit drinks. The word Schnaps stems from Low German language and is related to the German term "schnappen", which refers to the fact that the spirit or liquor drink is usually consumed in a quick slug from a small glass (i.e., a shot glass). In British English, a corresponding term is "dram" [of liquor]. Liquor https://www.thecocktaildb.com/images/ingredients/Peachtree schnapps-Small.png
-'latin-1' codec can't encode character '\u0283' in position 71: ordinal not in range(256)
+'latin-1' codec can't encode character '\u0283' in position 66: ordinal not in range(256)
 Error: failed executing/committing query
 Wild Turkey 526 Wild Turkey is a brand of Kentucky straight bourbon whiskey distilled and bottled by the Austin Nichols division of Campari Group. The distillery is located near Lawrenceburg, Kentucky, United States. It offers tours, and is part of the American Whiskey Trail and the Kentucky Bourbon Trail.
 
@@ -989,7 +989,7 @@ In 2011, Wild Turkey began to be distilled at a newly constructed facility near 
 
 
 In 2013, Campari opened a new bottling facility at the Wild Turkey Distillery. For the previous 13 years Wild Turkey had been bottled offsite in Indiana and, later, Arkansas. In addition to the Wild Turkey products, Campari's SKYY vodka is also bottled there after being shipped from the Illinois distillery. Whisky https://www.thecocktaildb.com/images/ingredients/Wild Turkey-Small.png
-'latin-1' codec can't encode character '\u2014' in position 1269: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2014' in position 1264: ordinal not in range(256)
 Error: failed executing/committing query
 Cranberry vodka 157 None None https://www.thecocktaildb.com/images/ingredients/Cranberry vodka-Small.png
 Corona 152 None None https://www.thecocktaildb.com/images/ingredients/Corona-Small.png
@@ -1023,7 +1023,7 @@ The family has traditionally been considered closely related to the Verbenaceae;
 
 
 The alternate family name Labiatae refers to the fact that the flowers typically have petals fused into an upper lip and a lower lip (labia in Latin). The flowers are bilaterally symmetrical with five united petals and five united sepals. They are usually bisexual and verticillastrate (a flower cluster that looks like a whorl of flowers, but actually consists of two crowded clusters). Although this is still considered an acceptable alternative name, most botanists now use the name Lamiaceae in referring to this family. The leaves emerge oppositely, each pair at right angles to the previous one (decussate) or whorled. The stems are frequently square in cross section, but this is not found in all members of the family, and is sometimes found in other plant families. Flower https://www.thecocktaildb.com/images/ingredients/Mint-Small.png
-'latin-1' codec can't encode character '\u02cc' in position 58: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02cc' in position 53: ordinal not in range(256)
 Error: failed executing/committing query
 Campari 83 None None https://www.thecocktaildb.com/images/ingredients/Campari-Small.png
 Ice 270 None None https://www.thecocktaildb.com/images/ingredients/Ice-Small.png
@@ -1049,7 +1049,7 @@ Absinthe originated in the canton of Neuchâtel in Switzerland in the late 18th 
 
 
 Absinthe has often been portrayed as a dangerously addictive psychoactive drug and hallucinogen. The chemical compound thujone, although present in the spirit in only trace amounts, was blamed for its alleged harmful effects. By 1915, absinthe had been banned in the United States and in much of Europe, including France, the Netherlands, Belgium, Switzerland and Austria-Hungary. Although absinthe was vilified, it has not been demonstrated to be any more dangerous than ordinary spirits. Recent studies have shown that absinthe's psychoactive properties (apart from that of the alcohol) have been exaggerated. A revival of absinthe began in the 1990s, following the adoption of modern European Union food and beverage laws that removed longstanding barriers to its production and sale. By the early 21st century, nearly 200 brands of absinthe were being produced in a dozen countries, most notably in France, Switzerland, Australia, Spain, and the Czech Republic. Spirit https://www.thecocktaildb.com/images/ingredients/Absinthe-Small.png
-'latin-1' codec can't encode character '\u2013' in position 119: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 116: ordinal not in range(256)
 Error: failed executing/committing query
 Whisky 518 Whisky or whiskey is a type of distilled alcoholic beverage made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn (maize), rye, and wheat. Whisky is typically aged in wooden casks, generally made of charred white oak.
 
@@ -1076,7 +1076,7 @@ A still for making whisky is usually made of copper, since it removes sulfur-bas
 
 
 Column stills are frequently used in the production of grain whisky and are the most commonly used type of still in the production of bourbon and other American whiskeys. Column stills behave like a series of single pot stills, formed in a long vertical tube. Whereas a single pot still charged with wine might yield a vapour enriched to 40–50% alcohol, a column still can achieve a vapour alcohol content of 95.6%; an azeotropic mixture of alcohol and water. Whisky https://www.thecocktaildb.com/images/ingredients/Whisky-Small.png
-'latin-1' codec can't encode character '\u2013' in position 1941: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 1936: ordinal not in range(256)
 Error: failed executing/committing query
 Guinness stout 254 Guinness (/ˈɡɪnɪs/) is an Irish dry stout that originated in the brewery of Arthur Guinness (1725–1803) at St. James's Gate brewery in the capital city of Dublin, Ireland. Guinness, produced by the Diageo beverages company, is one of the most successful beer brands worldwide. It is brewed in almost 50 countries and is available in over 120. Annual sales total of Guinness in 2011 was 850 million litres (220,000,000 US gal).
 
@@ -1087,7 +1087,7 @@ Guinness features a burnt flavour that is derived from malted barley and roasted
 
 
 The company was started in 1759 in Dublin, but had to move its headquarters to London at the beginning of the Anglo-Irish Trade War in 1932. In 1997, Guinness plc merged with Grand Metropolitan to form the multinational alcoholic drinks producer Diageo. stout https://www.thecocktaildb.com/images/ingredients/Guinness stout-Small.png
-'latin-1' codec can't encode characters in position 67-69: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 62-64: ordinal not in range(256)
 Error: failed executing/committing query
 Vanilla ice-cream 503 None None https://www.thecocktaildb.com/images/ingredients/Vanilla ice-cream-Small.png
 Chambord raspberry liqueur 96 Chambord Liqueur (pronounced [ʃɑ̃.bɔʁ]) is a 16.5% abv raspberry liqueur modelled after a liqueur produced in the Loire Valley of France during the late 17th century. The Chambord product brand has been owned and produced by the Brown-Forman Corporation since 2006.
@@ -1115,7 +1115,7 @@ After the infusion is extracted, a second set of spirits is added to the fruit a
 
 
 Common drinks made from Chambord include the Raspberry Margarita, French Manhattan, Butler Miller (Chambord Vodka Gimlet), Kir Impérial (Chambord and champagne), Chambord Daiquiri, Chambord Royal Spritzer, Lemonado (Vodka, lemonade and splash of Chambord), Little Purple Men, The Purple Hooter Shooter, Sour Grapes, Black Opal, Peanut Butter and Jelly (with Frangelico or Castries Peanut Cream), Grape Crush, the "Blood of Christ", Grateful Dead, and the French Martini . The French Martini started the "cocktails as a Martini" craze. Liqueur https://www.thecocktaildb.com/images/ingredients/Chambord raspberry liqueur-Small.png
-'latin-1' codec can't encode characters in position 97-99: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 93-95: ordinal not in range(256)
 Error: failed executing/committing query
 Jim Beam 279 None None https://www.thecocktaildb.com/images/ingredients/Jim Beam-Small.png
 Godiva liqueur 232 None None https://www.thecocktaildb.com/images/ingredients/Godiva liqueur-Small.png
@@ -1136,7 +1136,7 @@ According to the manufacturer, no preservatives are required as the alcohol cont
 Zima 535 Zima Clearmalt is a clear, lightly carbonated alcoholic beverage, that was made and distributed by the Coors Brewing Company. Introduced in 1993, it was marketed as an alternative to beer, an example of what is now often referred to as a cooler, with 4.7%–5.4% alcohol by volume. Its production in the United States ceased in October 2008, but it is still marketed in Japan. MillerCoors announced on June 2, 2017 that there would be a limited release of Zima. It is currently for sale for a limited time. Due to the success of the 2017 rerelease, it is likely MillerCoor will be bringing the drink back for summer 2018, but in much larger quantities.
 
  beverage https://www.thecocktaildb.com/images/ingredients/Zima-Small.png
-'latin-1' codec can't encode character '\u2013' in position 301: ordinal not in range(256)
+'latin-1' codec can't encode character '\u2013' in position 296: ordinal not in range(256)
 Error: failed executing/committing query
 Blue Curacao 67 Curaçao (/ˈkjʊərəsaʊ/) is a liqueur flavored with the dried peel of the Laraha citrus fruit, grown on the island of Curaçao.
 
@@ -1151,7 +1151,7 @@ There are no definite facts that points out who and when the first Curaçao Liqu
 
 
 Alternatively, the Senior & Co, a company that originates from Curaçao, are to this day the only company that always produced their liqueur with the peels of the Laraha. The Jewish family, Senior and Chumacairo, started selling their liqueur in 1896 in their pharmacy at small quantities. In 1947 they bought the Landhuis (Dutch for "country manor") Chobolobo in Willemstad, where the distillery has since been housed. As this company is the only one who uses laraha fruit from Curaçao, it has been permitted to put the word "genuine" on its labels. Liqueur https://www.thecocktaildb.com/images/ingredients/Blue Curacao-Small.png
-'latin-1' codec can't encode character '\u02c8' in position 63: ordinal not in range(256)
+'latin-1' codec can't encode character '\u02c8' in position 59: ordinal not in range(256)
 Error: failed executing/committing query
 Coca-Cola 128 Coca-Cola, or Coke, is a carbonated soft drink[1] produced by The Coca-Cola Company. Originally intended as a patent medicine, it was invented in the late 19th century by John Pemberton and was bought out by businessman Asa Griggs Candler, whose marketing tactics led Coca-Cola to its dominance of the world soft-drink market throughout the 20th century. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves. The current formula of Coca-Cola remains a trade secret, although a variety of reported recipes and experimental recreations have been published.
 
@@ -1183,7 +1183,7 @@ Prosecco DOC is produced in nine provinces spanning the Veneto and Friuli Venezi
 
 
 Prosecco is the main ingredient of the Bellini cocktail and can be a less expensive substitute for Champagne. It is also a key ingredient of spritz, a cocktail popular in northern Italy. Wine https://www.thecocktaildb.com/images/ingredients/Prosecco-Small.png
-'latin-1' codec can't encode characters in position 63-64: ordinal not in range(256)
+'latin-1' codec can't encode characters in position 58-59: ordinal not in range(256)
 Error: failed executing/committing query
 White Rum 523 Rum is a distilled alcoholic beverage made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.
 
