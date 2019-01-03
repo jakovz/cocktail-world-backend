@@ -51,7 +51,7 @@ def fill_drinks():
             strInstructions = drinkDetails['strInstructions']
             strDrinkThumb = drinkDetails['strDrinkThumb']
             print(idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
-            # DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
+            DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
 
             # fill cocktails_ingredients table 
             for i in range(1, 13):
@@ -117,7 +117,7 @@ def fill_meals():
             strTags = mealsDetails['strTags']
             strYoutube = mealsDetails['strYoutube']
             print(idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
-            # DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
+            DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
 
             # fill cocktails_ingredients table 
             for i in range(1, 20):
@@ -132,7 +132,7 @@ def fill_meals():
                     print(i, measure)
                 if ingredientIsNotNull:
                     print(i, idMeal, mealsIngredient, measure)
-                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'meals_ingredients', idMeal, mealsIngredient, measure)
+                    DBConnection.execute_query(InsertCocktailsIngredientsQuery, 'meal_ingredients', idMeal, mealsIngredient, measure)
 
 
 def fill_meals_ingredients():
