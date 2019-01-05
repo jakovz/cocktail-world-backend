@@ -41,6 +41,7 @@ def get_cocktail_amount_by_glass_categories():
     if 'categories' not in request.args:
         return
     categories = request.args.get('categories')
+    categories = json.loads(categories)
     glass_categories = DBConnection.execute_query(
         queries.query_cocktail_amount_by_glass_categories(categories, True))
     return json.dumps(glass_categories)
@@ -63,6 +64,7 @@ def get_categories_by_average_number_of_ingredients():
     if 'categories' not in request.args:
         return
     categories = request.args.get('categories')
+    categories = json.loads(categories)
     categories_by_avg_ingredients = DBConnection.execute_query(
         queries.query_categories_by_average_number_of_ingredients(categories))
     return json.dumps(categories_by_avg_ingredients)
