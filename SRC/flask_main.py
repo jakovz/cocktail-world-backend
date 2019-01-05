@@ -25,9 +25,16 @@ def get_ingredients():
 @app.route('/cocktail_categories')
 def get_cocktail_categories():
     cocktail_categories = DBConnection.execute_query(queries.get_drinks_categories())
-    print(cocktail_categories)
     cocktail_categories = [category['category'] for category in json.loads(cocktail_categories)]
     categories_dict = {"allowed_cocktail_categories": cocktail_categories}
+    return json.dumps(categories_dict)
+
+
+@app.route('/glass_types')
+def get_glass_categories():
+    glass_categories = DBConnection.execute_query(queries.get_glasses_types())
+    glass_categories = [category['glass_type'] for category in json.loads(glass_categories)]
+    categories_dict = {"glass_types": glass_categories}
     return json.dumps(categories_dict)
 
 
@@ -44,13 +51,20 @@ def get_cocktail_amount_by_glass_categories():
     categories = json.loads(categories)
     glass_categories = DBConnection.execute_query(
         queries.query_cocktail_amount_by_glass_categories(categories, True))
-    return json.dumps(glass_categories)
+    glass_categories_dict = {'categories_count': glass_categories}
+    return json.dumps(glass_categories_dict)
 
 
 @app.route('/ingredients_difference')
 def get_ingredients_difference():
-    ingredients_difference = DBConnection.execute_query(queries.query_ingredients_difference(10, 10))
-    return json.dumps()
+    if ('different_drinks' not in request.args) or ('ingredients_in_drink' not in request.args):
+        return
+    different_drinks = request.args.get('different_drink')
+    ingredients_in_drink = request.args.get('ingredients_in_drink')
+    ingredients_difference = DBConnection.execute_query(
+        queries.query_ingredients_difference(different_drinks, ingredients_in_drink))
+    ingredients_difference_dict = {'ingredients': ingredients_difference}
+    return json.dumps(ingredients_difference_dict)
 
 
 @app.route('/most_used_non_alcoholic')
@@ -67,7 +81,8 @@ def get_categories_by_average_number_of_ingredients():
     categories = json.loads(categories)
     categories_by_avg_ingredients = DBConnection.execute_query(
         queries.query_categories_by_average_number_of_ingredients(categories))
-    return json.dumps(categories_by_avg_ingredients)
+    categories_dict = {'categories': categories_by_avg_ingredients}
+    return json.dumps(categories_dict)
 
 
 @app.route('/easy_to_make_from_category')
