@@ -40,17 +40,26 @@ def get_glass_categories():
 
 @app.route('/calories_alcoholic')
 def get_calories_alcoholic():
-    pass
+    if ('range_from' not in request.args) or ('range_to' not in request.args):
+        return
+    range_from = request.args.get('range_from')
+    range_to = request.args.get('range_to')
+    glass_categories = DBConnection.execute_query(
+        queries.query_calories_alcoholic(range_from, range_to))
+    glass_categories_dict = {'categories_count': glass_categories}
+    return json.dumps(glass_categories_dict)
 
 
 @app.route('/cocktail_amount_by_glass_categories')
 def get_cocktail_amount_by_glass_categories():
-    if 'categories' not in request.args:
+    if ('categories' not in request.args) or ('glass_type' not in request.args) or ('is_alcoholic' not in request.args):
         return
     categories = request.args.get('categories')
     categories = json.loads(categories)
+    glass_type = request.args.get('glass_type')
+    is_alcoholic = request.args.get('is_alcoholic')
     glass_categories = DBConnection.execute_query(
-        queries.query_cocktail_amount_by_glass_categories(categories, True))
+        queries.query_cocktail_amount_by_glass_categories(categories, is_alcoholic, glass_type))
     glass_categories_dict = {'categories_count': glass_categories}
     return json.dumps(glass_categories_dict)
 
@@ -102,7 +111,13 @@ def full_text_search():
 
 @app.route('/common_ingredients')
 def common_ingredients():
-    pass
+    if ('common_ingredients' not in request.args):
+        return
+    common_ingredients = request.args.get('common_ingredients')
+    common_ingredients_db = DBConnection.execute_query(queries.query_common_ingredients(common_ingredients))
+
+    common_ingredients_dict = {"allowed_cocktail_categories": common_ingredients_db}
+    return json.dumps(common_ingredients_dict)
 
 
 if __name__ == '__main__':
