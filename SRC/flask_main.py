@@ -29,6 +29,7 @@ def get_cocktail_categories():
     categories_dict = {"allowed_cocktail_categories": cocktail_categories}
     return json.dumps(categories_dict)
 
+
 @app.route('/meal_categories')
 def get_meal_categories():
     cocktail_categories = DBConnection.execute_query(queries.get_meal_categories())
@@ -100,11 +101,12 @@ def get_categories_by_average_number_of_ingredients():
 def get_easy_to_make_from_category():
     if ('cocktail_categories' not in request.args) or ('meal_categories' not in request.args):
         return
-    cocktail_categories = request.args.get('cocktail_categories')
-    meal_categories = request.args.get('meal_categories')
-    glass_categories = DBConnection.execute_query(queries.query_easy_to_make_from_category(meal_categories, cocktail_categories))
-    print(glass_categories)
-    return json.dumps(glass_categories)
+    cocktail_categories = json.loads(request.args.get('cocktail_categories'))
+    meal_categories = json.loads(request.args.get('meal_categories'))
+    glass_categories = DBConnection.execute_query(
+        queries.query_easy_to_make_from_category(meal_categories, cocktail_categories))
+    glass_categories_dict = {'drinks_meals': glass_categories}
+    return json.dumps(glass_categories_dict)
 
 
 @app.route('/full_text_search')
