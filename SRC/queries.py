@@ -77,7 +77,7 @@ def query_categories_by_average_number_of_ingredients(categories):
                 ORDER BY amount DESC"""
 
 
-def query_cocktail_amount_by_glass_categories(categories, alcoholic):
+def query_cocktail_amount_by_glass_categories(categories, alcoholic, glass_type):
     categories_str = ""
     for i, category in enumerate(categories):
         if i != 0:
@@ -88,11 +88,44 @@ def query_cocktail_amount_by_glass_categories(categories, alcoholic):
     return f"""SELECT drinks.category, count(*) as amount
                 FROM drinks
                 WHERE drinks.is_alcoholic = "{alcoholic_str}" AND
-                        drinks.category IN ({categories_str})
+                drinks.category IN ({categories_str}) AND
+                drinks.glass_type = "{glass_type}"
                 GROUP BY drinks.category
                 ORDER BY amount 
                 DESC"""
 
+
+def query_common_ingredients(common_ingredients):
+    return f"""SELECT drinks.name AS drink_name, drinks.drink_img_url, meals.name AS meal_name, meals.meal_img_url
+                FROM drinks, meals, (SELECT DISTINCT cocktails_ingredients.cocktail_id AS drink_id, meal_ingredients.meal_id AS meal_id
+                FROM cocktails_ingredients, meal_ingredients
+                WHERE cocktails_ingredients.ingredient_name = meal_ingredients.ingredient_name
+                GROUP BY cocktails_ingredients.cocktail_id, meal_ingredients.meal_id
+                HAVING count(*) >= {common_ingredients}) as T1
+                WHERE drinks.id = T1.drink_id AND meals.id = T1.meal_id 
+                """
+
+
+def query_calories_alcoholic(range_from, range_to):
+    return f"""SELECT drinks.name AS drink_name, drinks.drink_img_url, meals.name AS meal_name, meals.meal_img_url
+                FROM drinks, meals, (SELECT cocktail_T.drink_id, meal_T.meal_id, (cocktail_T.drink_cal + meal_T.meal_cal) AS total_cal
+                FROM(SELECT drinks.id AS drink_id, SUM(cocktails_ingredients.measure * ingredients.calories) AS drink_cal
+                FROM cocktails_ingredients, drinks, ingredients
+                WHERE drinks.id = cocktails_ingredients.cocktail_id AND 
+                cocktails_ingredients.ingredient_name = ingredients.ingredient_name 
+                GROUP BY drinks.id 
+                HAVING SUM(cocktails_ingredients.measure * ingredients.calories) >= {range_from} AND
+                SUM(cocktails_ingredients.measure * ingredients.calories) <= {range_to}) AS cocktail_T,	 		  
+                (SELECT meals.id AS meal_id, SUM(meal_ingredients.measure * ingredients.calories) AS meal_cal
+                FROM meal_ingredients, meals, ingredients
+                WHERE meals.id = meal_ingredients.meal_id AND 
+                meal_ingredients.ingredient_name = ingredients.ingredient_name
+                GROUP BY meals.id 
+                HAVING SUM(meal_ingredients.measure * ingredients.calories) >= {range_from} AND
+                SUM(meal_ingredients.measure * ingredients.calories) <= {range_to})  AS meal_T
+                WHERE (cocktail_T.drink_cal + meal_T.meal_cal) >= {range_from} AND (cocktail_T.drink_cal + meal_T.meal_cal) <= {range_to}) AS T_cal
+                WHERE T_cal.drink_id = drinks.id AND T_cal.meal_id = meals.id
+                """
 
 def get_drinks_categories():
     return "SELECT DISTINCT drinks.category FROM drinks"
