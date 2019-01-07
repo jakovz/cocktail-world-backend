@@ -13,7 +13,7 @@ def get_cocktails_by_ingredients(ingredients):
 
 
 def query_ingredients_difference(cocktails_commonness, ingredient_commonness):
-    return f"""SELECT DISTINCT ingredients.name, ingredients.ingredient_img_url
+    return f"""SELECT DISTINCT ingredients.ingredient_name, ingredients.ingredient_img_url
                 FROM ingredients, (SELECT DISTINCT cocktails_ingredients.ingredient_name AS name
                 FROM cocktails_ingredients
                 WHERE cocktails_ingredients.cocktail_id IN (SELECT cocktail_view.id
@@ -26,7 +26,7 @@ def query_ingredients_difference(cocktails_commonness, ingredient_commonness):
                 FROM cocktails_ingredients
                 GROUP BY name
                 HAVING count>={ingredient_commonness}) AS ingredient_view)) AS T
-                WHERE T.name=ingredients.name"""
+                WHERE T.name=ingredients.ingredient_name"""
 
 
 def query_most_used_non_alcoholic():

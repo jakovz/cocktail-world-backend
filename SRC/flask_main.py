@@ -40,6 +40,8 @@ def get_glass_categories():
 
 @app.route('/calories_alcoholic')
 def get_calories_alcoholic():
+    # the key for the dictionary should be "drinks_meals"
+    #  {"drinks_meals":[{"drink_name":"", "drink_img":"", "meal_name":"", "meal_img":""}, ... ]}
     pass
 
 
@@ -59,7 +61,7 @@ def get_cocktail_amount_by_glass_categories():
 def get_ingredients_difference():
     if ('different_drinks' not in request.args) or ('ingredients_in_drink' not in request.args):
         return
-    different_drinks = request.args.get('different_drink')
+    different_drinks = request.args.get('different_drinks')
     ingredients_in_drink = request.args.get('ingredients_in_drink')
     ingredients_difference = DBConnection.execute_query(
         queries.query_ingredients_difference(different_drinks, ingredients_in_drink))
@@ -70,6 +72,7 @@ def get_ingredients_difference():
 @app.route('/most_used_non_alcoholic')
 def get_most_used_non_alcoholic():
     most_used_glass = DBConnection.execute_query(queries.query_most_used_non_alcoholic())
+    print(most_used_glass)
     return json.dumps(most_used_glass)
 
 
@@ -87,12 +90,14 @@ def get_categories_by_average_number_of_ingredients():
 
 @app.route('/easy_to_make_from_category')
 def get_easy_to_make_from_category():
-    if ('cocktail_categoris' not in request.args) or ('meal_categories' not in request.args):
+    if ('cocktail_categories' not in request.args) or ('meal_categories' not in request.args):
         return
     cocktail_categories = request.args.get('cocktail_categories')
     meal_categories = request.args.get('meal_categories')
+    print("before the query")
     glass_categories = DBConnection.execute_query(queries.query_easy_to_make_from_category("Beef", "Shot"))
-    return json.dumps('')
+    print(glass_categories)
+    return json.dumps(glass_categories)
 
 
 @app.route('/full_text_search')
