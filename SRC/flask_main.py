@@ -102,8 +102,7 @@ def get_easy_to_make_from_category():
         return
     cocktail_categories = request.args.get('cocktail_categories')
     meal_categories = request.args.get('meal_categories')
-    print("before the query")
-    glass_categories = DBConnection.execute_query(queries.query_easy_to_make_from_category("Beef", "Shot"))
+    glass_categories = DBConnection.execute_query(queries.query_easy_to_make_from_category(meal_categories, cocktail_categories))
     print(glass_categories)
     return json.dumps(glass_categories)
 
