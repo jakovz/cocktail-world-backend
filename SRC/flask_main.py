@@ -29,6 +29,13 @@ def get_cocktail_categories():
     categories_dict = {"allowed_cocktail_categories": cocktail_categories}
     return json.dumps(categories_dict)
 
+@app.route('/meal_categories')
+def get_meal_categories():
+    cocktail_categories = DBConnection.execute_query(queries.get_meal_categories())
+    cocktail_categories = [category['category'] for category in json.loads(cocktail_categories)]
+    categories_dict = {"allowed_meal_categories": cocktail_categories}
+    return json.dumps(categories_dict)
+
 
 @app.route('/glass_types')
 def get_glass_categories():
@@ -72,9 +79,9 @@ def get_ingredients_difference():
 
 @app.route('/most_used_non_alcoholic')
 def get_most_used_non_alcoholic():
-    most_used_glass = DBConnection.execute_query(queries.query_most_used_non_alcoholic())
-    print(most_used_glass)
-    return json.dumps(most_used_glass)
+    most_used_glass_drinks = DBConnection.execute_query(queries.query_most_used_non_alcoholic())
+    most_used_dict = {'drinks': most_used_glass_drinks, 'glass': json.loads(most_used_glass_drinks)[0]['glass_type']}
+    return json.dumps(most_used_dict)
 
 
 @app.route('/categories_by_average_number_of_ingredients')
