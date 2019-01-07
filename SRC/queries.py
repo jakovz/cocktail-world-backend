@@ -10,6 +10,11 @@ def makes_str_list_for_query(list_to_str):
         str += "\""+list_to_str[i]+"\""
     return str
 
+def get_meal(meal):
+    return f"""SELECT * FROM meals WHERE meals.name='{meal}'"""
+
+def get_drink(drink):
+    return f"""SELECT * FROM drinks WHERE drinks.name='{drink}'"""
 
 def get_cocktails_by_ingredients(ingredients):
     cocktails_by_ingredients = "SELECT DISTINCT drinks.name, drinks.drink_img_url " \

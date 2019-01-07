@@ -38,6 +38,30 @@ def get_meal_categories():
     return json.dumps(categories_dict)
 
 
+@app.route('/drink')
+def get_drink():
+    if 'drink_name' not in request.args:
+        return
+    drink = request.args.get('drink_name')
+    drink = json.loads(drink)
+    print(queries.get_drink(drink))
+    drink_details = DBConnection.execute_query(queries.get_drink(drink))
+    drink_details_dict = {"drink": drink_details}
+    print(drink_details_dict)
+    return json.dumps(drink_details_dict)
+
+@app.route('/meal')
+def get_meal():
+    if 'meal_name' not in request.args:
+        return
+    meal = request.args.get('meal_name')
+    meal = json.loads(meal)
+    print(queries.get_drink(meal))
+    drink_details = DBConnection.execute_query(queries.get_meal(meal))
+    drink_details_dict = {"meal": drink_details}
+    print(drink_details_dict)
+    return json.dumps(drink_details_dict)
+
 @app.route('/glass_types')
 def get_glass_categories():
     glass_categories = DBConnection.execute_query(queries.get_glasses_types())
