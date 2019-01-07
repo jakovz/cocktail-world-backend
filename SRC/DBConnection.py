@@ -4,8 +4,8 @@ import MySQLdb as mdb
 from sshtunnel import SSHTunnelForwarder
 import simplejson as json
 
-MOODLE_USERNAME = 'jakovz'
-MOODLE_PASSWORD = 'Ja112414'
+MOODLE_USERNAME = ''
+MOODLE_PASSWORD = ''
 
 serverName = 'mysqlsrv1.cs.tau.ac.il'
 user = 'DbMysql03'

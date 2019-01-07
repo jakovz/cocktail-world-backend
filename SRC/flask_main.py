@@ -47,12 +47,13 @@ def get_calories_alcoholic():
 
 @app.route('/cocktail_amount_by_glass_categories')
 def get_cocktail_amount_by_glass_categories():
-    if 'categories' not in request.args:
+    if ('categories' not in request.args) or ('glass_type' not in request.args):
         return
     categories = request.args.get('categories')
+    glass_type = request.args.get('glass_type')
     categories = json.loads(categories)
     glass_categories = DBConnection.execute_query(
-        queries.query_cocktail_amount_by_glass_categories(categories, True))
+        queries.query_cocktail_amount_by_glass_categories(categories, True, glass_type))
     glass_categories_dict = {'categories_count': glass_categories}
     return json.dumps(glass_categories_dict)
 
