@@ -2,6 +2,15 @@ all_ingredient_names = "SELECT ingredients.name FROM ingredients"
 all_cocktails = "SELECT * FROM drinks"
 
 
+def makes_str_list_for_query(list_to_str):
+    str = ""
+    for i, element in enumerate(list_to_str):
+        if i != 0:
+            str += ", "
+        str += "\""+element+"\""
+    return str
+
+
 def get_cocktails_by_ingredients(ingredients):
     cocktails_by_ingredients = "SELECT DISTINCT drinks.name, drinks.drink_img_url " \
                                "FROM drinks, cocktails_ingredients,ingredients " \
@@ -48,24 +57,22 @@ def query_most_used_non_alcoholic():
 
 
 def query_easy_to_make_from_category(food_category, drink_category):
-    return f"""SELECT *
-                FROM (SELECT *
+    food_category_str = makes_str_list_for_query(food_category)
+    drink_category_str = makes_str_list_for_query(drink_category)
+    return f"""SELECT drink_name, drink_img_url, meal_name, meal_img_url
+                FROM (SELECT drinks.name AS drink_name, drinks.drink_img_url
                 FROM drinks
                 WHERE LENGTH(drinks.instructions)<=50
-                AND drinks.category = "{drink_category}") AS T1,
-                (SELECT *
+                AND drinks.category IN ({drink_category_str})) AS T1,
+                (SELECT meals.name AS meal_name, meals.meal_img_url
                 FROM meals
                 WHERE LENGTH(meals.instructions)<=10000
-                AND meals.category = "{food_category}") AS T2
+                AND meals.category IN ({food_category_str})) AS T2
                 """
 
 
 def query_categories_by_average_number_of_ingredients(categories):
-    categories_str = ""
-    for i, category in enumerate(categories):
-        if i != 0:
-            categories_str += ", "
-        categories_str += "\""+categories[i]+"\""
+    categories_str = makes_str_list_for_query(categories)
 
     return f"""SELECT drinks.category, AVG(T1.amount) as amount
                 FROM drinks, (SELECT cocktails_ingredients.cocktail_id AS id, COUNT(*) AS amount
@@ -78,11 +85,7 @@ def query_categories_by_average_number_of_ingredients(categories):
 
 
 def query_cocktail_amount_by_glass_categories(categories, alcoholic, glass_type):
-    categories_str = ""
-    for i, category in enumerate(categories):
-        if i != 0:
-            categories_str += ", "
-        categories_str += "\""+categories[i]+"\""
+    categories_str = makes_str_list_for_query(categories);
 
     alcoholic_str = "Alcoholic" if alcoholic else "Non alcoholic"
     return f"""SELECT drinks.category, count(*) as amount
