@@ -7,7 +7,7 @@ def makes_str_list_for_query(list_to_str):
     for i, element in enumerate(list_to_str):
         if i != 0:
             str += ", "
-        str += "\""+element+"\""
+        str += "\""+element[i]+"\""
     return str
 
 
