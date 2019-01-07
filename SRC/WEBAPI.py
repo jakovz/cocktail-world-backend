@@ -2,6 +2,7 @@
 import json
 import requests
 import DBConnection
+import csv
 
 LIST_INGREDIENTS_URL = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 DRINK_BY_ID_URL = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
@@ -43,17 +44,17 @@ def fill_drinks():
         drinkJson = drinkRequest.json()
         for drinkDetails in drinkJson['drinks']:
             idDrink = drinkDetails['idDrink']
-            strDrink = drinkDetails['strDrink']
+            strDrink = drinkDetails['strDrink'].replace("\"", "\'")
             strCategory = drinkDetails['strCategory']
             strIBA = drinkDetails['strIBA']
             strAlcoholic = drinkDetails['strAlcoholic']
             strGlass = drinkDetails['strGlass']
-            strInstructions = drinkDetails['strInstructions']
+            strInstructions = drinkDetails['strInstructions'].replace("\"", "\'").encode("latin-1", "ignore").decode("utf-8", "ignore")
             strDrinkThumb = drinkDetails['strDrinkThumb']
             print(idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
             DBConnection.execute_query(InsertDrinksQuery, 'drinks', idDrink, strDrink, strCategory, strIBA, strAlcoholic, strGlass, strInstructions, strDrinkThumb)
 
-            # fill cocktails_ingredients table 
+            fill cocktails_ingredients table 
             for i in range(1, 13):
                 ingredientIsNotNull = False
                 drinkIngredient = drinkDetails['strIngredient' + str(i)]
@@ -84,6 +85,8 @@ def fill_ingredients():
         ingredient_details = ingredient_request.json()['ingredients'][0]
         ingredient_id = ingredient_details['idIngredient']
         ingredient_description = ingredient_details['strDescription']
+        if ingredient_description is not None:
+            ingredient_description = ingredient_description.replace("\"", "\'").encode("latin-1", "ignore").decode("utf-8", "ignore")
         ingredient_type = ingredient_details['strType']
         ingredient_img_url = INGREDIENT_IMG_URL % ingredient_name
         print(ingredient_name, ingredient_id, ingredient_description, ingredient_type, ingredient_img_url)
@@ -112,14 +115,14 @@ def fill_meals():
             strMeal = mealsDetails['strMeal']
             strCategory = mealsDetails['strCategory']
             strArea = mealsDetails['strArea']
-            strInstructions = mealsDetails['strInstructions']
+            strInstructions = mealsDetails['strInstructions'].replace("\"", "\'").encode("latin-1", "ignore").decode("utf-8", "ignore")
             strMealThumb = mealsDetails['strMealThumb']
             strTags = mealsDetails['strTags']
             strYoutube = mealsDetails['strYoutube']
             print(idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
             DBConnection.execute_query(InsertMealsQuery, 'meals', idMeal, strMeal, strCategory, strArea, strInstructions, strMealThumb, strTags, strYoutube)
 
-            # fill cocktails_ingredients table 
+            # fill meals_ingredients table 
             for i in range(1, 20):
                 ingredientIsNotNull = False
                 mealsIngredient = mealsDetails['strIngredient' + str(i)]
@@ -141,6 +144,8 @@ def fill_meals_ingredients():
         ingredient_name = ingredient['strIngredient']
         ingredient_id = ingredient['idIngredient']
         ingredient_description = ingredient['strDescription']
+        if ingredient_description is not None:
+            ingredient_description = ingredient_description.replace("\"", "\'").encode("latin-1", "ignore").decode("utf-8", "ignore")
         ingredient_type = ingredient['strType']
         ingredient_img_url = MEALS_INGREDIENT_IMG_URL % ingredient_name
         print(ingredient_name, ingredient_id, ingredient_description, ingredient_type, ingredient_img_url)
@@ -155,6 +160,36 @@ def fill_food_categories():
         category_img_url = category['strCategoryThumb']
         print(category_name, category_id, category_description, category_img_url)
         DBConnection.execute_query(InsertFoodCategoryQuery, 'food_categories', category_id, category_name, category_img_url, category_description)
+
+def fill_ingredients_calories():
+    products = {}
+    with open('en.openfoodfacts.org.products.csv', encoding="utf8", errors='ignore') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter='\t')
+        for row in csv_reader:
+            # print(row[7]) # product_name
+            # print(row[68]) # energy_100g (kj)
+            try:
+                products[row[7]] = row[68]
+            except Exception as e:
+                    print(e)
+
+    ingredient_list = DBConnection.execute_query("SELECT ingredient_name FROM ingredients")
+    ingredient_json = json.loads(ingredient_list)
+    for ingredient in ingredient_json:
+        ingredient_name = ingredient["ingredient_name"]
+        print(ingredient_name)
+        calories = products.get(ingredient_name)
+        if calories is None or calories is '' or calories is ' ' or calories is '\n' or calories is '\r\n':
+            for key, value in products.items():
+                    if ingredient_name in key: 
+                        calories = value
+                        if calories is not '' and calories is not None and calories is not ' ' or calories is not '\n' or calories is not '\r\n':
+                            break
+        print(calories)
+        try:
+            DBConnection.execute_query("UPDATE %s SET calories = \"%s\" WHERE ingredient_name = \"%s\"", "ingredients", calories, ingredient_name)
+        except Exception as e:
+            print(e)
 
 
 if __name__ == '__main__':
