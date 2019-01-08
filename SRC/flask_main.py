@@ -29,6 +29,7 @@ def get_cocktail_categories():
     categories_dict = {"allowed_cocktail_categories": cocktail_categories}
     return json.dumps(categories_dict)
 
+
 @app.route('/meal_categories')
 def get_meal_categories():
     cocktail_categories = DBConnection.execute_query(queries.get_meal_categories())
@@ -36,6 +37,30 @@ def get_meal_categories():
     categories_dict = {"allowed_meal_categories": cocktail_categories}
     return json.dumps(categories_dict)
 
+
+@app.route('/drink')
+def get_drink():
+    if 'drink_name' not in request.args:
+        return
+    drink = request.args.get('drink_name')
+    drink = json.loads(drink)
+    print(queries.get_drink(drink))
+    drink_details = DBConnection.execute_query(queries.get_drink(drink))
+    drink_details_dict = {"drink": drink_details}
+    print(drink_details_dict)
+    return json.dumps(drink_details_dict)
+
+@app.route('/meal')
+def get_meal():
+    if 'meal_name' not in request.args:
+        return
+    meal = request.args.get('meal_name')
+    meal = json.loads(meal)
+    print(queries.get_drink(meal))
+    drink_details = DBConnection.execute_query(queries.get_meal(meal))
+    drink_details_dict = {"meal": drink_details}
+    print(drink_details_dict)
+    return json.dumps(drink_details_dict)
 
 @app.route('/glass_types')
 def get_glass_categories():
@@ -49,18 +74,34 @@ def get_glass_categories():
 def get_calories_alcoholic():
     # the key for the dictionary should be "drinks_meals"
     #  {"drinks_meals":[{"drink_name":"", "drink_img":"", "meal_name":"", "meal_img":""}, ... ]}
-    pass
+    if ('range_from' not in request.args) or ('range_to' not in request.args) or ('alcoholic' not in request.args):
+        return
+    range_from = request.args.get('range_from')
+    range_to = request.args.get('range_to')
+    alcoholic = request.args.get('alcoholic')
+    range_from = json.loads(range_from)
+    range_to = json.loads(range_to)
+    alcoholic = json.loads(alcoholic)
+    alcoholic = True if alcoholic == 'alcoholic' else False
+    glass_categories = DBConnection.execute_query(
+        queries.query_calories_alcoholic(range_from, range_to)) # TODO: should add alcoholic parameter
+    glass_categories_dict = {'drinks': glass_categories}
+    return json.dumps(glass_categories_dict)
 
 
 @app.route('/cocktail_amount_by_glass_categories')
 def get_cocktail_amount_by_glass_categories():
-    if ('categories' not in request.args) or ('glass_type' not in request.args):
+    if ('categories' not in request.args) or ('glass_type' not in request.args) or ('filter_type' not in request.args):
         return
     categories = request.args.get('categories')
     glass_type = request.args.get('glass_type')
+    alcoholic = request.args.get('filter_type')
     categories = json.loads(categories)
+    glass_type = json.loads(glass_type)
+    alcoholic = json.loads(alcoholic)
+    alcoholic = True if alcoholic == 'alcoholic' else False
     glass_categories = DBConnection.execute_query(
-        queries.query_cocktail_amount_by_glass_categories(categories, True, glass_type))
+        queries.query_cocktail_amount_by_glass_categories(categories, alcoholic, glass_type))
     glass_categories_dict = {'categories_count': glass_categories}
     return json.dumps(glass_categories_dict)
 
@@ -100,21 +141,37 @@ def get_categories_by_average_number_of_ingredients():
 def get_easy_to_make_from_category():
     if ('cocktail_categories' not in request.args) or ('meal_categories' not in request.args):
         return
-    cocktail_categories = request.args.get('cocktail_categories')
-    meal_categories = request.args.get('meal_categories')
-    glass_categories = DBConnection.execute_query(queries.query_easy_to_make_from_category(meal_categories, cocktail_categories))
-    print(glass_categories)
-    return json.dumps(glass_categories)
+    cocktail_categories = json.loads(request.args.get('cocktail_categories'))
+    meal_categories = json.loads(request.args.get('meal_categories'))
+    glass_categories = DBConnection.execute_query(
+        queries.query_easy_to_make_from_category(meal_categories, cocktail_categories))
+    glass_categories_dict = {'drinks_meals': glass_categories}
+    return json.dumps(glass_categories_dict)
 
 
 @app.route('/full_text_search')
 def full_text_search():
-    pass
+    # to be completed
+    if 'query' not in request.args:
+        return
+    common_ingredients = json.loads(request.args.get('common_ingredients'))
+    common_ingredients = DBConnection.execute_query(
+        queries.query_common_ingredients(common_ingredients))
+    print(common_ingredients)
+    common_ingredients_dict = {'common_ingredients': common_ingredients}
+    return json.dumps(common_ingredients_dict)
 
 
 @app.route('/common_ingredients')
 def common_ingredients():
-    pass
+    if 'common_ingredients' not in request.args:
+        return
+    common_ingredients = json.loads(request.args.get('common_ingredients'))
+    common_ingredients = DBConnection.execute_query(
+        queries.query_common_ingredients(common_ingredients))
+    print(common_ingredients)
+    common_ingredients_dict = {'common_ingredients': common_ingredients}
+    return json.dumps(common_ingredients_dict)
 
 
 if __name__ == '__main__':
