@@ -120,7 +120,6 @@ def query_full_text_search(words_for_search):
         if i != 0:
             str += ", "
         str += word
-    return str
     return f"""SELECT name, img_url, instructions
                 FROM ((SELECT drinks.name, drinks.drink_img_url AS img_url, drinks.instructions	 
                 FROM drinks
