@@ -90,7 +90,7 @@ def query_categories_by_average_number_of_ingredients(categories):
 
 
 def query_cocktail_amount_by_glass_categories(categories, alcoholic, glass_type):
-    categories_str = makes_str_list_for_query(categories);
+    categories_str = makes_str_list_for_query(categories)
 
     alcoholic_str = "Alcoholic" if alcoholic else "Non alcoholic"
     return f"""SELECT drinks.category, count(*) as amount
@@ -112,6 +112,44 @@ def query_common_ingredients(common_ingredients):
                 HAVING count(*) >= {common_ingredients}) as T1
                 WHERE drinks.id = T1.drink_id AND meals.id = T1.meal_id 
                 """
+
+
+def query_full_text_search(words_for_search):
+    str = ""
+    for i, word in enumerate(words_for_search):
+        if i != 0:
+            str += ", "
+        str += word
+    return str
+    return f"""SELECT name, img_url, instructions
+                FROM ((SELECT drinks.name, drinks.drink_img_url AS img_url, drinks.instructions	 
+                FROM drinks
+                WHERE MATCH(instructions) AGAINST('{str}'))
+                UNION
+                (SELECT meals.name, meals.meal_img_url AS img_url, meals.instructions
+                FROM meals
+                WHERE MATCH(instructions) AGAINST('{str}'))
+                ) T_combine
+                """
+
+
+def query_ingredients_per_drink(name):
+    return f"""SELECT cocktails_ingredients.ingredient_name
+                FROM cocktails_ingredients
+                WHERE cocktails_ingredients.cocktail_id IN (SELECT drinks.id 
+                FROM drinks
+                WHERE drinks.name = "{name}")
+                """
+
+def query_ingredients_per_meal(name):
+    return f"""SELECT meal_ingredients.ingredient_name
+                FROM meal_ingredients
+                WHERE meal_ingredients.meal_id IN (SELECT meals.id 
+                FROM meals
+                WHERE meals.name = "{name}")
+                """
+
+
 
 
 def query_calories_alcoholic(range_from, range_to):
