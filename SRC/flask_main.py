@@ -84,7 +84,7 @@ def get_calories_alcoholic():
     alcoholic = json.loads(alcoholic)
     alcoholic = True if alcoholic == 'alcoholic' else False
     glass_categories = DBConnection.execute_query(
-        queries.query_calories_alcoholic(range_from, range_to)) # TODO: should add alcoholic parameter
+        queries.query_calories_alcoholic(range_from, range_to, alcoholic))
     glass_categories_dict = {'drinks': glass_categories}
     return json.dumps(glass_categories_dict)
 
