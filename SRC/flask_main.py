@@ -174,5 +174,5 @@ def common_ingredients():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port="8000", debug=False)
+    app.run(host="0.0.0.0", port="30875", debug=False)
     app.run(threaded=True)  # GOOD YUVAL
