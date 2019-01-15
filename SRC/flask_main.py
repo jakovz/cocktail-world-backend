@@ -50,6 +50,7 @@ def get_drink():
     print(drink_details_dict)
     return json.dumps(drink_details_dict)
 
+
 @app.route('/meal')
 def get_meal():
     if 'meal_name' not in request.args:
@@ -61,6 +62,7 @@ def get_meal():
     drink_details_dict = {"meal": drink_details}
     print(drink_details_dict)
     return json.dumps(drink_details_dict)
+
 
 @app.route('/glass_types')
 def get_glass_categories():
@@ -172,5 +174,5 @@ def common_ingredients():
 
 
 if __name__ == '__main__':
-    app.run(debug=False, port="8000")
+    app.run(host="0.0.0.0", port="8000", debug=False)
     app.run(threaded=True)  # GOOD YUVAL
