@@ -157,7 +157,6 @@ def full_text_search():
     query = json.loads(request.args.get('query'))
     query = DBConnection.execute_query(queries.query_full_text_search(query.split(' ')))
     full_search_dic = {'drinks': query}
-    print (full_search_dic)
     return json.dumps(full_search_dic)
 
 
@@ -168,7 +167,6 @@ def common_ingredients():
     common_ingredients = json.loads(request.args.get('common_ingredients'))
     common_ingredients = DBConnection.execute_query(
         queries.query_common_ingredients(common_ingredients))
-    print(common_ingredients)
     common_ingredients_dict = {'common_ingredients': common_ingredients}
     return json.dumps(common_ingredients_dict)
 
