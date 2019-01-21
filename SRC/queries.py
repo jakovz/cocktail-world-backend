@@ -187,3 +187,13 @@ def get_meal_categories():
 
 def get_glasses_types():
     return "SELECT DISTINCT drinks.glass_type FROM drinks"
+
+
+# SELECT DISTINCT cocktails_ingredients.ingredient_name
+# FROM cocktails_ingredients
+# WHERE cocktails_ingredients.cocktail_id = 11000
+#
+#
+# SELECT DISTINCT meal_ingredients.ingredient_name
+# FROM meal_ingredients
+# WHERE meal_ingredients.meal_id = 52764
