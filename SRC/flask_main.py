@@ -50,6 +50,7 @@ def get_drink():
     print(drink_details_dict)
     return json.dumps(drink_details_dict)
 
+
 @app.route('/meal')
 def get_meal():
     if 'meal_name' not in request.args:
@@ -61,6 +62,7 @@ def get_meal():
     drink_details_dict = {"meal": drink_details}
     print(drink_details_dict)
     return json.dumps(drink_details_dict)
+
 
 @app.route('/glass_types')
 def get_glass_categories():
@@ -157,7 +159,6 @@ def full_text_search():
     query = json.loads(request.args.get('query'))
     query = DBConnection.execute_query(queries.query_full_text_search(query.split(' ')))
     full_search_dic = {'drinks': query}
-    print (full_search_dic)
     return json.dumps(full_search_dic)
 
 
@@ -168,11 +169,9 @@ def common_ingredients():
     common_ingredients = json.loads(request.args.get('common_ingredients'))
     common_ingredients = DBConnection.execute_query(
         queries.query_common_ingredients(common_ingredients))
-    print(common_ingredients)
     common_ingredients_dict = {'common_ingredients': common_ingredients}
     return json.dumps(common_ingredients_dict)
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port="8000")
-    app.run(threaded=True)  # GOOD YUVAL
+    app.run(host="0.0.0.0", port="30875", debug=False, threaded=True)
