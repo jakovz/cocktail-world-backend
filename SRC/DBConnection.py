@@ -58,4 +58,4 @@ def execute_query(query, *kargs):
 
         cur.close()
 
-    return json.dumps(json_data)
+    return json.dumps(json_data, encoding='latin-1')
