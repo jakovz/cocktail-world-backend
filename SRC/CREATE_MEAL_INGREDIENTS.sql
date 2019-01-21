@@ -1,8 +1,7 @@
 CREATE TABLE `meal_ingredients` (
-	`meal_id` INT NULL,
-	`ingredient_id` INT NULL,
-	`measure` INT NULL
+	`meal_id` INT(5) NOT NULL,
+	`ingredient_name` VARCHAR(50) NOT NULL,
+	`measure` VARCHAR(50) NULL DEFAULT NULL,
+	PRIMARY KEY (`meal_id`, `ingredient_name`),
+	INDEX `mealIngredientsIndex` (`ingredient_name`)
 )
-COMMENT='Meal_ingredients:\r\na.	meal_id\r\nb.	ingredient_id\r\nc.	measure\r\n'
-COLLATE='utf8mb4_0900_ai_ci'
-;
