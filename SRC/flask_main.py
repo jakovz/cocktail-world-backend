@@ -57,6 +57,8 @@ def get_meal():
         return
     meal = request.args.get('meal_name')
     meal = json.loads(meal)
+    meal = unicode(meal)
+    meal = meal.encode('latin-1')
     drink_details = DBConnection.execute_query(queries.get_meal(meal))
     drink_details_dict = {"meal": drink_details}
     return json.dumps(drink_details_dict)
