@@ -34,7 +34,6 @@ def get_meal_ingredients():
     meal_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
                         json.loads(meal_ingredients)]
     meal_ingredients = {"meal_ingredients": meal_ingredients}
-    print(meal_ingredients)
     return json.dumps(meal_ingredients)
 
 
