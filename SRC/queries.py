@@ -143,7 +143,7 @@ def query_ingredients_per_drink(name):
 
 
 def query_ingredients_per_meal(name):
-    return ("SELECT meal_ingredients.ingredient_name meal_ingredients.measure" +
+    return ("SELECT meal_ingredients.ingredient_name meal_ingredients.measure " +
             "FROM meal_ingredients " +
             "WHERE meal_ingredients.meal_id IN (SELECT meals.id " +
             "FROM meals " +
