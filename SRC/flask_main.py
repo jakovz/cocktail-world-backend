@@ -26,7 +26,7 @@ def get_ingredients():
 def get_meal_ingredients():
     if "meal_name" not in request.args:
         return
-    meal_name = json.loads(request.args.get("meal_name"))
+    meal_name = json.dumps(request.args.get("meal_name")).replace('"', "")
     meal_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_meal(meal_name))
     meal_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
