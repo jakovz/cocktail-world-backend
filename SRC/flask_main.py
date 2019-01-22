@@ -26,8 +26,11 @@ def get_ingredients():
 def get_meal_ingredients():
     if "meal_name" not in request.args and "drink_name" not in request.args:
         return
+    print(request.args.get("meal_name"))
     meal_name = json.dumps(request.args.get("meal_name")).replace('"', "")
+    print(meal_name)
     meal_name = unicode(meal_name)
+    print(meal_name)
     print(queries.query_ingredients_per_meal(meal_name))
     meal_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_meal(meal_name))
