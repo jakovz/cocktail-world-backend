@@ -27,10 +27,9 @@ def get_meal_ingredients():
     if "meal_name" not in request.args and "drink_name" not in request.args:
         return
     print(request.args.get("meal_name"))
-    meal_name = json.dumps(request.args.get("meal_name").replace('\"', ""))
-    print(meal_name)
-    meal_name = unicode(meal_name)
-    print(meal_name)
+    print(request.args.get("meal_name").replace('"', ""))
+    meal_name = json.dumps(request.args.get("meal_name").replace('"', ""))
+    print(meal_name.replace('"',""))
     print(queries.query_ingredients_per_meal(meal_name))
     meal_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_meal(meal_name))
@@ -46,7 +45,6 @@ def get_cocktail_ingredients():
     if "drink_name" not in request.args and "meal_name" not in request.args:
         return
     drink_name = json.dumps(request.args.get("drink_name").replace('"', ""))
-    drink_name = unicode(drink_name)
     cocktail_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_drink(drink_name))
     cocktail_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
