@@ -135,7 +135,7 @@ def query_full_text_search(words_for_search):
 
 
 def query_ingredients_per_drink(name):
-    return ("SELECT cocktails_ingredients.ingredient_name " +
+    return ("SELECT cocktails_ingredients.ingredient_name, cocktails_ingredients.measure " +
             "FROM cocktails_ingredients " +
             "WHERE cocktails_ingredients.cocktail_id IN (SELECT drinks.id " +
             "FROM drinks " +
@@ -143,7 +143,7 @@ def query_ingredients_per_drink(name):
 
 
 def query_ingredients_per_meal(name):
-    return ("SELECT meal_ingredients.ingredient_name " +
+    return ("SELECT meal_ingredients.ingredient_name meal_ingredients.measure" +
             "FROM meal_ingredients " +
             "WHERE meal_ingredients.meal_id IN (SELECT meals.id " +
             "FROM meals " +

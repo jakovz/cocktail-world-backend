@@ -22,6 +22,32 @@ def get_ingredients():
     return json.dumps(ingredients_dict)
 
 
+@app.route('/meal_ingredients')
+def get_meal_ingredients():
+    if "meal_name" not in request.args:
+        return
+    meal_name = json.loads(request.args.get("meal_name"))
+    meal_ingredients = DBConnection.execute_query(
+        queries.query_ingredients_per_meal(meal_name))
+    meal_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
+                        json.loads(meal_ingredients)]
+    meal_ingredients = {"meal_ingredients": meal_ingredients}
+    return json.dumps(meal_ingredients)
+
+
+@app.route('/cocktail_ingredients')
+def get_cocktail_ingredients():
+    if "drink_name" not in request.args:
+        return
+    drink_name = json.dumps(request.args.get("drink_name"))
+    cocktail_ingredients = DBConnection.execute_query(
+        queries.query_ingredients_per_drink(drink_name.replace('"', "")))
+    cocktail_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
+                            json.loads(cocktail_ingredients)]
+    cocktail_ingredients = {"cocktail_ingredients": cocktail_ingredients}
+    return json.dumps(cocktail_ingredients)
+
+
 @app.route('/cocktail_categories')
 def get_cocktail_categories():
     cocktail_categories = DBConnection.execute_query(queries.get_drinks_categories())
