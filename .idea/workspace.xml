@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccfe275-2403-4047-8cf9-3c583fd4b90e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cocktail-world-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cocktail-world-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRC/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/queries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/CREATE_DRINKS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/CREATE_DRINKS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/CREATE_MEALS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/CREATE_MEALS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql" afterDir="false" />
     </list>
     <ignored path="cocktail-world-backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +37,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CREATE_MEALS.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CREATE_MEALS.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEALS.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -43,56 +49,10 @@
       <file leaf-file-name="CREATE_MEAL_INGREDIENTS.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CREATE_Ingredients.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/CREATE_Ingredients.sql">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queries.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRC/queries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="191" column="55" lean-forward="true" selection-start-line="191" selection-start-column="55" selection-end-line="191" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CREATE_DRINKS.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/CREATE_DRINKS.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CREATE_COCKTAILS_INGREDIENTS.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CREATE-DB-SCRIPT.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/CREATE-DB-SCRIPT.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="CRETAE_FOOD_CATEGORIES.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -127,6 +87,12 @@
         <option value="$PROJECT_DIR$/SRC/angular_flask_main.py" />
         <option value="$PROJECT_DIR$/SRC/DBConnection.py" />
         <option value="$PROJECT_DIR$/SRC/queries.py" />
+        <option value="$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql" />
+        <option value="$PROJECT_DIR$/SRC/CREATE_DRINKS.sql" />
+        <option value="$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql" />
+        <option value="$PROJECT_DIR$/SRC/CREATE_Ingredients.sql" />
+        <option value="$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql" />
+        <option value="$PROJECT_DIR$/SRC/CREATE_MEALS.sql" />
       </list>
     </option>
   </component>
@@ -137,16 +103,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,11 +157,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/cocktail-world-backend.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/DOCUMENTATION/SOFTWARE-DOCS.docx</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/SRC/DBConnection.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/SRC/flask_main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/SRC/queries.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -203,27 +168,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DOCUMENTATION/SOFTWARE-DOCS.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DOCUMENTATION/USER-MANUAL.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SRC/Project Querys.rar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/SRC/angular_flask_main.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Templates/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/3rdpartylicenses.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/christine-trant-679690-unsplash.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/cocktail_icon.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/cocktails-731898_1920.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/drink-3313605_1920.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/ivan-cortez-482901-unsplash-min.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/ivan-cortez-482901-unsplash.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/john-fornander-729631-unsplash.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/rawpixel-1057261-unsplash-min.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/assets/rawpixel-1057261-unsplash.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/favicon.ico</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/main.31cf27e5075746875db8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/polyfills.20ab2d163684112c2aba.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/runtime.ec2944dd8b20ec099bf3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/scripts.5e7cc21a2c2d79468484.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/styles.f4e4803515f0c592c9ff.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -231,7 +175,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/DOCUMENTATION/SOFTWARE-DOCS.pdf.docx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/main.2801b8d96713dd9408f3.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -649,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545063688215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DB connections works">
+      <created>1548089731517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548089731517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -665,12 +616,12 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1640625" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22786458" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.20653595" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33202615" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2805526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -678,26 +629,16 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33260155" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.228125" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2805526" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22094926" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -763,6 +704,13 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SRC/queries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="176" column="102" lean-forward="true" selection-start-line="176" selection-start-column="102" selection-end-line="176" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ml_applications/ex3/main.py" />
     <entry file="file://$PROJECT_DIR$/SRC/WEBAPI.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#19#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,47 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE-DB-SCRIPT.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEALS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE_Ingredients.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE_DRINKS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -986,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/flask_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SRC/DBConnection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1005,8 +899,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SRC/queries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="191" column="55" lean-forward="true" selection-start-line="191" selection-start-column="55" selection-end-line="191" selection-end-column="55" />
+        <state relative-caret-position="1143">
+          <caret line="193" column="43" selection-start-line="193" selection-start-column="43" selection-end-line="193" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/flask_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CREATE_COCKTAILS_INGREDIENTS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CREATE_DRINKS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CRETAE_FOOD_CATEGORIES.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CREATE_Ingredients.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEAL_INGREDIENTS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/CREATE_MEALS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
