@@ -24,7 +24,7 @@ def get_ingredients():
 
 @app.route('/meal_ingredients')
 def get_meal_ingredients():
-    if "meal_name" not in request.args and "drink_name" not in request.args:
+    if "meal_name" not in request.args and "cocktail_name" not in request.args:
         return
     meal_name = json.dumps(request.args.get("meal_name").replace('"', ""))
     meal_name = meal_name.replace('"', "")
@@ -40,9 +40,10 @@ def get_meal_ingredients():
 
 @app.route('/cocktail_ingredients')
 def get_cocktail_ingredients():
-    if "drink_name" not in request.args and "meal_name" not in request.args:
+    if "cocktail_name" not in request.args and "meal_name" not in request.args:
         return
-    drink_name = json.dumps(request.args.get("drink_name").replace('"', ""))
+    drink_name = json.dumps(request.args.get("cocktail_name").replace('"', ""))
+    drink_name = drink_name.replace('"', "")
     cocktail_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_drink(drink_name))
     cocktail_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
