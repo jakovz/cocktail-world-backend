@@ -1,5 +1,5 @@
 num. Name ID TAU-username
 1. Yuval Zifrut 203774534 yuvalzifrut
 2. Yuval Helman 315581819 yuvalhelman
-3.
-4.
+3. Jakov Zingerman 316879899 jakovz
+4. Ido Samselik 313569998 idosamselik
