@@ -12,11 +12,11 @@ def makes_str_list_for_query(list_to_str):
 
 
 def get_meal(meal):
-    return "SELECT * FROM meals WHERE meals.name=\'{meal}\'".format(meal=meal)
+    return "SELECT * FROM meals WHERE meals.name=\"{meal}\"".format(meal=meal)
 
 
 def get_drink(drink):
-    return "SELECT * FROM drinks WHERE drinks.name=\'{drink}\'".format(drink=drink)
+    return "SELECT * FROM drinks WHERE drinks.name=\"{drink}\"".format(drink=drink)
 
 
 def get_cocktails_by_ingredients(ingredients):
