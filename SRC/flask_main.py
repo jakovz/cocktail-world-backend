@@ -44,6 +44,7 @@ def get_drink():
         return
     drink = request.args.get('drink_name')
     drink = json.loads(drink)
+    drink = drink.encode('utf-8')
     drink_details = DBConnection.execute_query(queries.get_drink(drink))
     drink_details_dict = {"drink": drink_details}
     return json.dumps(drink_details_dict)
