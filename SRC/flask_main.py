@@ -26,7 +26,7 @@ def get_ingredients():
 def get_meal_ingredients():
     if "meal_name" not in request.args and "cocktail_name" not in request.args:
         return
-    meal_name = json.loads(request.args.get("meal_name").replace('"', ""))
+    meal_name = json.loads(request.args.get("meal_name"))
     meal_name = unicode(meal_name)
     meal_name = meal_name.encode("latin-1")
     print(queries.query_ingredients_per_meal(meal_name))
@@ -43,7 +43,7 @@ def get_meal_ingredients():
 def get_cocktail_ingredients():
     if "cocktail_name" not in request.args and "meal_name" not in request.args:
         return
-    drink_name = json.loads(request.args.get("cocktail_name").replace('"', ""))
+    drink_name = json.loads(request.args.get("cocktail_name"))
     drink_name = unicode(drink_name)
     drink_name = drink_name.encode('latin-1')
     print(queries.query_ingredients_per_drink(drink_name))
