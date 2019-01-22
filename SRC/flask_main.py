@@ -28,6 +28,7 @@ def get_meal_ingredients():
         return
     meal_name = json.dumps(request.args.get("meal_name").replace('"', ""))
     meal_name = meal_name.replace('"', "")
+    meal_name = meal_name.encode("latin-1")
     print(queries.query_ingredients_per_meal(meal_name))
     meal_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_meal(meal_name))
@@ -44,10 +45,12 @@ def get_cocktail_ingredients():
         return
     drink_name = json.dumps(request.args.get("cocktail_name").replace('"', ""))
     drink_name = drink_name.replace('"', "")
+    drink_name = drink_name.encode('latin-1')
     cocktail_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_drink(drink_name))
     cocktail_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
                             json.loads(cocktail_ingredients)]
+    print(cocktail_ingredients)
     cocktail_ingredients = {"cocktail_ingredients": cocktail_ingredients}
     return json.dumps(cocktail_ingredients)
 
