@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import json
 import requests
-import DBConnection
+import ../DBConnection
 import csv
 
 LIST_INGREDIENTS_URL = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
