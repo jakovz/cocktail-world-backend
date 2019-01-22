@@ -11,6 +11,5 @@ CREATE TABLE `drinks` (
 	INDEX `drinksCategoryIndex` (`category`),
 	INDEX `glassTypeIndex` (`glass_type`),
 	INDEX `drinksLengthInstractionsIndex` (`instructions`(50)),
-	INDEX `mealsCategoryIndex` (`category`),
 	FULLTEXT INDEX `instructions` (`instructions`)
 )
