@@ -30,9 +30,11 @@ def get_meal_ingredients():
     print(queries.query_ingredients_per_meal(meal_name))
     meal_ingredients = DBConnection.execute_query(
         queries.query_ingredients_per_meal(meal_name))
+    print(meal_ingredients)
     meal_ingredients = [[ingredient['ingredient_name'], ingredient['measure']] for ingredient in
                         json.loads(meal_ingredients)]
     meal_ingredients = {"meal_ingredients": meal_ingredients}
+    print(meal_ingredients)
     return json.dumps(meal_ingredients)
 
 
